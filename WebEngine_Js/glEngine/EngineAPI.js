@@ -15,7 +15,13 @@ function createNewWorld(conf) {
     }
 
     /********************* 参数化场景参数********************************/
-    oak_mainEngineObj.m_scenActivityScene = oak_mainEngineObj.m_mgrSceneManager.createScene('scene_' + (global_sceneCount++).toString());
+    var strCurSceneName;
+    if(null == conf.m_strProjName || undefined == conf.m_strProjName)
+        strCurSceneName = 'scene_' + (global_sceneCount++).toString();
+    else
+        strCurSceneName = conf.m_strProjName;
+
+    oak_mainEngineObj.m_scenActivityScene = oak_mainEngineObj.m_mgrSceneManager.createScene(strCurSceneName);
     oak_mainEngineObj.m_scenSceneList.push(oak_mainEngineObj.m_scenActivityScene);
 
     var scene = oak_mainEngineObj.m_scenActivityScene;

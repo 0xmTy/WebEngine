@@ -107,15 +107,10 @@ function connect_MainEngine2MainPanel(mainWindow, mainEngine) {
 }
 
 function event_createNewWorld() {
-    createNewWorld(global_oakEngineManager.getMainEngineObject().getInitWorldConfData());
+    //createNewWorld(global_oakEngineManager.getMainEngineObject().getInitWorldConfData());
+    //global_extPanelManager.m_oRenderConfPlugin.addCurScene2UiItem();
 
-    global_extPanelManager.m_oRenderConfPlugin.addCurScene2UiItem();
-    /*
-     if(null != global_extPanelManager.getMainWindowObj().m_oCrtNewWorPanl.m_uiPanl)
-     {
-     global_extPanelManager.getMainWindowObj().m_oCrtNewWorPanl.setMenuShow();
-     }
-     */
+    global_extPanelManager.getMainWindowObj().m_oCrtNewProj.setMenuShow();
 }
 
 function event_mainCanvasOnKeyPress(event) {

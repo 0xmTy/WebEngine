@@ -14,6 +14,7 @@ function MainEngineObject() {
         m_strModelUrl:"模型资源/Models",
         m_strTextureUrl:"模型资源/Textures",
         m_strSkAnimationUrl:"模型资源/Animations",
+        m_strProjName:"proj_0",
 
         m_vBBox:new Array(new okVec3(-1000, -1000, -1000), new okVec3(1000, 100, 1000)),
         m_oIniCamConf:{

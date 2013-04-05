@@ -291,113 +291,55 @@ Ext.define('Mty.view.sletMenu', {
 
 });
 
-Ext.define('Mty.view.crtWorldPanel', {
-    extend:'Ext.form.Panel',
+Ext.define('Mty.view.crtNewProj', {
+    extend: 'Ext.panel.Panel',
 
-    draggable:true,
-    height:250,
-    id:'id_extNewWorld_panel',
-    width:400,
-    bodyPadding:10,
-    title:'新建场景',
+    height: 250,
+    width: 400,
+    layout: {
+        type: 'absolute'
+    },
+    title: '新建工程',
 
-    initComponent:function () {
+    initComponent: function() {
         var me = this;
 
         Ext.applyIf(me, {
             tools:[
                 {
                     xtype:'tool',
-                    id:'btCloseWin_crtWorld',
+                    id:'btCloseWin_crtNewProj',
                     tooltip:'关闭',
                     handler:function () {
-                        global_extPanelManager.getMainWindowObj().m_oCrtNewWorPanl.setMenuHide();
+                        global_extPanelManager.getMainWindowObj().m_oCrtNewProj.setMenuHide();
                     },
                     type:'close'
                 }
-            ]
-        });
-
-        me.callParent(arguments);
-    }
-
-});
-
-Ext.define('Mty.view.EntiMgrPanel', {
-    extend:'Ext.tree.Panel',
-
-    draggable:true,
-    height:501,
-    html:' <input type="file" id="id_model_file_input" style="width: 0px; display: inline;">',
-    id:'id_entiMgr',
-    width:300,
-    title:'本地载入',
-
-    initComponent:function () {
-        var me = this;
-
-        Ext.applyIf(me, {
-            viewConfig:{
-
-            },
-            columns:[
-                {
-                    xtype:'treecolumn',
-                    dataIndex:'text',
-                    flex:1,
-                    text:'Nodes'
-                }
             ],
-            dockedItems:[
+            items: [
                 {
-                    xtype:'toolbar',
-                    dock:'top',
-                    width:230,
-                    items:[
-                        {
-                            xtype:'tbseparator'
-                        },
-                        {
-                            xtype:'button',
-                            handler:function (button, event) {
-                                document.getElementById('id_model_file_input').click();
-                            },
-                            allowDepress:false,
-                            enableToggle:false,
-                            pressed:false,
-                            text:'+'
-                        },
-                        {
-                            xtype:'textareafield',
-                            width:120,
-                            inputId:'id_entiName',
-                            fieldLabel:'组件名',
-                            labelWidth:50
-                        },
-                        {
-                            xtype:'textareafield',
-                            width:120,
-                            inputId:'id_preEntiName',
-                            fieldLabel:'父对象',
-                            labelWidth:50
-                        },
-                        {
-                            xtype:'tbspacer'
-                        },
-                        {
-                            xtype:'tbseparator'
-                        }
-                    ]
-                }
-            ],
-            tools:[
+                    xtype: 'textfield',
+                    x: 70,
+                    y: 70,
+                    id: 'id_newProj_name',
+                    width: 220,
+                    fieldLabel: '工程名',
+                    labelWidth: 50
+                },
                 {
-                    xtype:'tool',
-                    tooltip:'close',
-                    type:'close',
-                    handler:function () {
-                        global_extPanelManager.m_oEntiLocalIOPlugin.setMenuHide();
-                    }
+                    xtype: 'button',
+                    handler: function(button, event) {
+                        var strInProjName = Ext.getCmp('id_newProj_name').getValue().toString();
+                        global_oakEngineManager.getMainEngineObject().m_oInitWorldConf.m_strProjName = strInProjName;
+                        createNewWorld(global_oakEngineManager.getMainEngineObject().getInitWorldConfData());
+                        global_extPanelManager.m_oRenderConfPlugin.addCurScene2UiItem();
+                        global_extPanelManager.getMainWindowObj().m_oCrtNewProj.setMenuHide();
+                    },
+                    x: 160,
+                    y: 120,
+                    height: 30,
+                    width: 70,
+                    text: '创建'
                 }
             ]
         });
@@ -743,4 +685,88 @@ Ext.define('Mty.view.Render_Cam_Conf', {
 
         me.callParent(arguments);
     }
+});
+
+Ext.define('Mty.view.EntiMgrPanel', {
+    extend:'Ext.tree.Panel',
+
+    draggable:true,
+    height:501,
+    html:' <input type="file" id="id_model_file_input" style="width: 0px; display: inline;">',
+    id:'id_entiMgr',
+    width:300,
+    title:'本地载入',
+
+    initComponent:function () {
+        var me = this;
+
+        Ext.applyIf(me, {
+            viewConfig:{
+
+            },
+            columns:[
+                {
+                    xtype:'treecolumn',
+                    dataIndex:'text',
+                    flex:1,
+                    text:'Nodes'
+                }
+            ],
+            dockedItems:[
+                {
+                    xtype:'toolbar',
+                    dock:'top',
+                    width:230,
+                    items:[
+                        {
+                            xtype:'tbseparator'
+                        },
+                        {
+                            xtype:'button',
+                            handler:function (button, event) {
+                                document.getElementById('id_model_file_input').click();
+                            },
+                            allowDepress:false,
+                            enableToggle:false,
+                            pressed:false,
+                            text:'+'
+                        },
+                        {
+                            xtype:'textareafield',
+                            width:120,
+                            inputId:'id_entiName',
+                            fieldLabel:'组件名',
+                            labelWidth:50
+                        },
+                        {
+                            xtype:'textareafield',
+                            width:120,
+                            inputId:'id_preEntiName',
+                            fieldLabel:'父对象',
+                            labelWidth:50
+                        },
+                        {
+                            xtype:'tbspacer'
+                        },
+                        {
+                            xtype:'tbseparator'
+                        }
+                    ]
+                }
+            ],
+            tools:[
+                {
+                    xtype:'tool',
+                    tooltip:'close',
+                    type:'close',
+                    handler:function () {
+                        global_extPanelManager.m_oEntiLocalIOPlugin.setMenuHide();
+                    }
+                }
+            ]
+        });
+
+        me.callParent(arguments);
+    }
+
 });

@@ -6,7 +6,7 @@ function ExtMainPanelObject() {
     this.i_mainCanvasWidth = null;
     this.i_mainCanvasHeight = null;
 
-    this.m_oCrtNewWorPanl = null;
+    this.m_oCrtNewProj = null;
     this.m_oSletEntiMenuObj = null;
     this.m_oBaseOprMenu = null;
 
@@ -72,8 +72,8 @@ function ExtMainPanelObject() {
         this.m_oSletEntiMenuObj = new SletEntiOperaMenuObj();
         this.m_oSletEntiMenuObj.init();
 
-        this.m_oCrtNewWorPanl = new CrtNewWorPanlObj();
-        this.m_oCrtNewWorPanl.init();
+        this.m_oCrtNewProj = new CrtNewWorPanlObj();
+        this.m_oCrtNewProj.init();
 
         this.m_oBaseOprMenu = new BaseOprObj();
         this.m_oBaseOprMenu.init();
@@ -119,9 +119,13 @@ function CrtNewWorPanlObj() {
     this.m_uiPanl = null;
     this.m_oConfData = null;
     this.init = function () {
-        this.m_uiPanl = Ext.create('Mty.view.crtWorldPanel', {
+        var xPos = (global_mainCanvasWidth / 2) - (400 / 2);
+        var yPos = (global_mainCanvasHeight / 2) - (250 / 2);
+        this.m_uiPanl = Ext.create('Mty.view.crtNewProj', {
             renderTo:'id_controlMainWindow-body',
-            x:10, y:10});
+            x:xPos,
+            y:yPos
+        });
         this.setMenuHide();
         this.m_oConfData = {
             m_strBaseUrl:"media",
