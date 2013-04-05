@@ -1,0 +1,2288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okBaseEntity</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okBaseEntity
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				所有场景实体的基类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okBaseEntity.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okBaseEntity.html#constructor">okBaseEntity</a></b>(zone)
+							</div>
+							<div class="description">本类只用于继承，不应当被直接实例化。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okBaseEntity.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#attachChild">attachChild</a></b>(Child)
+								</div>
+								<div class="description">为当前实体绑定一个子实体。
+父实体的变换会影响到所有子实体。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#clear">clear</a></b>()
+								</div>
+								<div class="description">清除当前实体的内容。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#clearChild">clearChild</a></b>()
+								</div>
+								<div class="description">清除绑定在当前实体上的所有子实体。
+父实体的变换会影响到所有子实体。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#detachChild">detachChild</a></b>(Child)
+								</div>
+								<div class="description">从当前实体中剥离一个子实体。
+父实体的变换会影响到所有子实体。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getBoundingBox">getBoundingBox</a></b>(BoundingBoxType)
+								</div>
+								<div class="description">获取当前实体的轴对齐包围盒。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getBoundingSphereCenter">getBoundingSphereCenter</a></b>()
+								</div>
+								<div class="description">获取当前实体的包围球的球心。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getBoundingSphereRadius">getBoundingSphereRadius</a></b>()
+								</div>
+								<div class="description">获取当前实体包围球的半径。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getChildArray">getChildArray</a></b>(ChildContainer)
+								</div>
+								<div class="description">获取当前实体的子实体数组列表。
+父实体的变换会影响到所有子实体。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getDir">getDir</a></b>(Axis)
+								</div>
+								<div class="description">获取当前实体在指定本地轴向上的方向向量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getId">getId</a></b>()
+								</div>
+								<div class="description">获取实体id。
+ID是一个实体独有的唯一标识符。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getInvMat4">getInvMat4</a></b>()
+								</div>
+								<div class="description">获取当前实体的4x4变换矩阵的逆矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getInvMat43">getInvMat43</a></b>()
+								</div>
+								<div class="description">获取当前实体的4x3变换矩阵的逆矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getMat4">getMat4</a></b>()
+								</div>
+								<div class="description">获取当前实体的4x4变换矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getMat43">getMat43</a></b>()
+								</div>
+								<div class="description">获取当前实体的4x3变换矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getName">getName</a></b>()
+								</div>
+								<div class="description">获取实体名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getNormalMat3">getNormalMat3</a></b>()
+								</div>
+								<div class="description">获取用于变换法线向量的3x3变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getNormalMat4">getNormalMat4</a></b>()
+								</div>
+								<div class="description">获取用于变换法线向量的4x4变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getNormalMat43">getNormalMat43</a></b>()
+								</div>
+								<div class="description">获取用于变换法线向量的4x3变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getPos">getPos</a></b>()
+								</div>
+								<div class="description">获取当前实体在场景世界的位置。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getState">getState</a></b>()
+								</div>
+								<div class="description">获取实体状态。
+实体状态是指此实体资源载入的情况。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#getType">getType</a></b>()
+								</div>
+								<div class="description">获取实体类型。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#move">move</a></b>(Space, x, y, z)
+								</div>
+								<div class="description">移动当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#rotQuat">rotQuat</a></b>(Space, Quat)
+								</div>
+								<div class="description">根据一个四元数旋转当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#rotTarget">rotTarget</a></b>(Angl, Target, RotVec)
+								</div>
+								<div class="description">将当前实体围绕指定目标位置和指定旋转轴旋转。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#rotX">rotX</a></b>(Space, Angl)
+								</div>
+								<div class="description">围绕X轴旋转当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#rotY">rotY</a></b>(Space, Angl)
+								</div>
+								<div class="description">围绕Y轴旋转当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#rotZ">rotZ</a></b>(Space, Angl)
+								</div>
+								<div class="description">围绕Z轴旋转当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#scale">scale</a></b>(Space, x, y, z)
+								</div>
+								<div class="description">缩放当前实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#setDir">setDir</a></b>(Axis, Dir, LockAxis, , )
+								</div>
+								<div class="description">给定一个方向，旋转当前实体使指定的本地轴向指向这个方向。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#setMat">setMat</a></b>(Mat)
+								</div>
+								<div class="description">设置当前实体的变换矩阵。
+一个实体的位置和朝向是由一个矩阵决定的。你可以通过设置这个矩阵来把实体变换到任何位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#setName">setName</a></b>(Name)
+								</div>
+								<div class="description">设置实体名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okBaseEntity.html#setPos">setPos</a></b>(x, y, z)
+								</div>
+								<div class="description">设置实体在场景世界中的位置。
+</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okBaseEntity</b>(zone)
+				</div>
+				
+				<div class="description">
+					本类只用于继承，不应当被直接实例化。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b>zone</b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> 一个新的okBaseEntity对象。</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="attachChild"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>attachChild</b>(Child)
+					
+					</div>
+					<div class="description">
+						为当前实体绑定一个子实体。
+父实体的变换会影响到所有子实体。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> <b>Child</b>
+									
+								</dt>
+								<dd>要绑定的子实体。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						清除当前实体的内容。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearChild"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>clearChild</b>()
+					
+					</div>
+					<div class="description">
+						清除绑定在当前实体上的所有子实体。
+父实体的变换会影响到所有子实体。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="detachChild"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>detachChild</b>(Child)
+					
+					</div>
+					<div class="description">
+						从当前实体中剥离一个子实体。
+父实体的变换会影响到所有子实体。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> <b>Child</b>
+									
+								</dt>
+								<dd>要剥离的子实体。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>getBoundingBox</b>(BoundingBoxType)
+					
+					</div>
+					<div class="description">
+						获取当前实体的轴对齐包围盒。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>BoundingBoxType</b>
+									<i>Optional</i>
+								</dt>
+								<dd>包围盒的类型。可选的值是[BBOX_AABB, BBOX_OBB]。默认值是BBOX_AABB。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> 当前实体的轴对齐包围盒的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingSphereCenter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getBoundingSphereCenter</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体的包围球的球心。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 当前实体的包围球的球心。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingSphereRadius"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getBoundingSphereRadius</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体包围球的半径。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 当前实体包围球的半径。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getChildArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getChildArray</b>(ChildContainer)
+					
+					</div>
+					<div class="description">
+						获取当前实体的子实体数组列表。
+父实体的变换会影响到所有子实体。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ChildContainer</b>
+									<i>Optional</i>
+								</dt>
+								<dd>包含子实体的数组。如果本参数被忽略，那么本方法将创建一个新的数组对象用来储存结果，并返回该数组对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 子实体数组列表。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getDir</b>(Axis)
+					
+					</div>
+					<div class="description">
+						获取当前实体在指定本地轴向上的方向向量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Axis</b>
+									
+								</dt>
+								<dd>可选的值为[AXIS_X, AXIS_Y, AXIS_Z]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 当前实体在指定本地轴向上的方向向量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getId"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getId</b>()
+					
+					</div>
+					<div class="description">
+						获取实体id。
+ID是一个实体独有的唯一标识符。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 实体id。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getInvMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getInvMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体的4x4变换矩阵的逆矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 当前实体的4x4变换矩阵的逆矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getInvMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getInvMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体的4x3变换矩阵的逆矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 当前实体的4x3变换矩阵的逆矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体的4x4变换矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 当前实体的4x3变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体的4x3变换矩阵。
+变换矩阵决定了实体在场景世界中的位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 当前实体的4x3变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getName</b>()
+					
+					</div>
+					<div class="description">
+						获取实体名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 实体名称。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getNormalMat3"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat3.html">okMat3</a>}</span>
+					<b>getNormalMat3</b>()
+					
+					</div>
+					<div class="description">
+						获取用于变换法线向量的3x3变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> 用于变换法线向量的3x3变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getNormalMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getNormalMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取用于变换法线向量的4x4变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 用于变换法线向量的4x4变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getNormalMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getNormalMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取用于变换法线向量的4x3变换矩阵。
+通常的变换矩阵仅仅只能用于操作顶点位置。<br>如果你想用普通的变换矩阵来变换一个向量，那么这个向量将会被拉伸，而这不是我们想要的。而本方法返回的矩阵是通过普通的变换矩阵经过计算后得来的，可以用于变换向量，而不会造成其他的额外影响。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 用于变换法线向量的4x3变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPos</b>()
+					
+					</div>
+					<div class="description">
+						获取当前实体在场景世界的位置。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 当前实体在场景中的位置。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getState"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getState</b>()
+					
+					</div>
+					<div class="description">
+						获取实体状态。
+实体状态是指此实体资源载入的情况。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 可能的值是[ESTATE_UNAVAILABLE, ESTATE_BASIC_AVAILABLE, ESTATE_COMPLETE_AVAILABLE]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getType"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getType</b>()
+					
+					</div>
+					<div class="description">
+						获取实体类型。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> Type 实体的类型。可能的值是[ETYPE_STATIC, ETYPE_DYNAMIC, ETYPE_DCT_LIGHT, ETYPE_POINT_LIGHT, ETYPE_SPOT_LIGHT, ETYPE_TERRAIN, ETYPE_CUSTOM_MESH, ETYPE_VIDEO, ETYPE_PARTICLE, ETYPE_CONFIG].</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="move"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>move</b>(Space, x, y, z)
+					
+					</div>
+					<div class="description">
+						移动当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定变换空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>在X轴上的位移分量。 | 位移向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>在Y轴上的位移分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>在Z轴上的位移分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotQuat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotQuat</b>(Space, Quat)
+					
+					</div>
+					<div class="description">
+						根据一个四元数旋转当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okQuat.html">okQuat</a>}</span> <b>Quat</b>
+									
+								</dt>
+								<dd>四元数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotTarget"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotTarget</b>(Angl, Target, RotVec)
+					
+					</div>
+					<div class="description">
+						将当前实体围绕指定目标位置和指定旋转轴旋转。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Target</b>
+									
+								</dt>
+								<dd>目标位置。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RotVec</b>
+									
+								</dt>
+								<dd>旋转轴。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotX"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotX</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						围绕X轴旋转当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotY"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotY</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						围绕Y轴旋转当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotZ"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotZ</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						围绕Z轴旋转当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="scale"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>scale</b>(Space, x, y, z)
+					
+					</div>
+					<div class="description">
+						缩放当前实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定缩放所处的空间。可选的值是[SPACE_LOCAL, SPACE_PARENT, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>缩放向量的X分量。 | 缩放向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>缩放向量的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>缩放向量的Z分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDir</b>(Axis, Dir, LockAxis, , )
+					
+					</div>
+					<div class="description">
+						给定一个方向，旋转当前实体使指定的本地轴向指向这个方向。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Axis</b>
+									
+								</dt>
+								<dd>可选的值是[AXIS_X, AXIS_Y, AXIS_Z]</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Dir</b>
+									
+								</dt>
+								<dd>方向向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>LockAxis</b>
+									
+								</dt>
+								<dd>当重置指定轴向的方向是锁定的轴向。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setMat</b>(Mat)
+					
+					</div>
+					<div class="description">
+						设置当前实体的变换矩阵。
+一个实体的位置和朝向是由一个矩阵决定的。你可以通过设置这个矩阵来把实体变换到任何位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>|<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>Mat</b>
+									
+								</dt>
+								<dd>变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setName</b>(Name)
+					
+					</div>
+					<div class="description">
+						设置实体名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>实体名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setPos</b>(x, y, z)
+					
+					</div>
+					<div class="description">
+						设置实体在场景世界中的位置。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>实体在场景世界中的位置的X分量。 | 实体在场景世界中的位置。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>实体在场景世界中的位置的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>实体在场景世界中的位置的Z分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

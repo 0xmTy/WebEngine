@@ -1,0 +1,24 @@
+<Oak3DModelDocument Version="1.0">
+    <ModelInfo />
+    <MaterialList Count="1">
+        <Material Name="initialShadingGroup" Emissive="0 0 0" Ambient="0.1 0.1 0.1" Diffuse="0.976471 0.690196 0.501961" Specular="0.9 0.9 0.9" SpecularLevel="0" Glossiness="30" Alpha="1" TextureCount="1">
+            <Texture Name="normal.BMP" Channel="Normal" Texcoord="Texcoord1" Tangent="Texcoord1_Tangent" Binormal="Texcoord1_Binormal" />
+        </Material>
+    </MaterialList>
+    <MeshList Count="1">
+        <Mesh Name="Box01" VertexCount="24" FaceCount="12" Material="initialShadingGroup">
+            <BoundingBox Min="-10 0 -10" Max="10 20 10" />
+            <Skin BoneCount="0" VertexBoneCountAttribName="BoneCount" VertexBoneIndexAttribName="BoneIndex" VertexBoneWeightAttribName="BoneWeight" />
+            <AttributeList Count="4">
+                <Attribute Name="Normal" Data="0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 -1 0 0 0 0 1 1 0 0 0 0 -1 -1 0 0 1 0 0 0 0 -1 0 0 1 -1 0 0 0 0 1 1 0 0 0 0 -1 -1 0 0 1 0 0 0 0 -1" />
+                <Attribute Name="Position" Data="-10 0 10 10 0 10 -10 0 -10 10 0 -10 -10 20 10 10 20 10 -10 20 -10 10 20 -10 -10 0 10 -10 0 10 10 0 10 10 0 10 -10 0 -10 -10 0 -10 10 0 -10 10 0 -10 -10 20 10 -10 20 10 10 20 10 10 20 10 -10 20 -10 -10 20 -10 10 20 -10 10 20 -10" />
+                <Attribute Name="Texcoord1" Data="0.339291 0.339291 0.660709 0.339291 0.339291 0.660709 0.660709 0.660709 0.01 0.331418 0.331418 0.331418 0.01 0.0100001 0.331418 0.0100001 0.339291 0.99 0.331418 0.99 0.660709 0.99 0.668582 0.99 0.331418 0.660709 0.01 0.99 0.99 0.99 0.01 0.660709 0.339291 0.668582 0.331418 0.668582 0.660709 0.668582 0.668582 0.668582 0.331418 0.339291 0.01 0.668582 0.99 0.668582 0.01 0.339291" />
+                <Attribute Name="Texcoord1_Binormal" Data="0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0" />
+                <Attribute Name="Texcoord1_Tangent" Data="1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 0 -1 -1 0 0 0 0 1 0 0 -1 -1 0 0 1 0 0 0 0 1 1 0 0 0 0 -1 -1 0 0 0 0 1 0 0 -1 -1 0 0" />
+            </AttributeList>
+            <IndexList Count="1">
+                <Index Name="Default" Data="3 1 0 0 2 3 7 6 4 4 5 7 18 16 8 8 10 18 22 19 11 11 14 22 20 23 15 15 12 20 17 21 13 13 9 17" />
+            </IndexList>
+        </Mesh>
+    </MeshList>
+</Oak3DModelDocument>

@@ -1,0 +1,2187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okMat4</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/OAK.html">OAK</a></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okMat4
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				4x4 Matrix class.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okMat4.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#constructor">okMat4</a></b>(Val)
+							</div>
+							<div class="description">matrix is widely used in 3D computer graphics cause it can represent any transformation in 3D space.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class okMat4.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m00">m00</a></b>
+								</div>
+								<div class="description">The component [row0, col0].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m01">m01</a></b>
+								</div>
+								<div class="description">The component [row0, col1].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m02">m02</a></b>
+								</div>
+								<div class="description">The component [row0, col2].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m03">m03</a></b>
+								</div>
+								<div class="description">The component [row0, col3].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m10">m10</a></b>
+								</div>
+								<div class="description">The component [row1, col0].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m11">m11</a></b>
+								</div>
+								<div class="description">The component [row1, col1].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m12">m12</a></b>
+								</div>
+								<div class="description">The component [row1, col2].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m13">m13</a></b>
+								</div>
+								<div class="description">The component [row1, col3].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m20">m20</a></b>
+								</div>
+								<div class="description">The component [row2, col0].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m21">m21</a></b>
+								</div>
+								<div class="description">The component [row2, col1].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m22">m22</a></b>
+								</div>
+								<div class="description">The component [row2, col2].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m23">m23</a></b>
+								</div>
+								<div class="description">The component [row2, col3].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m30">m30</a></b>
+								</div>
+								<div class="description">The component [row3, col0].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m31">m31</a></b>
+								</div>
+								<div class="description">The component [row3, col1].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m32">m32</a></b>
+								</div>
+								<div class="description">The component [row3, col2].</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat4.html#m33">m33</a></b>
+								</div>
+								<div class="description">The component [row3, col3].</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okMat4.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#clone">clone</a></b>(CloneResult)
+								</div>
+								<div class="description">Clone the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#det">det</a></b>()
+								</div>
+								<div class="description">Get the determinant of the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#equal">equal</a></b>(CompMat)
+								</div>
+								<div class="description">Compare if two matrix is equal.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#getColumn">getColumn</a></b>(ColIdx)
+								</div>
+								<div class="description">Get a specified column of the matrix as a quadvector.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#identity">identity</a></b>()
+								</div>
+								<div class="description">Identify the current matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#inverse">inverse</a></b>(SelfAffect)
+								</div>
+								<div class="description">Get the inverse of the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#rot">rot</a></b>(Space, Angle, DirX, DirY, DirZ, SelfAffect)
+								</div>
+								<div class="description">Apply a rotate operation on the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#rotX">rotX</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">Apply an operation of rotating around axis-X on the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#rotY">rotY</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">Apply an operation of rotating around axis-Y on the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#rotZ">rotZ</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">Apply an operation of rotating around axis-Z on the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#scale">scale</a></b>(x, y, z, SelfAffect, bSelf)
+								</div>
+								<div class="description">Scale the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#set">set</a></b>(ValArray)
+								</div>
+								<div class="description">Set the value of the 4x4 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#setColumn">setColumn</a></b>(ColIdx, Val0|ColVec, Val1, Val2, Val3)
+								</div>
+								<div class="description">Set a specified column of the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#toArray">toArray</a></b>(ResultArray)
+								</div>
+								<div class="description">Convert the matrix to a flat array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#toMat3">toMat3</a></b>(ResultMat)
+								</div>
+								<div class="description">Copy the top-left 3x3 of the 4x4 matrix to a 3x3 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#toMat43">toMat43</a></b>(ResultMat)
+								</div>
+								<div class="description">Copy the top-left 4x3 of the 4x4 matrix to a 4x3 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#toQuat">toQuat</a></b>(ResultMat)
+								</div>
+								<div class="description">Get a rotation equivalent quaternion.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#translate">translate</a></b>(Space, x, y, z, SelfAffect)
+								</div>
+								<div class="description">Apply a translate operation on the matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat4.html#transpose">transpose</a></b>(SelfAffect)
+								</div>
+								<div class="description">Get the transpose of the matrix.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okMat4</b>(Val)
+				</div>
+				
+				<div class="description">
+					matrix is widely used in 3D computer graphics cause it can represent any transformation in 3D space.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{Number}</span>  <b>Val</b>
+								
+							</dt>
+								<dd>Specify the value on the diagonal line.</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> A new okMat4 object</dd>
+						
+						</dl>
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">See:</dt>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Add">okMat4Add</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4AddVal">okMat4AddVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValAddMat4">okValAddMat4</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Sub">okMat4Sub</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4SubVal">okMat4SubVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValSubMat4">okValSubMat4</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Mul">okMat4Mul</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4MulVal">okMat4MulVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValMulMat4">okValMulMat4</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4MulVec4">okMat4MulVec4</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4MulVec3">okMat4MulVec3</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Trans">okMat4Trans</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Scale">okMat4Scale</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Rot">okMat4Rot</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4RotX">okMat4RotX</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4RotY">okMat4RotY</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4RotZ">okMat4RotZ</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Lerp">okMat4Lerp</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Proj">okMat4Proj</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat4Ortho">okMat4Ortho</a></dd>
+						
+						</dl>
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="m00"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m00</b>
+					
+					</div>
+					<div class="description">
+						The component [row0, col0].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m01"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m01</b>
+					
+					</div>
+					<div class="description">
+						The component [row0, col1].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m02"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m02</b>
+					
+					</div>
+					<div class="description">
+						The component [row0, col2].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m03"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m03</b>
+					
+					</div>
+					<div class="description">
+						The component [row0, col3].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m10"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m10</b>
+					
+					</div>
+					<div class="description">
+						The component [row1, col0].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m11"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m11</b>
+					
+					</div>
+					<div class="description">
+						The component [row1, col1].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m12"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m12</b>
+					
+					</div>
+					<div class="description">
+						The component [row1, col2].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m13"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m13</b>
+					
+					</div>
+					<div class="description">
+						The component [row1, col3].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m20"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m20</b>
+					
+					</div>
+					<div class="description">
+						The component [row2, col0].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m21"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m21</b>
+					
+					</div>
+					<div class="description">
+						The component [row2, col1].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m22"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m22</b>
+					
+					</div>
+					<div class="description">
+						The component [row2, col2].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m23"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m23</b>
+					
+					</div>
+					<div class="description">
+						The component [row2, col3].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m30"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m30</b>
+					
+					</div>
+					<div class="description">
+						The component [row3, col0].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m31"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m31</b>
+					
+					</div>
+					<div class="description">
+						The component [row3, col1].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m32"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m32</b>
+					
+					</div>
+					<div class="description">
+						The component [row3, col2].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m33"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m33</b>
+					
+					</div>
+					<div class="description">
+						The component [row3, col3].
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>clone</b>(CloneResult)
+					
+					</div>
+					<div class="description">
+						Clone the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>CloneResult</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The container of the clone result, if this parameter is ignored then the method will create a new one and clone to it.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The clone result.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="det"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>det</b>()
+					
+					</div>
+					<div class="description">
+						Get the determinant of the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The determinant of the matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="equal"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>equal</b>(CompMat)
+					
+					</div>
+					<div class="description">
+						Compare if two matrix is equal.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>CompMat</b>
+									
+								</dt>
+								<dd>The matrix to be compared to.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> The clone result.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getColumn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec4.html">okVec4</a>}</span>
+					<b>getColumn</b>(ColIdx)
+					
+					</div>
+					<div class="description">
+						Get a specified column of the matrix as a quadvector.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ColIdx</b>
+									
+								</dt>
+								<dd>Indicate the column to get.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec4.html">okVec4</a>}</span> The column vector.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="identity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>identity</b>()
+					
+					</div>
+					<div class="description">
+						Identify the current matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="inverse"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>inverse</b>(SelfAffect)
+					
+					</div>
+					<div class="description">
+						Get the inverse of the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The inverse result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rot"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>rot</b>(Space, Angle, DirX, DirY, DirZ, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Apply a rotate operation on the matrix.
+What this method really does is mutiply a rotation matrix and the current matrix and then return the result. 
+    The order of the operation is determined by the parameter "Space": SPACE_LOCAL means curMat x rotMat, and SPACE_WORLD means rotMat x curMat.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>DirX</b>
+									
+								</dt>
+								<dd>The component x of the direction vector around which to rotate,
+    | A vector that defines the direction around which to rotate.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>DirY</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component y of the direction vector around which to rotate.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>DirZ</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component z of the direction vector around which to rotate.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The rotating result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotX"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>rotX</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Apply an operation of rotating around axis-X on the matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The rotating result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotY"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>rotY</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Apply an operation of rotating around axis-Y on the matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The rotating result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotZ"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>rotZ</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Apply an operation of rotating around axis-Z on the matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The rotating result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="scale"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>scale</b>(x, y, z, SelfAffect, bSelf)
+					
+					</div>
+					<div class="description">
+						Scale the matrix.
+What this method really does is mutiply a scaling matrix and the current matrix and then return the result. 
+    The order of the operation is determined by the parameter "Space": SPACE_LOCAL means curMat x scaleMat, and SPACE_WORLD means scaleMat x curMat.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>The scaling factor of component x. | The scaling vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The scaling factor of component y of the vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The scaling factor of component z of the vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+								<dt>
+									<b>bSelf</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The scaling result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="set"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>set</b>(ValArray)
+					
+					</div>
+					<div class="description">
+						Set the value of the 4x4 matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ValArray</b>
+									
+								</dt>
+								<dd>The array of the value of the matrix packed in column major.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setColumn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setColumn</b>(ColIdx, Val0|ColVec, Val1, Val2, Val3)
+					
+					</div>
+					<div class="description">
+						Set a specified column of the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ColIdx</b>
+									
+								</dt>
+								<dd>Indicate the column to set.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec4.html">okVec4</a>}</span> <b>Val0|ColVec</b>
+									
+								</dt>
+								<dd>The value of the first component of the column. | The column vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val1</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The value of the second component of the column.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val2</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The value of the third component of the column.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val3</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The value of the fourth component of the column.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="toArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>toArray</b>(ResultArray)
+					
+					</div>
+					<div class="description">
+						Convert the matrix to a flat array.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ResultArray</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The result container. If this parameter is ignored then this method will create a new array as the container.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> The converting result array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="toMat3"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat3.html">okMat3</a>}</span>
+					<b>toMat3</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						Copy the top-left 3x3 of the 4x4 matrix to a 3x3 matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The result container. If this parameter is ignored then this method will create a new 3x3 matrix as the container.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> The converting result matrix.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMat3.html">okMat3</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="toMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>toMat43</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						Copy the top-left 4x3 of the 4x4 matrix to a 4x3 matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The result container. If this parameter is ignored then this method will create a new 4x3 matrix as the container.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> The converting result matrix.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMat43.html">okMat43</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="toQuat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okQuat.html">okQuat</a>}</span>
+					<b>toQuat</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						Get a rotation equivalent quaternion.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okQuat.html">okQuat</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The result container. If this parameter is ignored then this method will create a new quaternion as the container.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okQuat.html">okQuat</a>}</span> The converting result quaternion.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okQuat.html">okQuat</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="translate"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>translate</b>(Space, x, y, z, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Apply a translate operation on the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>The translation on axis-x. | The translation vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The translation on axis-y.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The translation on axis-z.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The translation result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="transpose"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>transpose</b>(SelfAffect)
+					
+					</div>
+					<div class="description">
+						Get the transpose of the matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current matrix. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The transpose result. If SelfAffect is true, then return a reference to the current matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

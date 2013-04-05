@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   id="svg2383"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="train_delete.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <title
+     id="title2829">Delete Train</title>
+  <defs
+     id="defs2385">
+    <filter
+       inkscape:collect="always"
+       id="filter3229">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1262458"
+         id="feGaussianBlur3231" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3169">
+      <stop
+         style="stop-color:#bc0000;stop-opacity:1;"
+         offset="0"
+         id="stop3171" />
+      <stop
+         style="stop-color:#ff7f7f;stop-opacity:1"
+         offset="1"
+         id="stop3173" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3169"
+       id="linearGradient3175"
+       x1="42.439541"
+       y1="39.633381"
+       x2="7.0524015"
+       y2="3.5709338"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2840778,0,0,0.2840778,2.8182495,2.3644932)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3170">
+      <stop
+         style="stop-color:#81e625;stop-opacity:1"
+         offset="0"
+         id="stop3172" />
+      <stop
+         style="stop-color:#eafbd9;stop-opacity:1"
+         offset="1"
+         id="stop3174" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3166">
+      <stop
+         style="stop-color:#003b8a;stop-opacity:1;"
+         offset="0"
+         id="stop3168" />
+      <stop
+         style="stop-color:#388cff;stop-opacity:1;"
+         offset="1"
+         id="stop3170" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 8 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="16 : 8 : 1"
+       inkscape:persp3d-origin="8 : 5.3333333 : 1"
+       id="perspective2391" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3170"
+       id="linearGradient3176"
+       x1="13.703893"
+       y1="11.889233"
+       x2="5.3878717"
+       y2="5.7399755"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.197802"
+     inkscape:cx="-5.1947907"
+     inkscape:cy="4.6208301"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2388">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Delete Train</dc:title>
+        <dc:date>2010-02-02</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/" />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/transportation/train_delete</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="trainline" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <path
+       style="fill:url(#linearGradient3176);fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 2.365099,12.643812 L 14.686139,12.643812 L 14.686139,4.9628711 L 6.2393564,4.9628711 L 0.92351486,10.278713 C 0.27066387,10.931564 1.4418283,12.643812 2.365099,12.643812 z"
+       id="path2398"
+       sodipodi:nodetypes="cccczz" />
+    <path
+       id="path3177"
+       d="M 13.86653,-14.358229 C 7.9809619,-7.9594487 3.7167371,-2.8500164 0.42903005,1.4855206 C -3.4044029,-2.1442474 -8.1584909,-6.2125884 -14.41472,-11.201979 L -18.94597,-6.6707294 C -11.570857,-2.6824714 -6.1814649,1.0455816 -1.9147199,4.6730206 C -7.0505979,11.900918 -9.3510259,16.86554 -12.38347,22.39177 L -11.69597,25.23552 C -7.4364939,18.315975 -3.7622999,13.070229 1.1790301,7.4855206 C 8.3904539,14.446265 12.197236,21.32862 18.61653,29.70427 L 19.24153,27.48552 C 14.276058,18.015506 10.808523,12.031107 3.7102801,4.7042706 C 8.2380159,-0.10798838 13.870178,-5.4001674 21.74153,-12.358229 L 13.86653,-14.358229 z"
+       style="fill:#222222;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3229)"
+       transform="matrix(0.2840778,0,0,0.2840778,9.3798345,7.6609983)" />
+    <path
+       style="fill:url(#linearGradient3175);fill-opacity:1;fill-rule:evenodd;stroke:#7e0000;stroke-width:0.2840777px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 12.97403,2.8882627 C 11.302068,4.7060137 10.090699,6.157489 9.1567348,7.3891183 C 8.0677427,6.3579833 6.7172117,5.2022578 4.9399563,3.784883 L 3.6527294,5.07211 C 5.7478345,6.2050849 7.2788403,7.2641421 8.4909276,8.2946159 C 7.03194,10.347902 6.3784382,11.758239 5.5169893,13.328118 L 5.7122927,14.135965 C 6.9223143,12.170276 7.9660706,10.680076 9.3697933,9.093585 C 11.418397,11.070977 12.499819,13.0261 14.323398,15.405436 L 14.500947,14.775138 C 13.090367,12.084919 12.105317,10.384885 10.088864,8.3034951 C 11.375094,6.9364392 12.975065,5.4330484 15.21114,3.4564181 L 12.97403,2.8882627 z"
+       id="path3293" />
+  </g>
+</svg>

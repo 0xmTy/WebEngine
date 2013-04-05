@@ -1,0 +1,48 @@
+{
+    "name": "EnvirEditorPorj",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "C:/Users/yanci/Desktop/WebEngine/ext_ui_proj",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "4063e474-1d09-4c22-a74a-e99a865e3f8d": {
+            "paths": [
+                "metadata/view/EnvirEditor",
+                "app/view/override/EnvirEditor.js",
+                "app/view/EnvirEditor.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "EnvirEditor"
+        },
+        "9b7400da-1adc-463f-96c2-ef9b2253a7f6": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "4063e474-1d09-4c22-a74a-e99a865e3f8d"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "9b7400da-1adc-463f-96c2-ef9b2253a7f6"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

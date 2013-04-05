@@ -1,0 +1,209 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "sletMenu",
+        "designer|initialView": true,
+        "draggable": true,
+        "height": 25,
+        "width": 174,
+        "title": ""
+    },
+    "id": "ExtBox1-ext-gen11176",
+    "designerId": "468a74e9-9fcc-47cf-bdb7-6a4c637228d7",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar",
+                "height": 25,
+                "width": 159
+            },
+            "designerId": "45353bcd-de5d-45f7-bda1-06f9b9f5f88b",
+            "cn": [
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator"
+                    },
+                    "designerId": "8672bd86-d063-44c3-be55-b22e87ae470f"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "text": "移动"
+                    },
+                    "designerId": "2105572d-2550-462d-b9fd-5838b6ba7d6c",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oSglEntiOperaObj.m_iOprCodec = 0x00000000;"
+                                ]
+                            },
+                            "designerId": "b3a71e10-1fa8-4562-96b3-210d4781ece6"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton1",
+                        "text": "缩放"
+                    },
+                    "designerId": "b7a7cc65-68a6-4161-a70e-0eab1c2fc84d",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oSglEntiOperaObj.m_iOprCodec = 0x00000001;"
+                                ]
+                            },
+                            "designerId": "9fbdbc2b-882b-4eba-b7c5-96d4680f5c3c"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton2",
+                        "text": "旋转"
+                    },
+                    "designerId": "353676a0-bf38-467c-b1e0-bfa52211d085",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oSglEntiOperaObj.m_iOprCodec = 0x00000002;"
+                                ]
+                            },
+                            "designerId": "56a373b8-1604-4368-9266-ab949f19b0d5"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton3",
+                        "text": "取消"
+                    },
+                    "designerId": "97d0538b-3f47-430d-9173-761753fea317",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oSglEntiOperaObj.sletBoundingBoxDesty();\r",
+                                    "global_extPanelManager.getMainWindowObj().sletEntiOperaMenuHide();\r",
+                                    "global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oSglEntiOperaObj.clearAll();"
+                                ]
+                            },
+                            "designerId": "4f1f0ffc-4f6c-47b2-9dfa-7c484db34063"
+                        }
+                    ]
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator1"
+                    },
+                    "designerId": "c9313dc4-49a6-4fe7-a8f7-85dc85f9648f"
+                }
+            ]
+        }
+    ]
+}

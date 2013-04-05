@@ -1,0 +1,17 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "sletMenu"
+        ],
+        "autoCreateViewport": true,
+        "name": "Mty"
+    },
+    "id": "ExtBox1-ext-gen10919",
+    "designerId": "application"
+}

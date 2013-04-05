@@ -1,0 +1,48 @@
+{
+    "name": "MainWindow",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "C:/Users/yanci/Desktop/WebEngine/Application/ext_ui_proj",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": true,
+        "cacheBust": true
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "48616155-61c7-4be8-acdb-53359251ad84": {
+            "paths": [
+                "metadata/view/ControlMainWindow",
+                "app/view/override/ControlMainWindow.js",
+                "app/view/ControlMainWindow.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "ControlMainWindow"
+        },
+        "9d58f994-0d4d-4cec-b840-0c3bbe4aaeb9": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "48616155-61c7-4be8-acdb-53359251ad84"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "9d58f994-0d4d-4cec-b840-0c3bbe4aaeb9"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

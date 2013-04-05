@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="undo_blue.svg">
+  <title
+     id="title4654">Undo</title>
+  <defs
+     id="defs2818">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective4702" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4628">
+      <stop
+         style="stop-color:#0350ff;stop-opacity:1"
+         offset="0"
+         id="stop4630" />
+      <stop
+         style="stop-color:#93b4ff;stop-opacity:1"
+         offset="1"
+         id="stop4632" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4620">
+      <stop
+         style="stop-color:#002e92;stop-opacity:1"
+         offset="0"
+         id="stop4622" />
+      <stop
+         style="stop-color:#2a6dff;stop-opacity:1"
+         offset="1"
+         id="stop4624" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4620"
+       id="linearGradient4626"
+       x1="39.30357"
+       y1="45.5625"
+       x2="3.8325534"
+       y2="4.0245538"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0613269,0,0,1.0612676,-1.3906006,-1.467551)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4628"
+       id="linearGradient4634"
+       x1="33.046837"
+       y1="30.310268"
+       x2="1.875"
+       y2="13.810267"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0613269,0,0,1.0612676,-1.3906006,-1.467551)" />
+    <filter
+       inkscape:collect="always"
+       id="filter4650">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.99736166"
+         id="feGaussianBlur4652" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="14"
+     inkscape:cx="24.868679"
+     inkscape:cy="26.440393"
+     inkscape:current-layer="g4611"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2812"
+       empspacing="12"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818"
+       empspacing="16"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="4"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Undo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="" />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/actions/undo_blue</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-02-06</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g4611">
+      <path
+         id="path4636"
+         d="M 28.890202,3.2953482 3.5178571,7.8720648 25.805721,20.839429 c -0.939299,-1.950136 -1.412969,-4.0371 -1.492491,-6.102289 4.274318,1.14734 7.576613,2.673554 9.916773,4.344564 3.87589,2.767612 5.121967,5.597407 4.908637,8.257989 -0.21333,2.660582 -2.050051,5.681913 -6.301628,8.291153 -4.251577,2.60924 -10.830111,4.45802 -19.501882,5.041021 -3.8326175,0.257666 -6.2092352,2.008828 0.132666,3.183803 6.341902,1.174975 3.906536,1.89512 0.165832,3.183802 9.518933,-0.422746 17.06252,-2.620295 22.52003,-5.96963 5.457511,-3.349335 8.93769,-8.020615 9.352944,-13.199516 C 45.921855,22.691425 43.103462,17.558555 37.944648,13.87486 34.713978,11.567973 30.562857,9.7007032 25.44089,8.4026986 26.214535,6.51971 27.356453,4.7610193 28.890202,3.2953482 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#131313;fill-opacity:1;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4650);enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans" />
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:url(#linearGradient4634);fill-opacity:1;stroke:url(#linearGradient4626);stroke-width:0.99999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         d="M 27.03306,2.0810625 1.6607142,6.6577791 23.948579,19.625143 c -0.939299,-1.950136 -1.412969,-4.0371 -1.492491,-6.102289 4.274318,1.14734 7.576613,2.673554 9.916773,4.344564 3.87589,2.767612 5.121967,5.597407 4.908637,8.257989 -0.21333,2.660582 -2.050051,5.681913 -6.301628,8.291153 -4.251577,2.60924 -10.830111,4.45802 -19.501882,5.041021 -3.8326184,0.257666 -6.2092361,2.008828 0.132666,3.183803 6.341902,1.174975 3.906536,1.89512 0.165832,3.183802 9.518933,-0.422746 17.06252,-2.620295 22.52003,-5.96963 5.457511,-3.349335 8.93769,-8.020615 9.352944,-13.199516 C 44.064713,21.477139 41.24632,16.344269 36.087506,12.660574 32.856836,10.353687 28.705715,8.4864175 23.583748,7.1884129 24.357393,5.3054243 25.499311,3.5467336 27.03306,2.0810625 z"
+         id="path2825" />
+    </g>
+  </g>
+</svg>

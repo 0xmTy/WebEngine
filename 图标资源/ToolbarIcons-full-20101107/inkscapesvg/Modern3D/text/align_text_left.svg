@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="align_text_left.svg">
+  <title
+     id="title3922">Left-aligned text</title>
+  <defs
+     id="defs2818">
+    <filter
+       inkscape:collect="always"
+       id="filter3750">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.37281996"
+         id="feGaussianBlur3752" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3916">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.66257468"
+         id="feGaussianBlur3918" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="37.970699"
+     inkscape:cy="22.703156"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2812"
+       empspacing="12"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818"
+       empspacing="16"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="4"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Left-aligned text</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/ " />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/text/align_text_left</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-04-21</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <text
+       xml:space="preserve"
+       style="font-size:2.20263481px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="1.5895985"
+       y="3.2169504"
+       id="text2825"><tspan
+         sodipodi:role="line"
+         id="tspan2827"
+         x="1.5895985"
+         y="3.2169504">Lorem ipsum dolor sit amet, consectetur </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="5.9702439"
+         id="tspan2845">adipiscing elit. Phasellus ut condimentum est. </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="8.7235374"
+         id="tspan3758">In hendrerit felis sit amet metus interdum </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="11.476831"
+         id="tspan2847">adipiscing. In tincidunt dapibus metus, ac </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="14.230124"
+         id="tspan2849">pulvinar eros volutpat sit amet. Phasellus </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="16.983418"
+         id="tspan2851">porttitor felis eget nisl viverra ullamcorper. Sed </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="19.736712"
+         id="tspan3768">pellentesque nulla sit amet libero blandit non </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="22.490005"
+         id="tspan2853">rutrum lorem malesuada. Aliquam erat </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="25.243298"
+         id="tspan2855">volutpat. Cum sociis natoque penatibus et </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="27.996592"
+         id="tspan3778">magnis dis parturient montes, nascetur </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="30.749886"
+         id="tspan3780">ridiculus mus. </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="33.503178"
+         id="tspan2859">Phasellus gravida, dolor eget vulputate </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="36.256474"
+         id="tspan2861">scelerisque, orci ante sagittis lacus, quis </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="39.009766"
+         id="tspan3786">imperdiet lacus tortor eget lorem. Aenean </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="41.763058"
+         id="tspan2865">pellentesque ligula sit amet dui porttitor </tspan><tspan
+         sodipodi:role="line"
+         x="1.5895985"
+         y="77.555878"
+         id="tspan2843">sagittis elementum enim facilisis. (...)</tspan></text>
+    <text
+       id="text3882"
+       y="3.8356688"
+       x="2.0315402"
+       style="font-size:2.20263481000000020px;font-style:normal;font-weight:normal;fill:#2d2d2d;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;opacity:0.84848484999999985;filter:url(#filter3916)"
+       xml:space="preserve"><tspan
+         y="3.8356688"
+         x="2.0315402"
+         id="tspan3884"
+         sodipodi:role="line">Lorem ipsum dolor sit amet, consectetur </tspan><tspan
+         id="tspan3886"
+         y="6.5889626"
+         x="2.0315402"
+         sodipodi:role="line">adipiscing elit. Phasellus ut condimentum est. </tspan><tspan
+         id="tspan3888"
+         y="9.3422556"
+         x="2.0315402"
+         sodipodi:role="line">In hendrerit felis sit amet metus interdum </tspan><tspan
+         id="tspan3890"
+         y="12.09555"
+         x="2.0315402"
+         sodipodi:role="line">adipiscing. In tincidunt dapibus metus, ac </tspan><tspan
+         id="tspan3892"
+         y="14.848843"
+         x="2.0315402"
+         sodipodi:role="line">pulvinar eros volutpat sit amet. Phasellus </tspan><tspan
+         id="tspan3894"
+         y="17.602137"
+         x="2.0315402"
+         sodipodi:role="line">porttitor felis eget nisl viverra ullamcorper. Sed </tspan><tspan
+         id="tspan3896"
+         y="20.355431"
+         x="2.0315402"
+         sodipodi:role="line">pellentesque nulla sit amet libero blandit non </tspan><tspan
+         id="tspan3898"
+         y="23.108725"
+         x="2.0315402"
+         sodipodi:role="line">rutrum lorem malesuada. Aliquam erat </tspan><tspan
+         id="tspan3900"
+         y="25.862017"
+         x="2.0315402"
+         sodipodi:role="line">volutpat. Cum sociis natoque penatibus et </tspan><tspan
+         id="tspan3902"
+         y="28.615311"
+         x="2.0315402"
+         sodipodi:role="line">magnis dis parturient montes, nascetur </tspan><tspan
+         id="tspan3904"
+         y="31.368605"
+         x="2.0315402"
+         sodipodi:role="line">ridiculus mus. </tspan><tspan
+         id="tspan3906"
+         y="34.121895"
+         x="2.0315402"
+         sodipodi:role="line">Phasellus gravida, dolor eget vulputate </tspan><tspan
+         id="tspan3908"
+         y="36.875191"
+         x="2.0315402"
+         sodipodi:role="line">scelerisque, orci ante sagittis lacus, quis </tspan><tspan
+         id="tspan3910"
+         y="39.628483"
+         x="2.0315402"
+         sodipodi:role="line">imperdiet lacus tortor eget lorem. Aenean </tspan><tspan
+         id="tspan3912"
+         y="42.381775"
+         x="2.0315402"
+         sodipodi:role="line">pellentesque ligula sit amet dui porttitor </tspan><tspan
+         id="tspan3914"
+         y="45.135071"
+         x="2.0315402"
+         sodipodi:role="line">sagittis elementum enim facilisis. (...)</tspan></text>
+  </g>
+</svg>

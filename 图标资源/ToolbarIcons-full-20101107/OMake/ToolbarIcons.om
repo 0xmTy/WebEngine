@@ -1,0 +1,156 @@
+# This file is part of Toolbar Icons and is made available under the terms
+# of the MIT License.
+#
+# Copyright (c) 2010 Florian Haag
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# this list contains the sizes that are supported for PNG export
+public.PICSIZES[] =
+section
+  i = 10
+  while $(lt $i, 65)
+    PICSIZES += $i
+    i = $(add $i, 1)
+  export
+PICSIZES[] +=
+  128
+  256
+
+GetTargetDir(size) =
+  return $(absname $(ROOT))$(dir /png/$(size))$(string $(removeprefix $(absname $(ROOT)/inkscapesvg), $(absname .)))
+
+GetTargetFile(size, fileroot) =
+  return $(GetTargetDir $(size))/$(fileroot).png
+
+.PHONY: release
+.PHONY: clean
+
+# indicates that the directory contains icons (i.e. it is a category directory)
+TBIconsDir() =
+  .DEFAULT: png16.stamp png24.stamp png32.stamp
+  
+  foreach(size, $(PICSIZES))
+    clean:
+      section
+        rm -f png$(size).stamp
+    
+    .PHONY: png$(size)
+    png$(size): png$(size).stamp
+  
+    PNGFiles[] =
+    foreach(fr, $(removesuffix $(ls ./*.svg)))
+      PNGFiles += $(GetTargetFile $(size), $(fr))
+      export
+    png$(size).stamp: $(PNGFiles)
+      section
+        stampfile = $(fopen png$(size).stamp, w)
+        foreach(d, $(digest $(PNGFiles)))
+          fprint($(stampfile), $(d))
+        close($(stampfile))
+    
+    foreach(fileroot, $(removesuffix $(ls ./*.svg)))
+      TARGET_NAME = $(GetTargetFile $(size), $(fileroot))
+        
+      $(TARGET_NAME): $(fileroot).svg
+        section
+          mkdir -p $(GetTargetDir $(size))
+          CONVERSION_CMD = $(INKSCAPE) -f "$(absname $(fileroot)).svg" -e "$(TARGET_NAME)" -w $(size) -h $(size)
+          shella($(CONVERSION_CMD))
+
+# indicates that the directory contains icon categories (i.e. it is a style directory)
+TBCategoriesDir() =
+  .DEFAULT: png16.stamp png24.stamp png32.stamp
+  
+  foreach(size, $(PICSIZES))
+    clean:
+      section
+        rm -f png$(size).stamp
+    
+    .PHONY: png$(size)
+    png$(size): png$(size).stamp
+    
+    StampFiles[] =
+    foreach(d, $(subdirs P, .))
+      StampFiles += $(d)/png$(size).stamp
+      export
+    png$(size).stamp: $(StampFiles)
+      section
+        stampfile = $(fopen png$(size).stamp, w)
+        foreach(d, $(digest $(StampFiles)))
+          fprint($(stampfile), $(d))
+        close($(stampfile))
+
+PNGTarGzName(size) =
+  return $(dir $(ROOT)/targz)/ToolbarIcons-png$(size).tar.gz
+
+AllSizesPNGTarGzName() =
+  return $(dir $(ROOT)/targz)/ToolbarIcons-pngAllSizes.tar.gz
+        
+# indicates that the directory contains icon styles (i.e. it is the library directory)
+TBStylesDir() =
+  .DEFAULT: png16.stamp png24.stamp png32.stamp
+  
+  foreach(size, $(PICSIZES))
+    clean:
+      section
+        rm -f png$(size).stamp
+    
+    .PHONY: png$(size)
+    png$(size): png$(size).stamp
+    
+    StampFiles[] =
+    foreach(d, $(subdirs P, .))
+      StampFiles += $(d)/png$(size).stamp
+      export
+    png$(size).stamp: $(StampFiles)
+      section
+        stampfile = $(fopen png$(size).stamp, w)
+        foreach(d, $(digest $(StampFiles)))
+          fprint($(stampfile), $(d))
+        close($(stampfile))
+    
+    $(PNGTarGzName $(size)): png$(size).stamp
+      section
+        mkdir -p $(dir $(ROOT)/targz)
+        cp -f $(absname $(ROOT)/COPYING) $(absname $(dir $(ROOT)/png/$(size)))
+        shella($(CreateTarGzCommand $(PNGTarGzName $(size)), $(dir $(ROOT)/png/$(size))))
+        rm -f $(absname $(ROOT)/png/$(size)/COPYING)
+      
+  $(AllSizesPNGTarGzName): png16.stamp png24.stamp png32.stamp
+    section
+      mkdir -p $(dir $(ROOT)/targz)
+      cp -f $(absname $(ROOT)/COPYING) $(absname $(dir $(ROOT)/png))
+      shella($(CreateTarGzCommand $(AllSizesPNGTarGzName), $(dir $(ROOT)/png)))
+      rm -f $(absname $(ROOT)/png/COPYING)
+    
+  release: $(dir $(ROOT)/all)/all16.png $(dir $(ROOT)/all)/all48.png $(PNGTarGzName 16) $(PNGTarGzName 24) $(PNGTarGzName 32) $(PNGTarGzName 256) $(dir $(AllSizesPNGTarGzName))
+  
+  MakeAllPics(allPicSize) =
+    $(dir $(ROOT)/all)/all$(allPicSize).png: png$(allPicSize).stamp
+      section
+        mkdir -p $(dir $(ROOT)/all)
+        INPUT_FILES =
+        foreach(fn, $(filter %.png, $(ls R, $(ROOT)/png/$(allPicSize)/*)))
+          INPUT_FILES += "$(absname $(fn))"
+          export
+        shella(montage -geometry +4+4 $(INPUT_FILES) $(dir $(ROOT)/all)/all$(allPicSize).png)
+  
+  MakeAllPics(16)
+  MakeAllPics(48)

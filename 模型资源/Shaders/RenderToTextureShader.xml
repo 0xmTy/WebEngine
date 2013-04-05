@@ -1,0 +1,56 @@
+<OakShader>
+	<Common>
+		varying vec3 normal_vary; //fragment normal
+
+#if USE_TEX		
+		varying vec2 texcoord_vary; //fragment texture coordinate
+#endif
+	</Common>
+
+	<Vertex>
+		attribute vec3 position; //vertex position
+		attribute vec3 normal; //vertex normal
+		
+#if USE_TEX
+		attribute vec2 texcoord; //vertex texture coordinate
+#endif
+
+		uniform mat4 matWorld, matViewProj; //world transform matrix and projection transform matrix
+	    
+		void main(void) {
+			//assign value to the fragment normal
+			//the normal of every fragments will be rasterized from the vertices' normal
+			normal_vary = normal;
+	        
+#if USE_TEX
+			//assign value to the fragment texture coordinate
+			//the texture coordinate of every fragments will be rasterized from the vertices' fragment texture coordinate
+			texcoord_vary = texcoord;
+#endif
+	        
+			//transform the vertex position to the post-projection space
+			gl_Position = matViewProj * matWorld * vec4(position, 1.0);
+		}
+	</Vertex>
+
+	<Fragment>
+		uniform vec3 ambient, diffuse;  //the ambient color and diffuse color of the mesh
+		uniform sampler2D tex;  //the texture sampler, represents a texture object in shader program           
+	            
+		void main(void) {
+			vec3 L = normalize(vec3(0.5, 0.5, 0.5)); //the negtive of the light direction vector
+			vec3 N = normalize(normal_vary); //the normal
+	        
+			float diffuse_intensity = pow((dot(L, N) + 1.0) * 0.5, 2.0);  //calculate the diffuse intensity
+			vec3 color = min(diffuse_intensity * diffuse, vec3(1, 1, 1)); //combine the final lighting color
+	        
+#if USE_TEX
+				vec3 texel = texture2D(tex, texcoord_vary).rgb; //perform texture mapping
+				color = ambient * texel; //if texture mapping is enabled then ignore the diffuse factor
+#endif
+	                
+			gl_FragColor = vec4(color, 1); //output the final color of the fragment
+		}
+	</Fragment>
+
+</OakShader>

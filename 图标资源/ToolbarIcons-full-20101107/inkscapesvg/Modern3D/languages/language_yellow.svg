@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2383"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="language_yellow.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\All Users\Dokumente\Eigene Bilder\GUI\FHToolBarIconLibrary\Repository\inkscapesvg\languages\language24.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45"
+   version="1.1">
+  <title
+     id="title2830">Language</title>
+  <defs
+     id="defs2385">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective25" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3169">
+      <stop
+         style="stop-color:#cecece;stop-opacity:1"
+         offset="0"
+         id="stop3171" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3173" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3159">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3161" />
+      <stop
+         id="stop3167"
+         offset="0.37855923"
+         style="stop-color:#feffd7;stop-opacity:1" />
+      <stop
+         style="stop-color:#f7ff3c;stop-opacity:1"
+         offset="1"
+         id="stop3163" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter3261"
+       x="-0.089081038"
+       width="1.1781621"
+       y="-0.11911173"
+       height="1.2382235">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.5601558"
+         id="feGaussianBlur3263" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3159"
+       id="radialGradient3165"
+       cx="29.376692"
+       cy="11.733149"
+       fx="29.376692"
+       fy="11.733149"
+       r="21.464578"
+       gradientTransform="matrix(-0.227812,-0.4177511,0.7990185,-0.4357282,10.843674,31.914412)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3169"
+       id="linearGradient3175"
+       x1="2.1632626"
+       y1="13.51965"
+       x2="42.870083"
+       y2="34.126762"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.8994949"
+     inkscape:cx="-9.190499"
+     inkscape:cy="24.966102"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2393"
+       visible="true"
+       enabled="true"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2388">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/" />
+        <dc:title>Language</dc:title>
+        <dc:date>2010-02-02</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/languages/language_yellow</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="balloon"
+     inkscape:groupmode="layer">
+    <path
+       id="path2401"
+       d="M 24.533913,9.4992074 C 12.932967,9.4992074 3.5,15.206727 3.5,22.232264 C 3.5,29.257801 12.932967,34.930814 24.533913,34.930814 C 27.475732,34.930814 30.266725,34.557531 32.809551,33.895606 C 36.353848,37.862737 39.427918,39.328989 44.326481,40.935019 C 41.026272,37.68255 39.711973,36.851816 38.878352,31.480121 C 42.970039,29.157437 45.533345,25.893962 45.533345,22.232264 C 45.533345,15.206728 36.134858,9.4992072 24.533913,9.4992074 z"
+       style="opacity:1;fill:#202020;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.89581036999999986;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter3261)" />
+    <path
+       style="opacity:1;fill:url(#radialGradient3165);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3175);stroke-width:0.89581036999999986;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 22.533913,7.4992074 C 10.932967,7.4992074 1.5,13.206727 1.5,20.232264 C 1.5,27.257801 10.932967,32.930814 22.533913,32.930814 C 25.475732,32.930814 28.266725,32.557531 30.809551,31.895606 C 34.353848,35.862737 37.427918,37.328989 42.326481,38.935019 C 39.026272,35.68255 37.711973,34.851816 36.878352,29.480121 C 40.970039,27.157437 43.533345,23.893962 43.533345,20.232264 C 43.533345,13.206728 34.134858,7.4992072 22.533913,7.4992074 z"
+       id="path2392" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3325"
+       style="font-size:2.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+       transform="translate(-1.1111678,0.7071068)"><flowRegion
+         id="flowRegion3327"><rect
+           id="rect3329"
+           width="33.23402"
+           height="17.778685"
+           x="7.1720829"
+           y="15.473088"
+           style="font-size:2.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS" /></flowRegion><flowPara
+         id="flowPara3177">Sprache 语言 language 言語 langue 언어 lengua wika taal lingua язык língua</flowPara></flowRoot>  </g>
+</svg>

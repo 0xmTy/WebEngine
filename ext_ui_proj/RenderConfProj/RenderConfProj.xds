@@ -1,0 +1,48 @@
+{
+    "name": "RenderConfProj",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "72349164-7352-46ce-be67-9fb49f465885": {
+            "paths": [
+                "metadata/view/Render_Cam_Conf",
+                "app/view/override/Render_Cam_Conf.js",
+                "app/view/Render_Cam_Conf.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "Render_Cam_Conf"
+        },
+        "90673959-6aa6-4b0d-85ea-8c0551c65aba": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "72349164-7352-46ce-be67-9fb49f465885"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "90673959-6aa6-4b0d-85ea-8c0551c65aba"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

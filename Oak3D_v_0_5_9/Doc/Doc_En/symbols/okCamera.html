@@ -1,0 +1,3467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okCamera</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/OAK.html">OAK</a></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okCamera
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				Camera class.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okCamera.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okCamera.html#constructor">okCamera</a></b>(Context)
+							</div>
+							<div class="description">okCamera is a utility to help users controlling camera in 3D space.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okCamera.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#bindViewport">bindViewport</a></b>()
+								</div>
+								<div class="description">Bind the viewport to the WebGL context as the current drawing viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#clear">clear</a></b>()
+								</div>
+								<div class="description">Clear this camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getBackColor">getBackColor</a></b>()
+								</div>
+								<div class="description">Get the background color of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getBackTextureResourceId">getBackTextureResourceId</a></b>()
+								</div>
+								<div class="description">Get the resource id of the background texture.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getForwardDir">getForwardDir</a></b>()
+								</div>
+								<div class="description">Get the forward direction vector of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getFov">getFov</a></b>()
+								</div>
+								<div class="description">Get the field of view of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getFrustum">getFrustum</a></b>()
+								</div>
+								<div class="description">Get the visible frustum of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getMat4">getMat4</a></b>()
+								</div>
+								<div class="description">Get the transform matrix of the camera as a 4x4 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getMat43">getMat43</a></b>()
+								</div>
+								<div class="description">Get the transform matrix of the camera as a 4x3 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getName">getName</a></b>()
+								</div>
+								<div class="description">Get camera name.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickDir">getPickDir</a></b>(x, y)
+								</div>
+								<div class="description">Given a specified 2D position on viewport, calculate the direction of the ray casting from camera to the position on the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickFrustum">getPickFrustum</a></b>(x, y, Width, Height)
+								</div>
+								<div class="description">Given a sub area of the canvas, calculate the visible frustum.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickPoint">getPickPoint</a></b>(x, y)
+								</div>
+								<div class="description">Transform a 2D position in viewport to 3D position in world space.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPos">getPos</a></b>()
+								</div>
+								<div class="description">Get camera's position.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getProjMat4">getProjMat4</a></b>()
+								</div>
+								<div class="description">Get the projection matrix of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getProjMode">getProjMode</a></b>()
+								</div>
+								<div class="description">Get the projection mode of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getRightDir">getRightDir</a></b>()
+								</div>
+								<div class="description">Get the right direction vector of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getUpDir">getUpDir</a></b>()
+								</div>
+								<div class="description">Get the up direction vector of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewInvMat4">getViewInvMat4</a></b>()
+								</div>
+								<div class="description">Get the inverse of the view matrix of the camera as a 4x4 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewInvMat43">getViewInvMat43</a></b>()
+								</div>
+								<div class="description">Get the inverse of the view matrix of the camera as a 4x3 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewMat4">getViewMat4</a></b>()
+								</div>
+								<div class="description">Get the view matrix of the camera as a 4x4 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewMat43">getViewMat43</a></b>()
+								</div>
+								<div class="description">Get the view matrix of the camera as a 4x3 matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportHeight">getViewportHeight</a></b>()
+								</div>
+								<div class="description">Get the height of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportLeft">getViewportLeft</a></b>()
+								</div>
+								<div class="description">Get the left of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportTop">getViewportTop</a></b>()
+								</div>
+								<div class="description">Get the top of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportWidth">getViewportWidth</a></b>()
+								</div>
+								<div class="description">Get the width of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewProjInvMat4">getViewProjInvMat4</a></b>()
+								</div>
+								<div class="description">Get the inverse of the view-projection matrix of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewProjMat4">getViewProjMat4</a></b>()
+								</div>
+								<div class="description">Get the view-projection matrix of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getVisibleFar">getVisibleFar</a></b>()
+								</div>
+								<div class="description">Get the far clip distance on the eye ray.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getVisibleNear">getVisibleNear</a></b>()
+								</div>
+								<div class="description">Get the near clip distance on the eye ray.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#lookAt">lookAt</a></b>(x, y, z, UpVec, upY, upZ)
+								</div>
+								<div class="description">Make the camera look at a specified position.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#move">move</a></b>(Space, x, y, z)
+								</div>
+								<div class="description">Move this camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveForward">moveForward</a></b>(Len)
+								</div>
+								<div class="description">Move this camera along with its forward direction.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveRight">moveRight</a></b>(Len)
+								</div>
+								<div class="description">Move this camera along with its right.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveUp">moveUp</a></b>(Len)
+								</div>
+								<div class="description">Move this camera along with its up direction.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#reset">reset</a></b>(Pos, Dir)
+								</div>
+								<div class="description">Reset the position and orientation of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotForward">rotForward</a></b>(Angl)
+								</div>
+								<div class="description">Rotate the camera around its forward direction vector.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotRight">rotRight</a></b>(Angl)
+								</div>
+								<div class="description">Rotate the camera around its right direction vector.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotTarget">rotTarget</a></b>(Angl, Target, RotVec)
+								</div>
+								<div class="description">Rotate the camera around a specified target position and a specified rotating vector.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotUp">rotUp</a></b>(Angl)
+								</div>
+								<div class="description">Rotate the camera around its up direction vector.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotX">rotX</a></b>(Space, Angl)
+								</div>
+								<div class="description">Rotate the camera around axis-x.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotY">rotY</a></b>(Space, Angl)
+								</div>
+								<div class="description">Rotate the camera around axis-y.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotZ">rotZ</a></b>(Space, Angl)
+								</div>
+								<div class="description">Rotate the camera around axis-z.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setBackColor">setBackColor</a></b>(R, G, B, A)
+								</div>
+								<div class="description">Set the background color of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setBackTexture">setBackTexture</a></b>(TexName)
+								</div>
+								<div class="description">Set the background image of the viewport.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setFov">setFov</a></b>(Fov)
+								</div>
+								<div class="description">Set the field of view of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setMat">setMat</a></b>(Mat)
+								</div>
+								<div class="description">Set camera's transform matrix.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setName">setName</a></b>(Name)
+								</div>
+								<div class="description">Set camera name.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setPos">setPos</a></b>(x, y, z)
+								</div>
+								<div class="description">Set camera's position.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setProjMode">setProjMode</a></b>(Mode)
+								</div>
+								<div class="description">Set the projection mode of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setViewport">setViewport</a></b>(Left, Top, Width, Height)
+								</div>
+								<div class="description">Set viewport of the camera.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleFar">setVisibleFar</a></b>(Far)
+								</div>
+								<div class="description">Set the far clip distance on the eye ray.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleNear">setVisibleNear</a></b>(Near)
+								</div>
+								<div class="description">Set the near clip distance on the eye ray.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleRange">setVisibleRange</a></b>(Near, Far)
+								</div>
+								<div class="description">Set the visible range on the eye ray.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okCamera</b>(Context)
+				</div>
+				
+				<div class="description">
+					okCamera is a utility to help users controlling camera in 3D space.
+A camera in Oak3D is a collaboration of view point, projection mode and viewport.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{WebGLContext}</span>  <b>Context</b>
+								
+							</dt>
+								<dd>The webgl context of the target canvas.</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okCamera.html">okCamera</a>}</span> A new okCamera object</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="bindViewport"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>bindViewport</b>()
+					
+					</div>
+					<div class="description">
+						Bind the viewport to the WebGL context as the current drawing viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						Clear this camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBackColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec4.html">okVec4</a>}</span>
+					<b>getBackColor</b>()
+					
+					</div>
+					<div class="description">
+						Get the background color of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec4.html">okVec4</a>}</span> The background color</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBackTextureResourceId"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getBackTextureResourceId</b>()
+					
+					</div>
+					<div class="description">
+						Get the resource id of the background texture.
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The id of the background texture resource.</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>This method is only available when the camera is created by okScene.</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getForwardDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getForwardDir</b>()
+					
+					</div>
+					<div class="description">
+						Get the forward direction vector of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The forward vector of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFov"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getFov</b>()
+					
+					</div>
+					<div class="description">
+						Get the field of view of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The field of view of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFrustum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span>
+					<b>getFrustum</b>()
+					
+					</div>
+					<div class="description">
+						Get the visible frustum of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span> The visible frustum of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the transform matrix of the camera as a 4x4 matrix.
+Transform matrix determines camera's position and orientation in the world.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The transform matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getMat43</b>()
+					
+					</div>
+					<div class="description">
+						Get the transform matrix of the camera as a 4x3 matrix.
+Transform matrix determines camera's position and orientation in the world.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> The transform matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getName</b>()
+					
+					</div>
+					<div class="description">
+						Get camera name.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> Name of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPickDir</b>(x, y)
+					
+					</div>
+					<div class="description">
+						Given a specified 2D position on viewport, calculate the direction of the ray casting from camera to the position on the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component-x of the 2D position.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The component-y of the 2D position.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The direction of the ray.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickFrustum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span>
+					<b>getPickFrustum</b>(x, y, Width, Height)
+					
+					</div>
+					<div class="description">
+						Given a sub area of the canvas, calculate the visible frustum.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component-x of the canvas area.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The component-y of the canvas area.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Width</b>
+									
+								</dt>
+								<dd>The width of the canvas area.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Height</b>
+									
+								</dt>
+								<dd>The height of the canvas area.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span> The visible frustum.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickPoint"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPickPoint</b>(x, y)
+					
+					</div>
+					<div class="description">
+						Transform a 2D position in viewport to 3D position in world space.
+This is commonly used by scene picking.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component-x of the 2D position.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The component-y of the 2D position.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The resulting 3D position.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPos</b>()
+					
+					</div>
+					<div class="description">
+						Get camera's position.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> Pos The position of camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getProjMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getProjMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the projection matrix of the camera.
+Projection matrix is used to project objects in camera space to post projection space.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The projection matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getProjMode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getProjMode</b>()
+					
+					</div>
+					<div class="description">
+						Get the projection mode of the camera.
+Projection mode determines how to project the 3D scene to a 2D image.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> The available enumeration is [PROJMODE_PERSPECTIVE, PROJMODE_ORTHO].</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getRightDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getRightDir</b>()
+					
+					</div>
+					<div class="description">
+						Get the right direction vector of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The right vector of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getUpDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getUpDir</b>()
+					
+					</div>
+					<div class="description">
+						Get the up direction vector of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The up vector of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewInvMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewInvMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the inverse of the view matrix of the camera as a 4x4 matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The inverse of the view matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewInvMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getViewInvMat43</b>()
+					
+					</div>
+					<div class="description">
+						Get the inverse of the view matrix of the camera as a 4x3 matrix.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> The inverse of the view matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the view matrix of the camera as a 4x4 matrix.
+View matrix can be used to transform the objects from world space to camera space.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The view matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getViewMat43</b>()
+					
+					</div>
+					<div class="description">
+						Get the view matrix of the camera as a 4x3 matrix.
+View matrix can be used to transform the objects from world space to camera space.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> The view matrix of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportHeight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportHeight</b>()
+					
+					</div>
+					<div class="description">
+						Get the height of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The height of the viewport.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportLeft"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportLeft</b>()
+					
+					</div>
+					<div class="description">
+						Get the left of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The left of the viewport.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportTop"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportTop</b>()
+					
+					</div>
+					<div class="description">
+						Get the top of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The top of the viewport.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportWidth"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportWidth</b>()
+					
+					</div>
+					<div class="description">
+						Get the width of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The width of the viewport.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewProjInvMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewProjInvMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the inverse of the view-projection matrix of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The inverse of the view-projection matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewProjMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewProjMat4</b>()
+					
+					</div>
+					<div class="description">
+						Get the view-projection matrix of the camera.
+View-projection matrix is used to transform objects in world space to post-projection space.
+    ViewProjMat = ProjMat x ViewMat.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> The view-projection matrix.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVisibleFar"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVisibleFar</b>()
+					
+					</div>
+					<div class="description">
+						Get the far clip distance on the eye ray.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The far clip distance on the eye ray.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVisibleNear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVisibleNear</b>()
+					
+					</div>
+					<div class="description">
+						Get the near clip distance on the eye ray.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The near clip distance on the eye ray.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="lookAt"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{null}</span>
+					<b>lookAt</b>(x, y, z, UpVec, upY, upZ)
+					
+					</div>
+					<div class="description">
+						Make the camera look at a specified position.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component-x of the targeting position to look at. | The targeting position to look at.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component-y of the targeting position to look at.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component-z of the targeting position to look at.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>UpVec</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Defines a fixed up direction when making the camera looking at the target.
+    If this parameter is specified, then the method will make the camera's up vector as close as possible to the UpVec.</dd>
+							
+								<dt>
+									<b>upY</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>upZ</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="move"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>move</b>(Space, x, y, z)
+					
+					</div>
+					<div class="description">
+						Move this camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. 
+    The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>The movement on axis-x. | The moving vector.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The movement on axis-y.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The movement on axis-z.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveForward"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveForward</b>(Len)
+					
+					</div>
+					<div class="description">
+						Move this camera along with its forward direction.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>The movement length.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveRight</b>(Len)
+					
+					</div>
+					<div class="description">
+						Move this camera along with its right.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>The movement length.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveUp"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveUp</b>(Len)
+					
+					</div>
+					<div class="description">
+						Move this camera along with its up direction.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>The movement length.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="reset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>reset</b>(Pos, Dir)
+					
+					</div>
+					<div class="description">
+						Reset the position and orientation of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Pos</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicates if reset position. The default value is true.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Dir</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicates if reset orientation. The default value is true.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotForward"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotForward</b>(Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around its forward direction vector.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotRight</b>(Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around its right direction vector.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotTarget"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotTarget</b>(Angl, Target, RotVec)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around a specified target position and a specified rotating vector.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Target</b>
+									
+								</dt>
+								<dd>The position that the camera around with.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RotVec</b>
+									
+								</dt>
+								<dd>The vector to be used as the rotation axis.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotUp"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotUp</b>(Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around its up direction vector.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotX"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotX</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around axis-x.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. 
+    The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotY"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotY</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around axis-y.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. 
+    The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotZ"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotZ</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						Rotate the camera around axis-z.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>Indicate which space the operation is applied in. 
+    The available enumeration is [SPACE_LOCAL, SPACE_WORLD];</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>The rotating angle.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBackColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBackColor</b>(R, G, B, A)
+					
+					</div>
+					<div class="description">
+						Set the background color of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec4}</span> <b>R</b>
+									
+								</dt>
+								<dd>The red component of the background color. | The RGBA color for background.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>The green component of the background color.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>The blue component of the background color.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>A</b>
+									
+								</dt>
+								<dd>The alpha component of the background color. Alpha channel will affect the transparency of the canvas.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBackTexture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBackTexture</b>(TexName)
+					
+					</div>
+					<div class="description">
+						Set the background image of the viewport.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>TexName</b>
+									
+								</dt>
+								<dd>The texture name.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setFov"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setFov</b>(Fov)
+					
+					</div>
+					<div class="description">
+						Set the field of view of the camera.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Fov</b>
+									
+								</dt>
+								<dd>The field of view of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setMat</b>(Mat)
+					
+					</div>
+					<div class="description">
+						Set camera's transform matrix.
+Camera's position and orientation is determined by a matrix.
+    So you can transform camera to any position/orientation by setting a specified matrix.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>|<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>Mat</b>
+									
+								</dt>
+								<dd>The matrix of camera.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setName</b>(Name)
+					
+					</div>
+					<div class="description">
+						Set camera name.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>Name of the camera.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setPos</b>(x, y, z)
+					
+					</div>
+					<div class="description">
+						Set camera's position.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component-x of the position of camera. | The position of camera.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component-x of the position of camera.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The component-x of the position of camera.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setProjMode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setProjMode</b>(Mode)
+					
+					</div>
+					<div class="description">
+						Set the projection mode of the camera.
+Projection mode determines how to project the 3D scene to a 2D image.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Mode</b>
+									
+								</dt>
+								<dd>The available enumeration is [PROJMODE_PERSPECTIVE, PROJMODE_ORTHO].</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setViewport"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setViewport</b>(Left, Top, Width, Height)
+					
+					</div>
+					<div class="description">
+						Set viewport of the camera.
+Viewport determines the canvas area that the camera projects its image on. 
+    The axis-x is from left to right. The axis-y is from top to bottom.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Left</b>
+									
+								</dt>
+								<dd>The left of the viewport.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Top</b>
+									
+								</dt>
+								<dd>The top of the viewport.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Width</b>
+									
+								</dt>
+								<dd>The width of the viewport.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Height</b>
+									
+								</dt>
+								<dd>The height of the viewport.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleFar"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleFar</b>(Far)
+					
+					</div>
+					<div class="description">
+						Set the far clip distance on the eye ray.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Far</b>
+									
+								</dt>
+								<dd>The far clip distance on the eye ray.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleNear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleNear</b>(Near)
+					
+					</div>
+					<div class="description">
+						Set the near clip distance on the eye ray.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Near</b>
+									
+								</dt>
+								<dd>The near clip distance on the eye ray.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleRange"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleRange</b>(Near, Far)
+					
+					</div>
+					<div class="description">
+						Set the visible range on the eye ray.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Near</b>
+									
+								</dt>
+								<dd>The near clip distance on the eye ray.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Far</b>
+									
+								</dt>
+								<dd>The far clip distance on the eye ray.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

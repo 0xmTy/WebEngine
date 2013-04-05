@@ -1,0 +1,38 @@
+{
+    "type": "form",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "crtWorldPanel",
+        "designer|initialView": true,
+        "draggable": true,
+        "height": 250,
+        "id": "id_extNewWorld_panel",
+        "width": 400,
+        "layout": null,
+        "bodyPadding": 10,
+        "title": "新建场景"
+    },
+    "id": "ExtBox1-ext-gen2626",
+    "designerId": "49275468-bc64-4f16-a1bc-5ad9ad4ac78c",
+    "cn": [
+        {
+            "type": "tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTool",
+                "id": "btCloseWin_crtWorld",
+                "tooltip": "关闭",
+                "type": "close"
+            },
+            "designerId": "ee56aa2b-c34a-40bd-824f-8a6aa5b112cb"
+        }
+    ]
+}

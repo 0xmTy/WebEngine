@@ -1,0 +1,124 @@
+<OakShader>
+	<Common>
+		varying vec3 pos_vary; //fragment position
+		varying vec3 normal_vary; //fragment normal
+	</Common>
+
+	<Vertex>
+	    attribute vec3 position; //vertex position
+		attribute vec3 normal; //vertex normal
+		attribute vec4 bone_idx; //the bone index list of the current vertex
+		attribute vec4 bone_weight; //the bone weight list of the current vertex
+		
+		uniform vec4 bone_mat_list[32 * 3]; //the bone transform list
+		uniform mat4 matWorld, matViewProj; //world transform matrix and projection transform matrix
+	    
+		void main(void) {
+    		mat4 anim_mat = mat4(0.0);
+					
+			if(bone_idx[0] > -0.5) { //check if the first bone is valid for the current vertex
+				int cur_bone_idx = int(bone_idx[0]);
+		        
+				//get the 4x3 matrix from the three rows
+				vec4 row0 = bone_mat_list[cur_bone_idx * 3];
+				vec4 row1 = bone_mat_list[cur_bone_idx * 3 + 1];
+				vec4 row2 = bone_mat_list[cur_bone_idx * 3 + 2];
+				
+				//regenerate 4x4 matrix
+				mat4 bone_mat = mat4(row0.x, row1.x, row2.x, 0.0,
+													row0.y, row1.y, row2.y, 0.0,
+													row0.z, row1.z, row2.z, 0.0,
+													row0.w, row1.w, row2.w, 1.0);
+				  
+				//blend the current bone transform into the final transform  
+				anim_mat += bone_weight[0] * bone_mat;
+			}
+
+			if(bone_idx[1] > -0.5) { //check if the second bone is valid for the current vertex
+				int cur_bone_idx = int(bone_idx[1]);
+		        
+				//get the 4x3 matrix from the three rows
+				vec4 row0 = bone_mat_list[cur_bone_idx * 3];
+				vec4 row1 = bone_mat_list[cur_bone_idx * 3 + 1];
+				vec4 row2 = bone_mat_list[cur_bone_idx * 3 + 2];
+				
+				//regenerate 4x4 matrix
+				mat4 bone_mat = mat4(row0.x, row1.x, row2.x, 0.0,
+													row0.y, row1.y, row2.y, 0.0,
+													row0.z, row1.z, row2.z, 0.0,
+													row0.w, row1.w, row2.w, 1.0);
+				
+				//blend the current bone transform into the final transform
+				anim_mat += bone_weight[1] * bone_mat;
+			}
+			
+			if(bone_idx[2] > -0.5) { //check if the third bone is valid for the current vertex
+				int cur_bone_idx = int(bone_idx[2]);
+		        
+				//get the 4x3 matrix from the three rows
+				vec4 row0 = bone_mat_list[cur_bone_idx * 3];
+				vec4 row1 = bone_mat_list[cur_bone_idx * 3 + 1];
+				vec4 row2 = bone_mat_list[cur_bone_idx * 3 + 2];
+				
+				//regenerate 4x4 matrix
+				mat4 bone_mat = mat4(row0.x, row1.x, row2.x, 0.0,
+													row0.y, row1.y, row2.y, 0.0,
+													row0.z, row1.z, row2.z, 0.0,
+													row0.w, row1.w, row2.w, 1.0);
+				
+				//blend the current bone transform into the final transform
+				anim_mat += bone_weight[2] * bone_mat;
+			}
+			
+			if(bone_idx[3] > -0.5) { //check if the fourth bone is valid for the current vertex
+				int cur_bone_idx = int(bone_idx[3]);
+		        
+				//get the 4x3 matrix from the three rows
+				vec4 row0 = bone_mat_list[cur_bone_idx * 3];
+				vec4 row1 = bone_mat_list[cur_bone_idx * 3 + 1];
+				vec4 row2 = bone_mat_list[cur_bone_idx * 3 + 2];
+			    
+				//regenerate 4x4 matrix
+				mat4 bone_mat = mat4(row0.x, row1.x, row2.x, 0.0,
+													row0.y, row1.y, row2.y, 0.0,
+													row0.z, row1.z, row2.z, 0.0,
+													row0.w, row1.w, row2.w, 1.0);
+				
+				//blend the current bone transform into the final transform
+				anim_mat += bone_weight[3] * bone_mat;
+			}
+		
+			//compute normal
+			vec4 n = vec4(normal, 0.0);
+			n = matWorld * anim_mat * n;
+			normal_vary = vec3(n);
+			
+			//transform the vertex position to the world space
+			vec4 pos_world = matWorld * anim_mat * vec4(position, 1.0);
+			
+			//assign value to the fragment position
+			//the position of every fragments will be rasterized from the vertices' position
+			pos_vary = pos_world.xyz / pos_world.w;
+	                
+			//transform the vertex position to the post-projection space
+			gl_Position = matViewProj * pos_world;
+		}
+	</Vertex>
+
+	<Fragment>
+		uniform vec3 diffuse; //diffuse color
+	    
+		uniform vec3 lightPos; //light position
+		uniform vec3 lightColor; //light color
+
+		void main(void) {
+			vec3 L = normalize(lightPos - pos_vary);
+			vec3 N = normalize(normal_vary);
+
+			float diffuse_intensity = pow((dot(L, N) + 1.0) * 0.5, 1.5);
+	        
+			gl_FragColor = vec4(lightColor * diffuse * diffuse_intensity, 1);
+		}
+	</Fragment>
+
+</OakShader>

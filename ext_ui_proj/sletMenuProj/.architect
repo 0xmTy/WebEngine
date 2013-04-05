@@ -1,0 +1,60 @@
+{
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true,
+        "resource": true,
+        "468a74e9-9fcc-47cf-bdb7-6a4c637228d7": {
+            "id": "468a74e9-9fcc-47cf-bdb7-6a4c637228d7",
+            "cn": [
+                {
+                    "id": "45353bcd-de5d-45f7-bda1-06f9b9f5f88b",
+                    "cn": [
+                        {
+                            "id": "8672bd86-d063-44c3-be55-b22e87ae470f"
+                        },
+                        {
+                            "id": "2105572d-2550-462d-b9fd-5838b6ba7d6c",
+                            "cn": [
+                                {
+                                    "id": "b3a71e10-1fa8-4562-96b3-210d4781ece6"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b7a7cc65-68a6-4161-a70e-0eab1c2fc84d",
+                            "cn": [
+                                {
+                                    "id": "9fbdbc2b-882b-4eba-b7c5-96d4680f5c3c"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "353676a0-bf38-467c-b1e0-bfa52211d085",
+                            "cn": [
+                                {
+                                    "id": "56a373b8-1604-4368-9266-ab949f19b0d5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "97d0538b-3f47-430d-9173-761753fea317",
+                            "cn": [
+                                {
+                                    "id": "4f1f0ffc-4f6c-47b2-9dfa-7c484db34063"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c9313dc4-49a6-4fe7-a8f7-85dc85f9648f"
+                        }
+                    ]
+                }
+            ]
+        },
+        "be638602-4ea6-42f5-ad80-4dea58af5a46": {
+            "id": "be638602-4ea6-42f5-ad80-4dea58af5a46"
+        }
+    }
+}

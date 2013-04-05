@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="table_column_delete.svg">
+  <title
+     id="title3619">Delete Table Column</title>
+  <defs
+     id="defs2818">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3597">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3599" />
+      <stop
+         style="stop-color:#c2c2c2;stop-opacity:1"
+         offset="1"
+         id="stop3601" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3618">
+      <stop
+         style="stop-color:#5d7eff;stop-opacity:1"
+         offset="0"
+         id="stop3620" />
+      <stop
+         style="stop-color:#001876;stop-opacity:1"
+         offset="1"
+         id="stop3622" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3618"
+       id="linearGradient3624"
+       x1="0.4375"
+       y1="7.9665179"
+       x2="45.4375"
+       y2="11.323661"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3597"
+       id="linearGradient3603"
+       x1="7.0714307"
+       y1="18.535717"
+       x2="45.428574"
+       y2="34.25"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3615">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.57857144"
+         id="feGaussianBlur3617" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3169">
+      <stop
+         style="stop-color:#bc0000;stop-opacity:1;"
+         offset="0"
+         id="stop3171" />
+      <stop
+         style="stop-color:#ff7f7f;stop-opacity:1"
+         offset="1"
+         id="stop3173" />
+    </linearGradient>
+    <linearGradient
+       y2="3.5709338"
+       x2="7.0524015"
+       y1="39.633381"
+       x1="42.439541"
+       gradientTransform="matrix(0.42158006,0,0,0.3637569,21.327945,0.85101614)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4940"
+       xlink:href="#linearGradient3169"
+       inkscape:collect="always" />
+    <filter
+       inkscape:collect="always"
+       id="filter4204">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.26302078"
+         id="feGaussianBlur4206" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="14"
+     inkscape:cx="25.978208"
+     inkscape:cy="23.203092"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2812"
+       empspacing="12"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818"
+       empspacing="16"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="4"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Delete Table Column</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="" />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/tables/table_column_delete</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-08-15</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       id="path4196"
+       d="m 37.042291,2.1645502 c -2.481239,2.327602 -4.27895,4.186193 -5.664983,5.763276 -1.616099,-1.320353 -3.620327,-2.800241 -6.257829,-4.615166 l -1.910285,1.648273 c 3.109201,1.450757 5.381261,2.806862 7.180036,4.126369 -2.165184,2.6291958 -3.134999,4.4351118 -4.413417,6.4453168 l 0.289836,1.034433 c 1.795712,-2.517031 3.344678,-4.425207 5.427844,-6.456685 3.040193,2.532021 4.645056,5.035524 7.351303,8.082226 l 0.263487,-0.807087 c -2.093344,-3.444784 -3.555188,-5.621649 -6.547665,-8.2868378 1.908803,-1.750493 4.28321,-3.67556 7.601616,-6.206602 l -3.319943,-0.727516 z"
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.39160272000000002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4204);opacity:0.86453202" />
+    <rect
+       style="opacity:0.92610839;fill:#2a2a2a;fill-opacity:1;stroke:none;filter:url(#filter3615)"
+       id="rect3605"
+       width="45"
+       height="34.07143"
+       x="1.7142879"
+       y="7.9285717"
+       rx="5" />
+    <rect
+       style="fill:url(#linearGradient3603);fill-opacity:1;stroke:none"
+       id="rect3595"
+       width="45"
+       height="34.07143"
+       x="0.42857361"
+       y="5.9285717"
+       rx="5" />
+    <path
+       style="fill:url(#linearGradient3624);fill-opacity:1;stroke:none"
+       d="m 5.4375,5.9375 c -2.77,0 -5,2.23 -5,5 l 0,2.34375 45,0 0,-2.34375 c 0,-2.77 -2.23,-5 -5,-5 l -35,0 z"
+       id="rect3613" />
+    <rect
+       y="5.8571424"
+       x="28.785717"
+       height="34.142857"
+       width="9.3571453"
+       id="rect3765"
+       style="opacity:0.71428576;fill:#ff9191;fill-opacity:1;stroke:none" />
+    <path
+       d="m 10.229166,6.214286 0,33.5 m 9.300596,-33.5 0,33.5 m 9.300595,-33.5 0,33.5 m 9.300595,-33.5 0,33.5 M 0.92857103,13.193453 l 44.64285797,0 m -44.64285797,6.979168 44.64285797,0 m -44.64285797,6.979163 44.64285797,0 m -44.64285797,6.979167 44.64285797,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3607"
+       sodipodi:nodetypes="cccccccccccccccc" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect3609"
+       width="45"
+       height="34.07143"
+       x="0.42857149"
+       y="5.9285717"
+       rx="5" />
+    <path
+       style="fill:url(#linearGradient4940);fill-opacity:1;fill-rule:evenodd;stroke:#7e0000;stroke-width:0.39160272px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 36.399434,1.5216931 c -2.481239,2.327602 -4.27895,4.186193 -5.664983,5.763276 -1.616099,-1.320353 -3.620327,-2.800241 -6.257829,-4.615166 l -1.910285,1.648273 c 3.109201,1.450757 5.381261,2.806862 7.180036,4.126369 -2.165184,2.6291959 -3.134999,4.4351119 -4.413417,6.4453169 l 0.289836,1.034433 c 1.795712,-2.517031 3.344678,-4.425207 5.427844,-6.4566849 3.040193,2.5320209 4.645056,5.0355239 7.351303,8.0822259 l 0.263487,-0.807087 C 36.572082,13.297865 35.110238,11.121 32.117761,8.4558111 c 1.908803,-1.750493 4.28321,-3.67556 7.601616,-6.206602 l -3.319943,-0.727516 z"
+       id="path3293" />
+  </g>
+</svg>

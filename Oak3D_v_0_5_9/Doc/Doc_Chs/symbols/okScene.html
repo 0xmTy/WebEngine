@@ -1,0 +1,2164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okScene</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okScene
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				Oak3D Engine的场景对象。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okScene.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&lt;private&gt; &lt;inner&gt; &nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okScene.html#constructor">okScene</a></b>(sName, engine)
+							</div>
+							<div class="description">在Oak3D Engine中，场景是所有3D物体的容器，开发者可通过创建和操纵okScene对象来配置想要的3D场景内容。场景对象只能由okSceneManager#createScene方法创建。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okScene.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#clear">clear</a></b>()
+								</div>
+								<div class="description">清除场景中的所有内容（包括实体、配置文件和相机等）。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#clearCamera">clearCamera</a></b>()
+								</div>
+								<div class="description">清除场景中的所有相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#clearEntity">clearEntity</a></b>()
+								</div>
+								<div class="description">清除场景中的所有实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#createCamera">createCamera</a></b>(Name)
+								</div>
+								<div class="description">创建一个相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#createEntity">createEntity</a></b>(Type, Name, Zone)
+								</div>
+								<div class="description">创建一个实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#cullByFrustum">cullByFrustum</a></b>(Frustum, Result, TypeMask, Func, BoundingBoxType, Zone)
+								</div>
+								<div class="description">根据可视平截头体裁剪获取实体列表。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#deleteCamera">deleteCamera</a></b>(Cam)
+								</div>
+								<div class="description">删除指定相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#deleteEntity">deleteEntity</a></b>(Entity, Zone)
+								</div>
+								<div class="description">删除一个实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getBaseUrl">getBaseUrl</a></b>()
+								</div>
+								<div class="description">获取当前场景在加载资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getCamera">getCamera</a></b>(CamName)
+								</div>
+								<div class="description">获取一个相机。
+如果存在多个同名的相机，那么本方法将会返回其中第一个相机。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getCameraArray">getCameraArray</a></b>(Result, Func)
+								</div>
+								<div class="description">获取多个相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getEntity">getEntity</a></b>(Entity, Zone)
+								</div>
+								<div class="description">获取一个实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getEntityArray">getEntityArray</a></b>(Result, TypeMask, Func, Zone)
+								</div>
+								<div class="description">获取多个实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getModelUrl">getModelUrl</a></b>()
+								</div>
+								<div class="description">获取当前场景在加载模型资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有模型资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getName">getName</a></b>()
+								</div>
+								<div class="description">获取场景名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getSkAnimationUrl">getSkAnimationUrl</a></b>()
+								</div>
+								<div class="description">获取当前场景在加载骨骼动画资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有骨骼动画资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getTextureUrl">getTextureUrl</a></b>()
+								</div>
+								<div class="description">获取当前场景在加载纹理资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有纹理资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getZoneBoundingBox">getZoneBoundingBox</a></b>(Zone)
+								</div>
+								<div class="description">获取场景的包围体。
+场景的包围体应当被正确设置，这有助于增强场景管理的性能。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getZoneGranularity">getZoneGranularity</a></b>(Zone)
+								</div>
+								<div class="description">获取场景空间管理时的颗粒度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#getZoneMaxLevel">getZoneMaxLevel</a></b>(Zone)
+								</div>
+								<div class="description">获取空间管理树的最大深度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#pick">pick</a></b>(RayOrigin, RayDir, TypeMask, Func, BoundingBoxType, Zone)
+								</div>
+								<div class="description">根据一条射线选取场景中的一个实体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setBaseUrl">setBaseUrl</a></b>(Path)
+								</div>
+								<div class="description">设置当前场景在加载资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setModelUrl">setModelUrl</a></b>(Path)
+								</div>
+								<div class="description">设置当前场景在加载模型资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有模型资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setSkAnimationUrl">setSkAnimationUrl</a></b>(Path)
+								</div>
+								<div class="description">设置当前场景在加载骨骼动画资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有骨骼动画资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setTextureUrl">setTextureUrl</a></b>(Path)
+								</div>
+								<div class="description">设置当前场景在加载纹理资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有纹理资源都存放在这个目录下。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setZoneBoundingBox">setZoneBoundingBox</a></b>(Min, Max, Zone)
+								</div>
+								<div class="description">设置场景的包围体。
+场景的包围体应当被正确设置，这有助于增强场景管理的性能。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setZoneGranularity">setZoneGranularity</a></b>(Granularity, Zone)
+								</div>
+								<div class="description">设置场景空间管理时的颗粒度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#setZoneMaxLevel">setZoneMaxLevel</a></b>(Depth, Zone)
+								</div>
+								<div class="description">设置空间管理树的最大深度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okScene.html#update">update</a></b>(Time, Zone)
+								</div>
+								<div class="description">设置自上一次更新后流逝的时间, 并计算新的当前时间.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">&lt;private&gt; &lt;inner&gt; 
+						<b>okScene</b>(sName, engine)
+				</div>
+				
+				<div class="description">
+					在Oak3D Engine中，场景是所有3D物体的容器，开发者可通过创建和操纵okScene对象来配置想要的3D场景内容。场景对象只能由okSceneManager#createScene方法创建。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b>sName</b>
+								
+							</dt>
+								<dd></dd>
+						
+							<dt>
+								 <b>engine</b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">See:</dt>
+						
+							<dd><a href="../symbols/okSceneManager.html#createScene">okSceneManager#createScene</a></dd>
+						
+						</dl>
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						清除场景中的所有内容（包括实体、配置文件和相机等）。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearCamera"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clearCamera</b>()
+					
+					</div>
+					<div class="description">
+						清除场景中的所有相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearEntity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clearEntity</b>()
+					
+					</div>
+					<div class="description">
+						清除场景中的所有实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="createCamera"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okCamera.html">okCamera</a>}</span>
+					<b>createCamera</b>(Name)
+					
+					</div>
+					<div class="description">
+						创建一个相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									<i>Optional</i>
+								</dt>
+								<dd>相机名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okCamera.html">okCamera</a>}</span> 一个新的相机。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="createEntity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span>
+					<b>createEntity</b>(Type, Name, Zone)
+					
+					</div>
+					<div class="description">
+						创建一个实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Type</b>
+									
+								</dt>
+								<dd>实体的类型。可选的值是[ETYPE_STATIC, ETYPE_DYNAMIC, ETYPE_DCT_LIGHT, ETYPE_POINT_LIGHT, ETYPE_SPOT_LIGHT, ETYPE_TERRAIN, ETYPE_CUSTOM_MESH, ETYPE_VIDEO, ETYPE_PARTICLE, ETYPE_CONFIG]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>实体名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> 创建的实体。实体的实际类型由Type参数决定。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="cullByFrustum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>cullByFrustum</b>(Frustum, Result, TypeMask, Func, BoundingBoxType, Zone)
+					
+					</div>
+					<div class="description">
+						根据可视平截头体裁剪获取实体列表。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span> <b>Frustum</b>
+									
+								</dt>
+								<dd>可视平截头体。此平截头体通常通过相机获取。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>Result</b>
+									
+								</dt>
+								<dd>用于储存结果的实体列表数组。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{EnumMask}</span> <b>TypeMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于指定实体类型，指定之后，本方法将只返回此类型的实体。例如，“ETYPE_STATIC | ETYPE_DYNAMIC”。 默认值是ETYPE_ALL。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{CallbackFunc}</span> <b>Func</b>
+									<i>Optional</i>
+								</dt>
+								<dd>一个回调函数，用于过滤结果。<br>本方法将会把场景中的每一个实体都传递给回调函数，如果该回调函数返回false，那么这个实体就会被忽略。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>BoundingBoxType</b>
+									<i>Optional</i>
+								</dt>
+								<dd>包围盒的类型。可选的值是[BBOX_AABB, BBOX_OBB]。默认值是BBOX_AABB。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteCamera"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>deleteCamera</b>(Cam)
+					
+					</div>
+					<div class="description">
+						删除指定相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String | okCamera}</span> <b>Cam</b>
+									
+								</dt>
+								<dd>相机名称。 | 相机对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteEntity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>deleteEntity</b>(Entity, Zone)
+					
+					</div>
+					<div class="description">
+						删除一个实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | String | okBaseEntity}</span> <b>Entity</b>
+									
+								</dt>
+								<dd>实体id。 | 实体名称。 | 实体对象。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBaseUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getBaseUrl</b>()
+					
+					</div>
+					<div class="description">
+						获取当前场景在加载资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 当前场景在加载资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getCamera"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okCamera.html">okCamera</a>}</span>
+					<b>getCamera</b>(CamName)
+					
+					</div>
+					<div class="description">
+						获取一个相机。
+如果存在多个同名的相机，那么本方法将会返回其中第一个相机。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>CamName</b>
+									
+								</dt>
+								<dd>相机名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okCamera.html">okCamera</a>}</span> 指定名称的相机对象。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getCameraArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getCameraArray</b>(Result, Func)
+					
+					</div>
+					<div class="description">
+						获取多个相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>Result</b>
+									
+								</dt>
+								<dd>储存结果的相机列表数组。如果本参数被忽略，那么本方法将会自动创建一个新的数组，然后返回该数组。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{CallbackFunc}</span> <b>Func</b>
+									<i>Optional</i>
+								</dt>
+								<dd>一个回调函数，用于过滤结果。<br>本方法将会把场景中的每一个相机都传递给回调函数，如果该回调函数返回false，那么这个相机就会被忽略。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 相机列表。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getEntity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span>
+					<b>getEntity</b>(Entity, Zone)
+					
+					</div>
+					<div class="description">
+						获取一个实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | String}</span> <b>Entity</b>
+									
+								</dt>
+								<dd>实体id. | 实体名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> 实体对象。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getEntityArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getEntityArray</b>(Result, TypeMask, Func, Zone)
+					
+					</div>
+					<div class="description">
+						获取多个实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>Result</b>
+									
+								</dt>
+								<dd>用于储存实体列表的数组。如果本参数被忽略，那么本方法将会自动创建一个新的数组，然后返回该数组。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{EnumMask}</span> <b>TypeMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于指定实体类型，指定之后，本方法将只返回此类型的实体。例如，“ETYPE_STATIC | ETYPE_DYNAMIC”。 默认值是ETYPE_ALL。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{CallbackFunc}</span> <b>Func</b>
+									<i>Optional</i>
+								</dt>
+								<dd>一个回调函数，用于过滤结果。<br>本方法将会把场景中的每一个实体都传递给回调函数，如果该回调函数返回false，那么这个实体就会被忽略。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 实体列表。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getModelUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getModelUrl</b>()
+					
+					</div>
+					<div class="description">
+						获取当前场景在加载模型资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有模型资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 当前场景在加载模型资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getName</b>()
+					
+					</div>
+					<div class="description">
+						获取场景名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 场景名称。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSkAnimationUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getSkAnimationUrl</b>()
+					
+					</div>
+					<div class="description">
+						获取当前场景在加载骨骼动画资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有骨骼动画资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 当前场景在加载骨骼动画资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTextureUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getTextureUrl</b>()
+					
+					</div>
+					<div class="description">
+						获取当前场景在加载纹理资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有纹理资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 当前场景在加载纹理资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getZoneBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>getZoneBoundingBox</b>(Zone)
+					
+					</div>
+					<div class="description">
+						获取场景的包围体。
+场景的包围体应当被正确设置，这有助于增强场景管理的性能。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> 场景的包围体。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getZoneGranularity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getZoneGranularity</b>(Zone)
+					
+					</div>
+					<div class="description">
+						获取场景空间管理时的颗粒度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 场景空间管理时的颗粒度。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getZoneMaxLevel"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getZoneMaxLevel</b>(Zone)
+					
+					</div>
+					<div class="description">
+						获取空间管理树的最大深度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 空间管理树的最大深度。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="pick"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span>
+					<b>pick</b>(RayOrigin, RayDir, TypeMask, Func, BoundingBoxType, Zone)
+					
+					</div>
+					<div class="description">
+						根据一条射线选取场景中的一个实体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RayOrigin</b>
+									
+								</dt>
+								<dd>射线的原点。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RayDir</b>
+									
+								</dt>
+								<dd>射线的方向。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{EnumMask}</span> <b>TypeMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于指定实体类型，指定之后，本方法将只返回此类型的实体。例如，“ETYPE_STATIC | ETYPE_DYNAMIC”。 默认值是ETYPE_ALL。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{CallbackFunc}</span> <b>Func</b>
+									<i>Optional</i>
+								</dt>
+								<dd>一个回调函数，用于过滤结果。<br>本方法将会把场景中的每一个实体都传递给回调函数，如果该回调函数返回false，那么这个实体就会被忽略。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>BoundingBoxType</b>
+									<i>Optional</i>
+								</dt>
+								<dd>包围盒的类型。可选的值是[BBOX_AABB, BBOX_OBB]。默认值是BBOX_AABB。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> 选取的实体。如果该射线上有多个实体，则返回距离射线原点最近的那一个实体。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBaseUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBaseUrl</b>(Path)
+					
+					</div>
+					<div class="description">
+						设置当前场景在加载资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Path</b>
+									
+								</dt>
+								<dd>当前场景在加载资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setModelUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setModelUrl</b>(Path)
+					
+					</div>
+					<div class="description">
+						设置当前场景在加载模型资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有模型资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Path</b>
+									
+								</dt>
+								<dd>当前场景在加载模型资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSkAnimationUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSkAnimationUrl</b>(Path)
+					
+					</div>
+					<div class="description">
+						设置当前场景在加载骨骼动画资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有骨骼动画资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Path</b>
+									
+								</dt>
+								<dd>当前场景在加载骨骼动画资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureUrl</b>(Path)
+					
+					</div>
+					<div class="description">
+						设置当前场景在加载纹理资源时使用的URL的根目录。
+这个目录是一个相对当前运行位置的相对目录。开发者应当把当前场景中使用的所有纹理资源都存放在这个目录下。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Path</b>
+									
+								</dt>
+								<dd>当前场景在加载纹理资源时使用的URL的根目录。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setZoneBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setZoneBoundingBox</b>(Min, Max, Zone)
+					
+					</div>
+					<div class="description">
+						设置场景的包围体。
+场景的包围体应当被正确设置，这有助于增强场景管理的性能。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Min</b>
+									
+								</dt>
+								<dd>包围体的最小点。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Max</b>
+									
+								</dt>
+								<dd>包围体的最大点。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setZoneGranularity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setZoneGranularity</b>(Granularity, Zone)
+					
+					</div>
+					<div class="description">
+						设置场景空间管理时的颗粒度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Granularity</b>
+									
+								</dt>
+								<dd>颗粒度是指用于辅助场景管理的参数，指定场景在层次化管理时的最小单位。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setZoneMaxLevel"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setZoneMaxLevel</b>(Depth, Zone)
+					
+					</div>
+					<div class="description">
+						设置空间管理树的最大深度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Depth</b>
+									
+								</dt>
+								<dd>空间管理树的最大深度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="update"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>update</b>(Time, Zone)
+					
+					</div>
+					<div class="description">
+						设置自上一次更新后流逝的时间, 并计算新的当前时间.
+本方法将会更新所有非静态实体。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Time</b>
+									
+								</dt>
+								<dd>流逝时间(单位: ms)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Zone</b>
+									<i>Optional</i>
+								</dt>
+								<dd>保留参数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

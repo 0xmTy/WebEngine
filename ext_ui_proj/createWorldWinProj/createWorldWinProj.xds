@@ -1,0 +1,48 @@
+{
+    "name": "createWorldWinProj",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "C:/Users/yanci/Desktop/WebEngine/ext_ui_proj/createWorldWinProj",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "49275468-bc64-4f16-a1bc-5ad9ad4ac78c": {
+            "paths": [
+                "metadata/view/crtWorldPanel",
+                "app/view/override/crtWorldPanel.js",
+                "app/view/crtWorldPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "crtWorldPanel"
+        },
+        "d3a1dfe3-f5f4-488d-95e6-32095a69f089": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "49275468-bc64-4f16-a1bc-5ad9ad4ac78c"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "d3a1dfe3-f5f4-488d-95e6-32095a69f089"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

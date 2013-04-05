@@ -1,0 +1,48 @@
+{
+    "name": "sletMenuProj",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "468a74e9-9fcc-47cf-bdb7-6a4c637228d7": {
+            "paths": [
+                "metadata/view/sletMenu",
+                "app/view/override/sletMenu.js",
+                "app/view/sletMenu.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "sletMenu"
+        },
+        "be638602-4ea6-42f5-ad80-4dea58af5a46": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "468a74e9-9fcc-47cf-bdb7-6a4c637228d7"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "be638602-4ea6-42f5-ad80-4dea58af5a46"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

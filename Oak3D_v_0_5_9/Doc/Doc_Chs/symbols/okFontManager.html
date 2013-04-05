@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okFontManager</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace okFontManager
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				okFontManager 管理当前系统中的所有字体。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okFontManager.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okFontManager.html#constructor">okFontManager</a></b>
+							</div>
+							<div class="description"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okFontManager.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okFontManager.<b><a href="../symbols/okFontManager.html#.createFont">createFont</a></b>(rc, fontFamily, fontSize, fontWeight, fontVariant, fontStyle)
+								</div>
+								<div class="description">创建一个新的字体对象，或者根据指定的属性获取既存的字体对象。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okFontManager.<b><a href="../symbols/okFontManager.html#.deleteFont">deleteFont</a></b>(rc, fontFamily, fontSize, fontWeight, fontVariant, fontStyle)
+								</div>
+								<div class="description">根据参数中指定的属性删除一个字体对象。如果符合属性值的字体对象存在，那么它将被删除；如果不存在，则不会发生任何事。本函数也可以只接收一个类型为okFont的参数，此时，本函数将会删除该okFont对象。<br>注意：如果你引用了指定的okFont对象，那么你必须手动解除引用以释放内存完成垃圾回收。本函数仅仅是从okFontManager中移除该okFont对象，而不是直接删除该okFont对象本身。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okFontManager</b>
+				</div>
+				
+				<div class="description">
+					
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".createFont"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/okFont.html">okFont</a>}</span>
+					<span class="light">okFontManager.</span><b>createFont</b>(rc, fontFamily, fontSize, fontWeight, fontVariant, fontStyle)
+					
+					</div>
+					<div class="description">
+						创建一个新的字体对象，或者根据指定的属性获取既存的字体对象。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{renderContext}</span> <b>rc</b>
+									
+								</dt>
+								<dd>WebGL设备渲染环境</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontFamily</b>
+									
+								</dt>
+								<dd>新增字体对象的字体家族名，例如“Courier New”。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>fontSize</b>
+									
+								</dt>
+								<dd>新增字体对象的字号。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontWeight</b>
+									
+								</dt>
+								<dd>本参数用于设置显示的文本中的字符的粗细。例如“normal”、“bold”、“bolder”、“lighter”、900等等。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontVariant</b>
+									
+								</dt>
+								<dd>本参数用于指定文本是否要显示为小型大写字母（small-caps）。可选的值包括“small-caps”、“normal”。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontStyle</b>
+									
+								</dt>
+								<dd>本参数用于指定字体样式。可选的值包括“normal”、“italic”、“oblique”。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okFont.html">okFont</a>}</span> 函数将会根据参数中指定的字体属性返回一个okFont对象。如果拥有相同属性的okFont对象已经存在，那么将会返回此既存的okFont对象；否则，将会创建一个新的okFont对象。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".deleteFont"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">okFontManager.</span><b>deleteFont</b>(rc, fontFamily, fontSize, fontWeight, fontVariant, fontStyle)
+					
+					</div>
+					<div class="description">
+						根据参数中指定的属性删除一个字体对象。如果符合属性值的字体对象存在，那么它将被删除；如果不存在，则不会发生任何事。本函数也可以只接收一个类型为okFont的参数，此时，本函数将会删除该okFont对象。<br>注意：如果你引用了指定的okFont对象，那么你必须手动解除引用以释放内存完成垃圾回收。本函数仅仅是从okFontManager中移除该okFont对象，而不是直接删除该okFont对象本身。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{renderContext | okFont}</span> <b>rc</b>
+									
+								</dt>
+								<dd>WebGL设备渲染环境. | 指定的okFont对象。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontFamily</b>
+									
+								</dt>
+								<dd>字体对象的字体家族名，例如“Courier New”。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>fontSize</b>
+									
+								</dt>
+								<dd>字体对象的字号。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontWeight</b>
+									
+								</dt>
+								<dd>本参数用于设置显示的文本中的字符的粗细。例如“normal”、“bold”、“bolder”、“lighter”、900等等。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontVariant</b>
+									
+								</dt>
+								<dd>本参数用于指定文本是否要显示为小型大写字母（small-caps）。可选的值包括“small-caps”、“normal”。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>fontStyle</b>
+									
+								</dt>
+								<dd>本参数用于指定字体样式。可选的值包括“normal”、“italic”、“oblique”。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

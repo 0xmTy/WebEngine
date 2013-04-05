@@ -1,0 +1,2052 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okMat43</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okMat43
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				4x3矩阵类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okMat43.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#constructor">okMat43</a></b>(Val)
+							</div>
+							<div class="description">4x3矩阵通常在使用中被看做是一种特殊的4x4矩阵，也就是那些第四行为&lt;0, 0, 0, 1&gt;的4x4矩阵。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class okMat43.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m00">m00</a></b>
+								</div>
+								<div class="description">第0行、第0列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m01">m01</a></b>
+								</div>
+								<div class="description">第0行、第1列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m02">m02</a></b>
+								</div>
+								<div class="description">第0行、第2列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m03">m03</a></b>
+								</div>
+								<div class="description">第0行、第3列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m10">m10</a></b>
+								</div>
+								<div class="description">第1行、第0列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m11">m11</a></b>
+								</div>
+								<div class="description">第1行、第1列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m12">m12</a></b>
+								</div>
+								<div class="description">第1行、第2列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m13">m13</a></b>
+								</div>
+								<div class="description">第1行、第3列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m20">m20</a></b>
+								</div>
+								<div class="description">第2行、第0列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m21">m21</a></b>
+								</div>
+								<div class="description">第2行、第1列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m22">m22</a></b>
+								</div>
+								<div class="description">第2行、第2列的分量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okMat43.html#m23">m23</a></b>
+								</div>
+								<div class="description">第2行、第3列的分量。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okMat43.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#clone">clone</a></b>(CloneResult)
+								</div>
+								<div class="description">返回此4x3矩阵的一个拷贝。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#det">det</a></b>()
+								</div>
+								<div class="description">返回此矩阵的特征值。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#equal">equal</a></b>(CompMat)
+								</div>
+								<div class="description">将此4x3矩阵与参数中指定的矩阵做逐元素比对。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#getColumn">getColumn</a></b>(ColIdx)
+								</div>
+								<div class="description">返回此4x4矩阵的指定列向量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#identity">identity</a></b>()
+								</div>
+								<div class="description">将此矩阵重置为单位矩阵。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#inverse">inverse</a></b>(SelfAffect)
+								</div>
+								<div class="description">生成此矩阵的逆矩阵。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#rot">rot</a></b>(Space, Angle, DirX, DirY, DirZ, SelfAffect)
+								</div>
+								<div class="description">对当前矩阵做一个绕指定轴的旋转变换。
+本方法实际是将当前矩阵与一个旋转矩阵做乘法运算，然后返回结结果。<br>乘法的顺序是由“Space”参数决定的：SPACE_LOCAL意味着“当前矩阵 x 旋转矩阵”；SPACE_WORLD意味着“旋转矩阵 x 当前矩阵”。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#rotX">rotX</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">对当前矩阵做一个绕X轴的旋转变换，此方法的开销比rot要小，所以在绕X标准轴进行旋转时，推荐使用此方法替代rot。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#rotY">rotY</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">对当前矩阵做一个绕Y轴的旋转变换，此方法的开销比rot要小，所以在绕Y标准轴进行旋转时，推荐使用此方法替代rot。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#rotZ">rotZ</a></b>(Space, Angle, SelfAffect)
+								</div>
+								<div class="description">对当前矩阵做一个绕Z轴的旋转变换，此方法的开销比rot要小，所以在绕Z标准轴进行旋转时，推荐使用此方法替代rot。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#scale">scale</a></b>(x, y, z, SelfAffect, bSelf)
+								</div>
+								<div class="description">对当前矩阵做一个缩放变换。
+本方法实际是将当前矩阵与一个缩放矩阵做乘法运算，然后返回结结果。<br>乘法的顺序是由“Space”参数决定的：SPACE_LOCAL意味着“当前矩阵 x 缩放矩阵”；SPACE_WORLD意味着“缩放矩阵 x 当前矩阵”。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#set">set</a></b>(ValArray)
+								</div>
+								<div class="description">用指定数组为此4x3矩阵赋值。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#setColumn">setColumn</a></b>(ColIdx, Val0|ColVec, Val1, Val2)
+								</div>
+								<div class="description">为此4x3矩阵的一列赋值。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#toArray">toArray</a></b>(ResultArray)
+								</div>
+								<div class="description">将此矩阵的各元素按列主序拷贝到目标数组中。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#toMat3">toMat3</a></b>(ResultMat)
+								</div>
+								<div class="description">将此矩阵的左上3x3子矩阵拷贝入指定的3x3矩阵中。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#toMat4">toMat4</a></b>(ResultMat)
+								</div>
+								<div class="description">将此矩阵拷贝入指定的4x4矩阵中, 并将拷贝目标的第4行设为&lt;0, 0, 0, 1&gt;。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#toQuat">toQuat</a></b>(ResultMat)
+								</div>
+								<div class="description">生成此矩阵的旋转等价四元数, 并将结果拷贝入目标四元数中。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#translate">translate</a></b>(Space, x, y, z, SelfAffect)
+								</div>
+								<div class="description">对当前矩阵做一个位移变换。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMat43.html#transpose">transpose</a></b>(SelfAffect)
+								</div>
+								<div class="description">生成此矩阵的转置矩阵。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okMat43</b>(Val)
+				</div>
+				
+				<div class="description">
+					4x3矩阵通常在使用中被看做是一种特殊的4x4矩阵，也就是那些第四行为&lt;0, 0, 0, 1&gt;的4x4矩阵。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{Number}</span>  <b>Val</b>
+								
+							</dt>
+								<dd>指定矩阵对称轴的赋值。</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 一个新的okMat43对象。</dd>
+						
+						</dl>
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">See:</dt>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Add">okMat43Add</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43AddVal">okMat43AddVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValAddMat43">okValAddMat43</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Sub">okMat43Sub</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43SubVal">okMat43SubVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValSubMat43">okValSubMat43</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Mul">okMat43Mul</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43MulVal">okMat43MulVal</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okValMulMat43">okValMulMat43</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43MulVec3">okMat43MulVec3</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Trans">okMat43Trans</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Scale">okMat43Scale</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Rot">okMat43Rot</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43RotX">okMat43RotX</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43RotY">okMat43RotY</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43RotZ">okMat43RotZ</a></dd>
+						
+							<dd><a href="../symbols/_global_.html#okMat43Lerp">okMat43Lerp</a></dd>
+						
+						</dl>
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="m00"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m00</b>
+					
+					</div>
+					<div class="description">
+						第0行、第0列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m01"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m01</b>
+					
+					</div>
+					<div class="description">
+						第0行、第1列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m02"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m02</b>
+					
+					</div>
+					<div class="description">
+						第0行、第2列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m03"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m03</b>
+					
+					</div>
+					<div class="description">
+						第0行、第3列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m10"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m10</b>
+					
+					</div>
+					<div class="description">
+						第1行、第0列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m11"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m11</b>
+					
+					</div>
+					<div class="description">
+						第1行、第1列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m12"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m12</b>
+					
+					</div>
+					<div class="description">
+						第1行、第2列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m13"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m13</b>
+					
+					</div>
+					<div class="description">
+						第1行、第3列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m20"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m20</b>
+					
+					</div>
+					<div class="description">
+						第2行、第0列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m21"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m21</b>
+					
+					</div>
+					<div class="description">
+						第2行、第1列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m22"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m22</b>
+					
+					</div>
+					<div class="description">
+						第2行、第2列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="m23"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>m23</b>
+					
+					</div>
+					<div class="description">
+						第2行、第3列的分量。
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>clone</b>(CloneResult)
+					
+					</div>
+					<div class="description">
+						返回此4x3矩阵的一个拷贝。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> <b>CloneResult</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存拷贝结果的okMat43对象。如果此参数被忽略，那么本方法将创建一个新的okMat43对象并将拷贝结果赋值给该okMat43对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 拷贝结果。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="det"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>det</b>()
+					
+					</div>
+					<div class="description">
+						返回此矩阵的特征值。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 矩阵的特征值。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="equal"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>equal</b>(CompMat)
+					
+					</div>
+					<div class="description">
+						将此4x3矩阵与参数中指定的矩阵做逐元素比对。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> <b>CompMat</b>
+									
+								</dt>
+								<dd>对比矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 比对结果。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getColumn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getColumn</b>(ColIdx)
+					
+					</div>
+					<div class="description">
+						返回此4x4矩阵的指定列向量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ColIdx</b>
+									
+								</dt>
+								<dd>指定列下标。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 指定列向量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="identity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>identity</b>()
+					
+					</div>
+					<div class="description">
+						将此矩阵重置为单位矩阵。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="inverse"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>inverse</b>(SelfAffect)
+					
+					</div>
+					<div class="description">
+						生成此矩阵的逆矩阵。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 此矩阵的逆矩阵，若SelfAffect为true，则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rot"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>rot</b>(Space, Angle, DirX, DirY, DirZ, SelfAffect)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个绕指定轴的旋转变换。
+本方法实际是将当前矩阵与一个旋转矩阵做乘法运算，然后返回结结果。<br>乘法的顺序是由“Space”参数决定的：SPACE_LOCAL意味着“当前矩阵 x 旋转矩阵”；SPACE_WORLD意味着“旋转矩阵 x 当前矩阵”。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>旋转变换作用的空间，可选的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>DirX</b>
+									
+								</dt>
+								<dd>旋转轴向量的X分量。 | 旋转轴向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>DirY</b>
+									<i>Optional</i>
+								</dt>
+								<dd>旋转轴向量的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>DirZ</b>
+									<i>Optional</i>
+								</dt>
+								<dd>旋转轴向量的Z分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行旋转操作后的结果矩阵。若SelfAffect为true, 则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotX"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>rotX</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个绕X轴的旋转变换，此方法的开销比rot要小，所以在绕X标准轴进行旋转时，推荐使用此方法替代rot。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>旋转轴所处的空间，可选的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行旋转操作后的结果矩阵。若SelfAffect为true, 则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotY"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>rotY</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个绕Y轴的旋转变换，此方法的开销比rot要小，所以在绕Y标准轴进行旋转时，推荐使用此方法替代rot。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>旋转轴所处的空间，可选的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行旋转操作后的结果矩阵。若SelfAffect为true, 则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotZ"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>rotZ</b>(Space, Angle, SelfAffect)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个绕Z轴的旋转变换，此方法的开销比rot要小，所以在绕Z标准轴进行旋转时，推荐使用此方法替代rot。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>旋转轴所处的空间，可选的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angle</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行旋转操作后的结果矩阵。若SelfAffect为true, 则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="scale"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>scale</b>(x, y, z, SelfAffect, bSelf)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个缩放变换。
+本方法实际是将当前矩阵与一个缩放矩阵做乘法运算，然后返回结结果。<br>乘法的顺序是由“Space”参数决定的：SPACE_LOCAL意味着“当前矩阵 x 缩放矩阵”；SPACE_WORLD意味着“缩放矩阵 x 当前矩阵”。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>缩放向量的X分量。 | 缩放向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>缩放向量的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>缩放向量的Z分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+								<dt>
+									<b>bSelf</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行缩放操作后的结果矩阵。若SelfAffect为true，则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="set"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>set</b>(ValArray)
+					
+					</div>
+					<div class="description">
+						用指定数组为此4x3矩阵赋值。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ValArray</b>
+									
+								</dt>
+								<dd>以列为主序的数组。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setColumn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setColumn</b>(ColIdx, Val0|ColVec, Val1, Val2)
+					
+					</div>
+					<div class="description">
+						为此4x3矩阵的一列赋值。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ColIdx</b>
+									
+								</dt>
+								<dd>指定列下标。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Val0|ColVec</b>
+									
+								</dt>
+								<dd>为指定列的第一个分量赋值。 | 用此三维向量为指定列赋值。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val1</b>
+									<i>Optional</i>
+								</dt>
+								<dd>为指定列的第二个分量赋值。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val2</b>
+									<i>Optional</i>
+								</dt>
+								<dd>为指定列的第三个分量赋值。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="toArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>toArray</b>(ResultArray)
+					
+					</div>
+					<div class="description">
+						将此矩阵的各元素按列主序拷贝到目标数组中。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>ResultArray</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存拷贝结果的数组对象。如果此参数被忽略，那么本方法将创建一个新的数组对象并将拷贝结果赋值给该数组对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 拷贝结果。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="toMat3"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat3.html">okMat3</a>}</span>
+					<b>toMat3</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						将此矩阵的左上3x3子矩阵拷贝入指定的3x3矩阵中。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存拷贝结果的okMat3对象。如果此参数被忽略，那么本方法将创建一个新的okMat3对象并将拷贝结果赋值给该okMat3对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat3.html">okMat3</a>}</span> 拷贝结果。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMat3.html">okMat3</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="toMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>toMat4</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						将此矩阵拷贝入指定的4x4矩阵中, 并将拷贝目标的第4行设为&lt;0, 0, 0, 1&gt;。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存拷贝结果的okMat4对象。如果此参数被忽略，那么本方法将创建一个新的okMat4对象并将拷贝结果赋值给该okMat4对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 拷贝结果。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMat4.html">okMat4</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="toQuat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okQuat.html">okQuat</a>}</span>
+					<b>toQuat</b>(ResultMat)
+					
+					</div>
+					<div class="description">
+						生成此矩阵的旋转等价四元数, 并将结果拷贝入目标四元数中。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okQuat.html">okQuat</a>}</span> <b>ResultMat</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存拷贝结果的okQuat对象。如果此参数被忽略，那么本方法将创建一个新的okQuat对象并将拷贝结果赋值给该okQuat对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okQuat.html">okQuat</a>}</span> 生成的四元数结果。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okQuat.html">okQuat</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="translate"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>translate</b>(Space, x, y, z, SelfAffect)
+					
+					</div>
+					<div class="description">
+						对当前矩阵做一个位移变换。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>位移变换作用的空间，可选的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>X轴的位移分量。| 位移向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Y轴的位移分量</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Z轴的位移分量</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 返回执行位移操作后的结果矩阵。若SelfAffect为true，则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="transpose"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>transpose</b>(SelfAffect)
+					
+					</div>
+					<div class="description">
+						生成此矩阵的转置矩阵。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否更改此矩阵对象本身。默认值是false。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 此矩阵的转置矩阵。若SelfAffect为true，则返回自身。</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

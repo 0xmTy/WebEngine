@@ -1,0 +1,25 @@
+<OakShader>
+	<Vertex>
+		attribute vec3 position; //vertex position
+	        
+		uniform mat4 matWorld, matViewProj; //world transform matrix and projection transform matrix
+		uniform float z_offset; //fragment depth offset
+	        
+		void main(void) {
+			//transform the vertex position to the post-projection space
+			gl_Position = matViewProj * matWorld * vec4(position, 1.0);
+	        
+			//add a offset to the gl_Position.z to avoid z fighting when drawing wireframe
+			gl_Position.z += z_offset;
+		}
+	</Vertex>
+
+	<Fragment>
+		uniform vec3 color; //flat color
+	    
+		void main(void) {
+			gl_FragColor = vec4(color, 1);
+		}
+	</Fragment>
+
+</OakShader>

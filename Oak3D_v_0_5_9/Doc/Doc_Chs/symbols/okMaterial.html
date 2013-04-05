@@ -1,0 +1,7808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okMaterial</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okMaterial
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				材质类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okMaterial.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okMaterial.html#constructor">okMaterial</a></b>()
+							</div>
+							<div class="description">okMaterial提供了对渲染材质信息的抽象封装，材质信息定义了一个物体被绘制的方式, 包括光照属性、纹理信息等。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okMaterial.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#clear">clear</a></b>()
+								</div>
+								<div class="description">将此材质对象重置为默认状态。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#clone">clone</a></b>(CloneResult)
+								</div>
+								<div class="description">克隆此材质对象，并返回此材质对象的一个拷贝。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableAlphaScript">enableAlphaScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭alpha脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的alpha参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableAlphaTest">enableAlphaTest</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭Alpha测试（Alpha Test）。
+Alpha测试会将片元的Alpha值与一个常量进行比较，只有符合条件的像素才会通过Alpha测试，继续下一轮测试直至最终绘制；不符合条件的像素，也就是没有通过Alpha测试的像素将会被忽略。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableBlend">enableBlend</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭混合（blend）。
+混合（blend）将会将源片元（source fragment）和目标片元（destination fragment）的R、G、B、A值组合在一起，然后将结果储存在Frame Buffer中。<br>通常用于制作类似于透明的效果。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDctLightScript">enableDctLightScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭平行光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的平行光照参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDepthTest">enableDepthTest</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭深度检测（Depth Test）
+深度缓存检测将会忽略那些在深度比较中不符合条件的片元。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDepthWrite">enableDepthWrite</a></b>(Enable)
+								</div>
+								<div class="description">指定是否在渲染时更新深度缓存。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDiffusePowerScript">enableDiffusePowerScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭漫反射强度脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的漫反射强度参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDiffuseScript">enableDiffuseScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭漫反射脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的漫反射参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableDynamicLighting">enableDynamicLighting</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭动态光源。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableEmissiveScript">enableEmissiveScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭自发光脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的自发光参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableFacingSpecular">enableFacingSpecular</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭镜头高光效果。
+如果当前材质拥有高光成分贡献，镜头光效果会使朝向相机方向的区域比其它区域更加明亮，这种效果看起来像是相机本身携带了一盏只贡献高光成分的灯光，使得物体更加有体积感。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableFog">enableFog</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭雾化效果。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableGlow">enableGlow</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭辉光模式。
+开启辉光模式后，会模拟辉光效果。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableGlowScript">enableGlowScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭炫光脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的炫光参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableNormalScript">enableNormalScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭法线脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的法线参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enablePointLightScript">enablePointLightScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭点光源光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的点光源光照参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableSpecularPowerScript">enableSpecularPowerScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭镜面反射强度脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的镜面反射强度参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableSpecularScript">enableSpecularScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭镜面反射脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的镜面反射参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableSpotLightScript">enableSpotLightScript</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭聚光灯光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的聚光灯光照参数。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableTwoSide">enableTwoSide</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭双面模式（Two-side Mode）。
+开启双面模式后在渲染时将会忽略隐面剔除。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableVertexColor">enableVertexColor</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭顶点颜色模式。
+顶点颜色模式将会在光照计算中使用顶点色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#enableWireframe">enableWireframe</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭线框模式。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getAlpha">getAlpha</a></b>()
+								</div>
+								<div class="description">获取不透明度。
+Alpha值决定了表面的透明度。注意，这个参数只有在开启混合（blend）下才会生效！</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getAlphaScript">getAlphaScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的alpha脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getAlphaTestValue">getAlphaTestValue</a></b>()
+								</div>
+								<div class="description">获取Alpha检测中使用的常量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getAmbient">getAmbient</a></b>()
+								</div>
+								<div class="description">获取环境反射参数。
+环境反射参数用于描述背景环境光的反射程度。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getBlendEquation">getBlendEquation</a></b>(运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR,)
+								</div>
+								<div class="description">获取混合公式（Blend Equation）。
+混合公式决定了如何对源片元（Source Fragment）和目标片元（Destination Fragment）的R、G、B、Alpha值进行运算，最终形成混合。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getBlendFuncDest">getBlendFuncDest</a></b>(Channel)
+								</div>
+								<div class="description">获取混合过程中目标片元（Destination Fragment）的函数。
+混合函数决定了像素算法。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getBlendFuncSrc">getBlendFuncSrc</a></b>(Channel)
+								</div>
+								<div class="description">获取混合过程中源片元（Source Fragment）的函数。
+混合过程决定了像素算法。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getDctLightScript">getDctLightScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的平行光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getDesc">getDesc</a></b>()
+								</div>
+								<div class="description">获取此材质对象的描述信息。
+描述信息是一段用于描述此材质对象的文字。<br>如果材质是经过Oak Model File解析的，那么材质的原名称将会储存在此材质的描述信息中。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getDiffuse">getDiffuse</a></b>()
+								</div>
+								<div class="description">获取漫反射参数。
+漫反射是一种无论光的入射角度如何，都会向所有方向发生反射的现象。<br>这个参数用于设置使用了此材质的物体的漫反射的颜色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getDiffusePowerScript">getDiffusePowerScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的漫反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getDiffuseScript">getDiffuseScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的漫反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getEmissive">getEmissive</a></b>()
+								</div>
+								<div class="description">获取自发光参数。
+自发光参数是一个用于描述使用了此材质的物体的自发光颜色的常量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getEmissiveScript">getEmissiveScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的自发光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getGlossiness">getGlossiness</a></b>()
+								</div>
+								<div class="description">获取表面粗糙度。
+表面粗糙度决定了镜面反射的反射区域。越粗糙的材质越少发生镜面反射，例如木材；反之则会发生大量镜面反射，例如光滑的金属。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getGlowColor">getGlowColor</a></b>()
+								</div>
+								<div class="description">获取辉光颜色。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getGlowScript">getGlowScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的炫光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getNormalScript">getNormalScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的法线脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getPointLightScript">getPointLightScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的点光源光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getScriptConst">getScriptConst</a></b>(Index)
+								</div>
+								<div class="description">获取指定的用户自定义材质脚本常量的值。
+Oak3D允许用户自定义最多8个材质脚本常量，这些常量可通过okMaterial由外部设置，并可由材质脚本访问，脚本中引用名为'C1'-'C8'。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getSpecular">getSpecular</a></b>()
+								</div>
+								<div class="description">获取镜面反射参数。
+镜面反射是一种类似于镜子那样，入射光线和出射光线的方向固定且唯一、同时二者与法线夹角相同的反射。<br>这个参数用于设置使用了此材质的物体的镜面反射的颜色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getSpecularLevel">getSpecularLevel</a></b>()
+								</div>
+								<div class="description">获取镜面反射光强度。
+镜面反射光强度决定了镜面反射的强度。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getSpecularPowerScript">getSpecularPowerScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的镜面反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getSpecularScript">getSpecularScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的镜面反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getSpotLightScript">getSpotLightScript</a></b>()
+								</div>
+								<div class="description">获取用户自定义的聚光灯光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureBinormal">getTextureBinormal</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理坐标的副法线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureCoord">getTextureCoord</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureCoordOffset">getTextureCoordOffset</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        偏移值是使此通道纹理使用的纹理坐标在使用前叠加一个固定的偏移值。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureCoordScale">getTextureCoordScale</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理坐标缩放因子。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        缩放因子是使此通道纹理使用的纹理坐标乘上一个的缩放量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureFilter">getTextureFilter</a></b>(TexChannel, )
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理过滤模式。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureName">getTextureName</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道的纹理名称。
+材质可以通过纹理名称来引用纹理图片。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureResourceId">getTextureResourceId</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理的资源id。G
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureTangent">getTextureTangent</a></b>(TexChannel)
+								</div>
+								<div class="description">获取此材质的某个指定通道中的纹理坐标的切线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureType">getTextureType</a></b>(TexChannel, )
+								</div>
+								<div class="description">获取此材质的某个指定通道的纹理类型。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureWrapU">getTextureWrapU</a></b>(TexChannel, )
+								</div>
+								<div class="description">获取U坐标的Texture Wrapping Mode。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#getTextureWrapV">getTextureWrapV</a></b>(TexChannel)
+								</div>
+								<div class="description">获取V坐标的Texture Wrapping Mode。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isAlphaScriptEnabled">isAlphaScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的alpha脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isAlphaTest">isAlphaTest</a></b>()
+								</div>
+								<div class="description">本方法与okMaterial#isAlphaTestEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isAlphaTestEnabled">isAlphaTestEnabled</a></b>()
+								</div>
+								<div class="description">检测Alpha测试是否开启。
+Alpha测试会将片元的Alpha值与一个常量进行比较，只有符合条件的像素才会通过Alpha测试，继续下一轮测试直至最终绘制；不符合条件的像素，也就是没有通过Alpha测试的像素将会被忽略。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isBlend">isBlend</a></b>()
+								</div>
+								<div class="description">本方法同okMaterial#isBlendEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isBlendEnabled">isBlendEnabled</a></b>()
+								</div>
+								<div class="description">检测此材质是否开启混合（blend）。
+混合（blend）将会将源片元（source fragment）和目标片元（destination fragment）的R、G、B、A值组合在一起，然后将结果储存在Frame Buffer中。<br>通常用于制作类似于透明的效果。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDctLightScriptEnabled">isDctLightScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的平行光照脚本
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDepthTest">isDepthTest</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isDepthTestEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDepthTestEnabled">isDepthTestEnabled</a></b>()
+								</div>
+								<div class="description">检测深度检测是否开启。
+深度缓存检测将会忽略那些在深度比较中不符合条件的片元。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDepthWrite">isDepthWrite</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isDepthWriteEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDepthWriteEnabled">isDepthWriteEnabled</a></b>()
+								</div>
+								<div class="description">检测是否在渲染时更新深度缓存。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDiffusePowerScriptEnabled">isDiffusePowerScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的漫反射强度脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDiffuseScriptEnabled">isDiffuseScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的漫反射脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDynamicLighting">isDynamicLighting</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isDynamicLightingEnabled方法完全相同。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isDynamicLightingEnabled">isDynamicLightingEnabled</a></b>()
+								</div>
+								<div class="description">检测动态光源是否开启。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isEmissiveScriptEnabled">isEmissiveScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的自发光脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isFacingSpecularEnabled">isFacingSpecularEnabled</a></b>()
+								</div>
+								<div class="description">检测此材质是否开启了镜头高光效果。
+如果当前材质拥有高光成分贡献，镜头光效果会使朝向相机方向的区域比其它区域更加明亮，这种效果看起来像是相机本身携带了一盏只贡献高光成分的灯光，使得物体更加有体积感。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isFogEnabled">isFogEnabled</a></b>()
+								</div>
+								<div class="description">检测此材质是否开启了雾化效果。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isGlow">isGlow</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isGlowEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isGlowEnabled">isGlowEnabled</a></b>()
+								</div>
+								<div class="description">检测辉光模式是否开启。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isGlowScriptEnabled">isGlowScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的炫光脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isNormalScriptEnabled">isNormalScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的法线脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isPointLightScriptEnabled">isPointLightScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的点光源光照脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isSpecularPowerScriptEnabled">isSpecularPowerScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的镜面反射强度脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isSpecularScriptEnabled">isSpecularScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的镜面反射脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isSpotLightScriptEnabled">isSpotLightScriptEnabled</a></b>()
+								</div>
+								<div class="description">检测是否开启了用户自定义的聚光灯光照脚本。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isTwoSide">isTwoSide</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isTwoSideEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isTwoSideEnabled">isTwoSideEnabled</a></b>()
+								</div>
+								<div class="description">检测双面模式是否开启。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isVertexColor">isVertexColor</a></b>()
+								</div>
+								<div class="description">本方法和okMaterial#isVertexColorEnabled方法完全相同。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isVertexColorEnabled">isVertexColorEnabled</a></b>()
+								</div>
+								<div class="description">检测顶点颜色模式是否开启。
+顶点颜色模式将会在光照计算中使用顶点色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isWireframe">isWireframe</a></b>()
+								</div>
+								<div class="description">本方法同okMaterial#isWireframeEnabled方法完全相同。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#isWireframeEnabled">isWireframeEnabled</a></b>()
+								</div>
+								<div class="description">检测线框模式是否开启。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setAlpha">setAlpha</a></b>(Alpha)
+								</div>
+								<div class="description">设置不透明度。
+Alpha值决定了表面的透明度。注意，这个参数只有在开启混合（blend）下才会生效！</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setAlphaScript">setAlphaScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的alpha脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setAlphaTestValue">setAlphaTestValue</a></b>(Val)
+								</div>
+								<div class="description">设定Alpha检测中使用的常量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setAmbient">setAmbient</a></b>(R, G, B)
+								</div>
+								<div class="description">设置环境反射参数。
+环境反射参数用于描述背景环境光的反射程度。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setBlendEquation">setBlendEquation</a></b>(Channel, Equation)
+								</div>
+								<div class="description">设置混合公式（Blend Equation）。
+混合公式决定了如何对源片元（Source Fragment）和目标片元（Destination Fragment）的R、G、B、Alpha值进行运算，最终形成混合。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setBlendFunc">setBlendFunc</a></b>(Channel, SrcFunc, DestFunc)
+								</div>
+								<div class="description">设置混合函数（Blend Function）
+混合函数决定了像素算法。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setDctLightScript">setDctLightScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的平行光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setDesc">setDesc</a></b>(Desc)
+								</div>
+								<div class="description">设置此材质对象的描述信息。
+你可以设置一段文字来描述此材质对象。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setDiffuse">setDiffuse</a></b>(R, G, B)
+								</div>
+								<div class="description">设置漫反射参数。
+漫反射是一种无论光的入射角度如何，都会向所有方向发生反射的现象。<br>这个参数用于设置使用了此材质的物体的漫反射的颜色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setDiffusePowerScript">setDiffusePowerScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的漫反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setDiffuseScript">setDiffuseScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的漫反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setEmissive">setEmissive</a></b>(自发光颜色的红色分量。, G, B)
+								</div>
+								<div class="description">设置自发光参数。
+自发光参数是一个用于描述使用了此材质的物体的自发光颜色的常量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setEmissiveScript">setEmissiveScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的自发光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setGlossiness">setGlossiness</a></b>(Glossiness)
+								</div>
+								<div class="description">设置表面粗糙度。
+表面粗糙度决定了镜面反射的反射区域。越粗糙的材质越少发生镜面反射，例如木材；反之则会发生大量镜面反射，例如光滑的金属。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setGlowColor">setGlowColor</a></b>(R, G, B)
+								</div>
+								<div class="description">设置辉光颜色。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setGlowScript">setGlowScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的炫光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setNormalScript">setNormalScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的法线脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setPointLightScript">setPointLightScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的点光源光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setScriptConst">setScriptConst</a></b>(Index, Val, y, z, w)
+								</div>
+								<div class="description">设置用户自定义材质脚本常量。
+Oak3D允许用户自定义最多8个材质脚本常量，这些常量可通过okMaterial由外部设置，并可由材质脚本访问，脚本中引用名为'C1'-'C8'。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setSpecular">setSpecular</a></b>(R, G, B)
+								</div>
+								<div class="description">设置镜面反射参数。
+镜面反射是一种类似于镜子那样，入射光线和出射光线的方向固定且唯一、同时二者与法线夹角相同的反射。<br>这个参数用于设置使用了此材质的物体的镜面反射的颜色。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setSpecularLevel">setSpecularLevel</a></b>(SpLevel)
+								</div>
+								<div class="description">设置镜面反射光强度。
+镜面反射光强度决定了镜面反射的强度。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setSpecularPowerScript">setSpecularPowerScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的镜面反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setSpecularScript">setSpecularScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的镜面反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setSpotLightScript">setSpotLightScript</a></b>(Code)
+								</div>
+								<div class="description">设置用户自定义的聚光灯光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureBinormal">setTextureBinormal</a></b>(TexChannel, AttribName)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理坐标的副法线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureCoord">setTextureCoord</a></b>(TexChannel, AttribName)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureCoordOffset">setTextureCoordOffset</a></b>(TexChannel, OffsetU, OffsetV)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理坐标偏移。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        偏移值是使此通道纹理使用的纹理坐标在使用前叠加一个固定的偏移值。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureCoordScale">setTextureCoordScale</a></b>(TexChannel, ScaleU, ScaleV)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理坐标缩放因子。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        缩放因子是使此通道纹理使用的纹理坐标乘上一个的缩放量。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureFilter">setTextureFilter</a></b>(TexChannel, TexFilter)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理过滤模式。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureName">setTextureName</a></b>(TexChannel, TexName)
+								</div>
+								<div class="description">为此材质的某个指定通道设置纹理名称。
+材质可以根据纹理名称来引用纹理图片。<br>在Oak3D Engine层，纹理名称是资源管理器中的资源关键字。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureTangent">setTextureTangent</a></b>(TexChannel, AttribName)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理坐标的切线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureType">setTextureType</a></b>(TexChannel, TexType)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的纹理类型。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureWrap">setTextureWrap</a></b>(TexChannel, TexWrap)
+								</div>
+								<div class="description">设置此材质的某个指定通道中的Texture Wrapping Mode。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureWrapU">setTextureWrapU</a></b>(TexChannel, TexWrap)
+								</div>
+								<div class="description">设置U坐标的Texture Wrapping Mode。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMaterial.html#setTextureWrapV">setTextureWrapV</a></b>(TexChannel, TexWrap)
+								</div>
+								<div class="description">设置V坐标的Texture Wrapping Mode。
+</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okMaterial</b>()
+				</div>
+				
+				<div class="description">
+					okMaterial提供了对渲染材质信息的抽象封装，材质信息定义了一个物体被绘制的方式, 包括光照属性、纹理信息等。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b></b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span> 一个新的okMaterial对象。</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						将此材质对象重置为默认状态。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span>
+					<b>clone</b>(CloneResult)
+					
+					</div>
+					<div class="description">
+						克隆此材质对象，并返回此材质对象的一个拷贝。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span> <b>CloneResult</b>
+									<i>Optional</i>
+								</dt>
+								<dd>储存此材质对象拷贝结果的okMaterial对象，如果此参数被忽略，那么本方法将会自动生成一个新的okMaterial对象，并将拷贝结果赋予该okMaterial对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span> 此材质对象的拷贝，如果CloneResult参数未被忽略，则将拷贝结果赋予CloneResult参数中指定的okMaterial对象。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableAlphaScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableAlphaScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭alpha脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的alpha参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启alpha脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableAlphaTest"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableAlphaTest</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭Alpha测试（Alpha Test）。
+Alpha测试会将片元的Alpha值与一个常量进行比较，只有符合条件的像素才会通过Alpha测试，继续下一轮测试直至最终绘制；不符合条件的像素，也就是没有通过Alpha测试的像素将会被忽略。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启Alpha测试。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd>setAlphaTestValue</dd>
+							
+								<dd>getAlphaTestValue</dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="enableBlend"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableBlend</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭混合（blend）。
+混合（blend）将会将源片元（source fragment）和目标片元（destination fragment）的R、G、B、A值组合在一起，然后将结果储存在Frame Buffer中。<br>通常用于制作类似于透明的效果。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>指定是否开启混合（blend）。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableDctLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDctLightScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭平行光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的平行光照参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启平行光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableDepthTest"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDepthTest</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭深度检测（Depth Test）
+深度缓存检测将会忽略那些在深度比较中不符合条件的片元。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启深度检测。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableDepthWrite"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDepthWrite</b>(Enable)
+					
+					</div>
+					<div class="description">
+						指定是否在渲染时更新深度缓存。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否在渲染时更新深度缓存。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableDiffusePowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDiffusePowerScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭漫反射强度脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的漫反射强度参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启漫反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableDiffuseScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDiffuseScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭漫反射脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的漫反射参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启漫反射脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableDynamicLighting"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableDynamicLighting</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭动态光源。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>指定物体表面是否受动态光源影响。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableEmissiveScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableEmissiveScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭自发光脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的自发光参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启自发光脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableFacingSpecular"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableFacingSpecular</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭镜头高光效果。
+如果当前材质拥有高光成分贡献，镜头光效果会使朝向相机方向的区域比其它区域更加明亮，这种效果看起来像是相机本身携带了一盏只贡献高光成分的灯光，使得物体更加有体积感。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启镜头高光效果。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableFog"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableFog</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭雾化效果。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启雾化效果。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableGlow"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableGlow</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭辉光模式。
+开启辉光模式后，会模拟辉光效果。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启辉光模式。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableGlowScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableGlowScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭炫光脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的炫光参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启炫光脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableNormalScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableNormalScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭法线脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的法线参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启法线脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enablePointLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enablePointLightScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭点光源光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的点光源光照参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启点光源光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableSpecularPowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableSpecularPowerScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭镜面反射强度脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的镜面反射强度参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启镜面反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableSpecularScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableSpecularScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭镜面反射脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的镜面反射参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启镜面反射脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableSpotLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableSpotLightScript</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭聚光灯光照脚本。
+本方法可以让渲染器使用用户自定义的代码来替换默认的聚光灯光照参数。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启聚光灯光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="enableTwoSide"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableTwoSide</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭双面模式（Two-side Mode）。
+开启双面模式后在渲染时将会忽略隐面剔除。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启双面模式。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableVertexColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableVertexColor</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭顶点颜色模式。
+顶点颜色模式将会在光照计算中使用顶点色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>顶点颜色模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableWireframe"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableWireframe</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭线框模式。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>指定是否开启线框模式</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAlpha"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getAlpha</b>()
+					
+					</div>
+					<div class="description">
+						获取不透明度。
+Alpha值决定了表面的透明度。注意，这个参数只有在开启混合（blend）下才会生效！
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> Alpha值。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAlphaScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getAlphaScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的alpha脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的alpha脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAlphaTestValue"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getAlphaTestValue</b>()
+					
+					</div>
+					<div class="description">
+						获取Alpha检测中使用的常量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> Alpha检测中使用的常量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAmbient"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getAmbient</b>()
+					
+					</div>
+					<div class="description">
+						获取环境反射参数。
+环境反射参数用于描述背景环境光的反射程度。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 环境反射颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBlendEquation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getBlendEquation</b>(运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR,)
+					
+					</div>
+					<div class="description">
+						获取混合公式（Blend Equation）。
+混合公式决定了如何对源片元（Source Fragment）和目标片元（Destination Fragment）的R、G、B、Alpha值进行运算，最终形成混合。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR,</b>
+									
+								</dt>
+								<dd>BLENDCHANNEL_ALPHA, BLENDCHANNEL_ALL])。<br>如果此参数被设定为所有通道（BLENDCHANNEL_ALL），那么颜色通道也将作为返回值被返回。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 运算公式，可能的值为[FUNC_ADD, FUNC_SUBTRACT, FUNC_REVERSE_SUBTRACT]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBlendFuncDest"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>getBlendFuncDest</b>(Channel)
+					
+					</div>
+					<div class="description">
+						获取混合过程中目标片元（Destination Fragment）的函数。
+混合函数决定了像素算法。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Channel</b>
+									
+								</dt>
+								<dd>运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR, BLENDCHANNEL_ALPHA, BLENDCHANNEL_ALL])。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> 运算函数，可选值为[ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR,
+    DST_COLOR, ONE_MINUS_DST_COLOR, SRC_ALPHA,
+    ONE_MINUS_SRC_ALPHA, DST_ALPHA,
+    ONE_MINUS_DST_ALPHA, CONSTANT_COLOR,
+    ONE_MINUS_CONSTANT_COLOR, CONSTANT_ALPHA,
+    ONE_MINUS_CONSTANT_ALPHA]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBlendFuncSrc"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>getBlendFuncSrc</b>(Channel)
+					
+					</div>
+					<div class="description">
+						获取混合过程中源片元（Source Fragment）的函数。
+混合过程决定了像素算法。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Channel</b>
+									
+								</dt>
+								<dd>运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR, BLENDCHANNEL_ALPHA, BLENDCHANNEL_ALL])。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> 运算函数，可选值为[ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR,
+    DST_COLOR, ONE_MINUS_DST_COLOR, SRC_ALPHA,
+    ONE_MINUS_SRC_ALPHA, DST_ALPHA,
+    ONE_MINUS_DST_ALPHA, CONSTANT_COLOR,
+    ONE_MINUS_CONSTANT_COLOR, CONSTANT_ALPHA,
+    ONE_MINUS_CONSTANT_ALPHA, SRC_ALPHA_SATURATE]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDctLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getDctLightScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的平行光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> Custom 用户自定义的平行光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getDesc"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getDesc</b>()
+					
+					</div>
+					<div class="description">
+						获取此材质对象的描述信息。
+描述信息是一段用于描述此材质对象的文字。<br>如果材质是经过Oak Model File解析的，那么材质的原名称将会储存在此材质的描述信息中。
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 此材质对象的描述信息。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDiffuse"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getDiffuse</b>()
+					
+					</div>
+					<div class="description">
+						获取漫反射参数。
+漫反射是一种无论光的入射角度如何，都会向所有方向发生反射的现象。<br>这个参数用于设置使用了此材质的物体的漫反射的颜色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 环境漫反射颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDiffusePowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getDiffusePowerScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的漫反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的漫反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getDiffuseScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getDiffuseScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的漫反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的漫反射脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getEmissive"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getEmissive</b>()
+					
+					</div>
+					<div class="description">
+						获取自发光参数。
+自发光参数是一个用于描述使用了此材质的物体的自发光颜色的常量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 自发光颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getEmissiveScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getEmissiveScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的自发光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的自发光脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getGlossiness"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getGlossiness</b>()
+					
+					</div>
+					<div class="description">
+						获取表面粗糙度。
+表面粗糙度决定了镜面反射的反射区域。越粗糙的材质越少发生镜面反射，例如木材；反之则会发生大量镜面反射，例如光滑的金属。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 表面粗糙度。数值越大，镜面反射区域越小。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getGlowColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getGlowColor</b>()
+					
+					</div>
+					<div class="description">
+						获取辉光颜色。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 辉光颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getGlowScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getGlowScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的炫光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的炫光脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getNormalScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getNormalScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的法线脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的法线脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getPointLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getPointLightScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的点光源光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的点光源光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getScriptConst"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec4.html">okVec4</a>}</span>
+					<b>getScriptConst</b>(Index)
+					
+					</div>
+					<div class="description">
+						获取指定的用户自定义材质脚本常量的值。
+Oak3D允许用户自定义最多8个材质脚本常量，这些常量可通过okMaterial由外部设置，并可由材质脚本访问，脚本中引用名为'C1'-'C8'。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Integer}</span> <b>Index</b>
+									
+								</dt>
+								<dd>指明需要获取的常量，取值范围为[MSCRIPT_CONST1 - MSCRIPT_CONST8]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec4.html">okVec4</a>}</span> 当前常量值.</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getSpecular"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getSpecular</b>()
+					
+					</div>
+					<div class="description">
+						获取镜面反射参数。
+镜面反射是一种类似于镜子那样，入射光线和出射光线的方向固定且唯一、同时二者与法线夹角相同的反射。<br>这个参数用于设置使用了此材质的物体的镜面反射的颜色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 镜面反射颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSpecularLevel"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getSpecularLevel</b>()
+					
+					</div>
+					<div class="description">
+						获取镜面反射光强度。
+镜面反射光强度决定了镜面反射的强度。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 镜面反射光强度。数值越大，反射越强。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSpecularPowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getSpecularPowerScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的镜面反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的镜面反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getSpecularScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getSpecularScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的镜面反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的镜面反射脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getSpotLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getSpotLightScript</b>()
+					
+					</div>
+					<div class="description">
+						获取用户自定义的聚光灯光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 用户自定义的聚光灯光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getTextureBinormal"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getTextureBinormal</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理坐标的副法线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 纹理坐标的副法线属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="getTextureCoord"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getTextureCoord</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 纹理坐标的属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="getTextureCoordOffset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec2.html">okVec2</a>}</span>
+					<b>getTextureCoordOffset</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        偏移值是使此通道纹理使用的纹理坐标在使用前叠加一个固定的偏移值。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec2.html">okVec2</a>}</span> 指定通道的纹理坐标偏移。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="getTextureCoordScale"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec2.html">okVec2</a>}</span>
+					<b>getTextureCoordScale</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理坐标缩放因子。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        缩放因子是使此通道纹理使用的纹理坐标乘上一个的缩放量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec2.html">okVec2</a>}</span> 指定通道的纹理坐标缩放因子。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="getTextureFilter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getTextureFilter</b>(TexChannel, )
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理过滤模式。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 纹理过滤模式。可能的值为[LINEAR, NEAREST, NEAREST_MIPMAP_NEAREST, LINEAR_MIPMAP_NEAREST, NEAREST_MIPMAP_LINEAR, LINEAR_MIPMAP_LINEAR]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTextureName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getTextureName</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道的纹理名称。
+材质可以通过纹理名称来引用纹理图片。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 指定通道的纹理名称。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTextureResourceId"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getTextureResourceId</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理的资源id。G
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 纹理资源的id。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>本方法只对由场景实体创建的材质生效。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getTextureTangent"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getTextureTangent</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道中的纹理坐标的切线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 纹理坐标的切线属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="getTextureType"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getTextureType</b>(TexChannel, )
+					
+					</div>
+					<div class="description">
+						获取此材质的某个指定通道的纹理类型。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 材质类型，可能的值为[TEXTURE_2D, TEXTURE_CUBE_MAP]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTextureWrapU"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getTextureWrapU</b>(TexChannel, )
+					
+					</div>
+					<div class="description">
+						获取U坐标的Texture Wrapping Mode。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> Texture Wrapping Mode，可能的值是[REPEAT, CLAMP_TO_EDGE, MIRRORED_REPEAT]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTextureWrapV"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getTextureWrapV</b>(TexChannel)
+					
+					</div>
+					<div class="description">
+						获取V坐标的Texture Wrapping Mode。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> Texture Wrapping Mode，可能的值是[REPEAT, CLAMP_TO_EDGE, MIRRORED_REPEAT]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isAlphaScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isAlphaScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的alpha脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了alpha脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isAlphaTest"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isAlphaTest</b>()
+					
+					</div>
+					<div class="description">
+						本方法与okMaterial#isAlphaTestEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，请使用okMaterial#isAlphaTestEnabled方法来代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> Alpha测试是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isAlphaTestEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isAlphaTestEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测Alpha测试是否开启。
+Alpha测试会将片元的Alpha值与一个常量进行比较，只有符合条件的像素才会通过Alpha测试，继续下一轮测试直至最终绘制；不符合条件的像素，也就是没有通过Alpha测试的像素将会被忽略。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果返回true，则表示开启了Alpha测试；如果返回false，则表示关闭了Alpha测试。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isBlend"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isBlend</b>()
+					
+					</div>
+					<div class="description">
+						本方法同okMaterial#isBlendEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，请使用okMaterial#isBlendEnabled方法来代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 混合（blend）是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isBlendEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isBlendEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测此材质是否开启混合（blend）。
+混合（blend）将会将源片元（source fragment）和目标片元（destination fragment）的R、G、B、A值组合在一起，然后将结果储存在Frame Buffer中。<br>通常用于制作类似于透明的效果。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 混合（blend）是否被开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDctLightScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDctLightScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的平行光照脚本
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了平行光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isDepthTest"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDepthTest</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isDepthTestEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，你可以使用okMaterial#isDepthTestEnabled方法来代替本方法
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 深度检测是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDepthTestEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDepthTestEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测深度检测是否开启。
+深度缓存检测将会忽略那些在深度比较中不符合条件的片元。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 深度检测是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDepthWrite"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDepthWrite</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isDepthWriteEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，你可以使用okMaterial#isDepthWriteEnabled方法代替它。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否在渲染时更新深度缓存。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDepthWriteEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDepthWriteEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否在渲染时更新深度缓存。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否在渲染时更新深度缓存。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDiffusePowerScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDiffusePowerScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的漫反射强度脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了漫反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isDiffuseScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDiffuseScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的漫反射脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了用户自定义的漫反射脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isDynamicLighting"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDynamicLighting</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isDynamicLightingEnabled方法完全相同。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被启用，请使用okMaterial#isDynamicLightingEnabled代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 动态光源是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDynamicLightingEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isDynamicLightingEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测动态光源是否开启。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 动态光源是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isEmissiveScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isEmissiveScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的自发光脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了用户自定义的自发光脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isFacingSpecularEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isFacingSpecularEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测此材质是否开启了镜头高光效果。
+如果当前材质拥有高光成分贡献，镜头光效果会使朝向相机方向的区域比其它区域更加明亮，这种效果看起来像是相机本身携带了一盏只贡献高光成分的灯光，使得物体更加有体积感。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果返回true，则表示开启了镜头高光效果；如果返回false，则表示关闭了镜头高光效果。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isFogEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isFogEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测此材质是否开启了雾化效果。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果返回true，则表示开启了雾化效果；如果返回false，则表示关闭了雾化效果。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isGlow"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isGlow</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isGlowEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，你可以使用okMaterial#isGlowEnabled方法来代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 辉光模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isGlowEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isGlowEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测辉光模式是否开启。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 辉光模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isGlowScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isGlowScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的炫光脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了炫光脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isNormalScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isNormalScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的法线脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了法线脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isPointLightScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isPointLightScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的点光源光照脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了点光源光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isSpecularPowerScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isSpecularPowerScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的镜面反射强度脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了镜面反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isSpecularScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isSpecularScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的镜面反射脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了镜面反射脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isSpotLightScriptEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isSpotLightScriptEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了用户自定义的聚光灯光照脚本。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启了聚光灯光照脚本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="isTwoSide"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isTwoSide</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isTwoSideEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被启用，你可以使用okMaterial#isTwoSideEnabled方法替换本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 是否开启双面模式。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isTwoSideEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isTwoSideEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测双面模式是否开启。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 双面模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isVertexColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isVertexColor</b>()
+					
+					</div>
+					<div class="description">
+						本方法和okMaterial#isVertexColorEnabled方法完全相同。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，请使用okMaterial#isVertexColorEnabled方法来代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 顶点颜色模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isVertexColorEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isVertexColorEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测顶点颜色模式是否开启。
+顶点颜色模式将会在光照计算中使用顶点色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 顶点颜色模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isWireframe"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isWireframe</b>()
+					
+					</div>
+					<div class="description">
+						本方法同okMaterial#isWireframeEnabled方法完全相同。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								本方法已被弃用，你可以使用okMaterial#isWireframeEnabled方法来代替本方法。
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 线框模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isWireframeEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isWireframeEnabled</b>()
+					
+					</div>
+					<div class="description">
+						检测线框模式是否开启。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 线框模式是否开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setAlpha"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setAlpha</b>(Alpha)
+					
+					</div>
+					<div class="description">
+						设置不透明度。
+Alpha值决定了表面的透明度。注意，这个参数只有在开启混合（blend）下才会生效！
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Alpha</b>
+									
+								</dt>
+								<dd>Alpha值。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setAlphaScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setAlphaScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的alpha脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的alpha脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setAlphaTestValue"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setAlphaTestValue</b>(Val)
+					
+					</div>
+					<div class="description">
+						设定Alpha检测中使用的常量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Val</b>
+									
+								</dt>
+								<dd>Alpha检测中使用的常量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setAmbient"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setAmbient</b>(R, G, B)
+					
+					</div>
+					<div class="description">
+						设置环境反射参数。
+环境反射参数用于描述背景环境光的反射程度。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>R</b>
+									
+								</dt>
+								<dd>环境反射颜色的红色分量。 | 环境反射颜色</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>环境反射颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>环境反射颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBlendEquation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBlendEquation</b>(Channel, Equation)
+					
+					</div>
+					<div class="description">
+						设置混合公式（Blend Equation）。
+混合公式决定了如何对源片元（Source Fragment）和目标片元（Destination Fragment）的R、G、B、Alpha值进行运算，最终形成混合。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Channel</b>
+									
+								</dt>
+								<dd>运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR, BLENDCHANNEL_ALPHA, BLENDCHANNEL_ALL])。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Equation</b>
+									
+								</dt>
+								<dd>运算公式，可选值为[FUNC_ADD, FUNC_SUBTRACT, FUNC_REVERSE_SUBTRACT]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBlendFunc"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBlendFunc</b>(Channel, SrcFunc, DestFunc)
+					
+					</div>
+					<div class="description">
+						设置混合函数（Blend Function）
+混合函数决定了像素算法。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Channel</b>
+									
+								</dt>
+								<dd>运算通道，可选的值为RGB颜色通道、Alpha通道、所有通道（[BLENDCHANNEL_COLOR, BLENDCHANNEL_ALPHA, BLENDCHANNEL_ALL])。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>SrcFunc</b>
+									
+								</dt>
+								<dd>源片元（Source Fragment）函数，可选值为[ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR,
+    DST_COLOR, ONE_MINUS_DST_COLOR, SRC_ALPHA,
+    ONE_MINUS_SRC_ALPHA, DST_ALPHA,
+    ONE_MINUS_DST_ALPHA, CONSTANT_COLOR,
+    ONE_MINUS_CONSTANT_COLOR, CONSTANT_ALPHA,
+    ONE_MINUS_CONSTANT_ALPHA, SRC_ALPHA_SATURATE]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DestFunc</b>
+									
+								</dt>
+								<dd>目标片元（Destination Fragment）函数，可选值为[ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR,
+    DST_COLOR, ONE_MINUS_DST_COLOR, SRC_ALPHA,
+    ONE_MINUS_SRC_ALPHA, DST_ALPHA,
+    ONE_MINUS_DST_ALPHA, CONSTANT_COLOR,
+    ONE_MINUS_CONSTANT_COLOR, CONSTANT_ALPHA,
+    ONE_MINUS_CONSTANT_ALPHA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDctLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDctLightScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的平行光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的平行光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setDesc"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDesc</b>(Desc)
+					
+					</div>
+					<div class="description">
+						设置此材质对象的描述信息。
+你可以设置一段文字来描述此材质对象。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Desc</b>
+									
+								</dt>
+								<dd>材质对象额描述信息。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDiffuse"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDiffuse</b>(R, G, B)
+					
+					</div>
+					<div class="description">
+						设置漫反射参数。
+漫反射是一种无论光的入射角度如何，都会向所有方向发生反射的现象。<br>这个参数用于设置使用了此材质的物体的漫反射的颜色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>R</b>
+									
+								</dt>
+								<dd>环境漫反射颜色的红色分量。 | 环境漫反射颜色。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>环境漫反射颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>环境漫反射颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDiffusePowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDiffusePowerScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的漫反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的漫反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setDiffuseScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setDiffuseScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的漫反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的漫反射脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setEmissive"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setEmissive</b>(自发光颜色的红色分量。, G, B)
+					
+					</div>
+					<div class="description">
+						设置自发光参数。
+自发光参数是一个用于描述使用了此材质的物体的自发光颜色的常量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>自发光颜色的红色分量。</b>
+									
+								</dt>
+								<dd>| 自发光颜色。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>自发光颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>自发光颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setEmissiveScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setEmissiveScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的自发光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的自发光脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setGlossiness"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setGlossiness</b>(Glossiness)
+					
+					</div>
+					<div class="description">
+						设置表面粗糙度。
+表面粗糙度决定了镜面反射的反射区域。越粗糙的材质越少发生镜面反射，例如木材；反之则会发生大量镜面反射，例如光滑的金属。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Glossiness</b>
+									
+								</dt>
+								<dd>表面粗糙度。 此参数是一个大于0的系数，数值越大，镜面反射区域越小。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setGlowColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setGlowColor</b>(R, G, B)
+					
+					</div>
+					<div class="description">
+						设置辉光颜色。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>R</b>
+									
+								</dt>
+								<dd>辉光颜色的红色分量。 | 辉光颜色。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>辉光颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>辉光颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setGlowScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setGlowScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的炫光脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的炫光脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setNormalScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setNormalScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的法线脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的法线脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setPointLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setPointLightScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的点光源光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的点光源光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>Oak3D Engine layer only.</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setScriptConst"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setScriptConst</b>(Index, Val, y, z, w)
+					
+					</div>
+					<div class="description">
+						设置用户自定义材质脚本常量。
+Oak3D允许用户自定义最多8个材质脚本常量，这些常量可通过okMaterial由外部设置，并可由材质脚本访问，脚本中引用名为'C1'-'C8'。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Index</b>
+									
+								</dt>
+								<dd>指明需要设置的常量，取值范围为[MSCRIPT_CONST1 - MSCRIPT_CONST8]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec4.html">okVec4</a>}</span> <b>Val</b>
+									
+								</dt>
+								<dd>常量值。</dd>
+							
+								<dt>
+									<b>y</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>z</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>w</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setSpecular"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpecular</b>(R, G, B)
+					
+					</div>
+					<div class="description">
+						设置镜面反射参数。
+镜面反射是一种类似于镜子那样，入射光线和出射光线的方向固定且唯一、同时二者与法线夹角相同的反射。<br>这个参数用于设置使用了此材质的物体的镜面反射的颜色。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>R</b>
+									
+								</dt>
+								<dd>镜面反射颜色的红色分量。 | 镜面反射颜色。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>镜面反射颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>镜面反射颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSpecularLevel"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpecularLevel</b>(SpLevel)
+					
+					</div>
+					<div class="description">
+						设置镜面反射光强度。
+镜面反射光强度决定了镜面反射的强度。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>SpLevel</b>
+									
+								</dt>
+								<dd>镜面反射光强度。此参数是一个大于0的系数，数值越大，反射越强。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSpecularPowerScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpecularPowerScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的镜面反射强度脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的镜面反射强度脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setSpecularScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpecularScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的镜面反射脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的镜面反射脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setSpotLightScript"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpotLightScript</b>(Code)
+					
+					</div>
+					<div class="description">
+						设置用户自定义的聚光灯光照脚本。
+用户自定义的脚本允许开发者执行自定义代码来替换标准的渲染行为。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Code</b>
+									
+								</dt>
+								<dd>用户自定义的聚光灯光照脚本。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>仅适用于Oak3D Engine层。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setTextureBinormal"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureBinormal</b>(TexChannel, AttribName)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理坐标的副法线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>AttribName</b>
+									
+								</dt>
+								<dd>纹理坐标的副法线属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="setTextureCoord"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureCoord</b>(TexChannel, AttribName)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理坐标属性（attribute）。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>AttribName</b>
+									
+								</dt>
+								<dd>纹理坐标的属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="setTextureCoordOffset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureCoordOffset</b>(TexChannel, OffsetU, OffsetV)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理坐标偏移。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        偏移值是使此通道纹理使用的纹理坐标在使用前叠加一个固定的偏移值。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>OffsetU</b>
+									
+								</dt>
+								<dd>U轴的纹理偏移。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>OffsetV</b>
+									
+								</dt>
+								<dd>V轴的纹理偏移。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="setTextureCoordScale"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureCoordScale</b>(TexChannel, ScaleU, ScaleV)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理坐标缩放因子。
+纹理坐标定义了如何将纹理图片映射到物体表面，它是一个储存在网格中的逐顶点的数据数组。
+                        缩放因子是使此通道纹理使用的纹理坐标乘上一个的缩放量。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ScaleU</b>
+									
+								</dt>
+								<dd>U轴的缩放因子。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ScaleV</b>
+									
+								</dt>
+								<dd>V轴的缩放因子。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="setTextureFilter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureFilter</b>(TexChannel, TexFilter)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理过滤模式。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFilter</b>
+									
+								</dt>
+								<dd>指定纹理过滤模式。可选值为[LINEAR, NEAREST, NEAREST_MIPMAP_NEAREST, LINEAR_MIPMAP_NEAREST, NEAREST_MIPMAP_LINEAR, LINEAR_MIPMAP_LINEAR]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureName</b>(TexChannel, TexName)
+					
+					</div>
+					<div class="description">
+						为此材质的某个指定通道设置纹理名称。
+材质可以根据纹理名称来引用纹理图片。<br>在Oak3D Engine层，纹理名称是资源管理器中的资源关键字。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>TexName</b>
+									
+								</dt>
+								<dd>纹理名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureTangent"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureTangent</b>(TexChannel, AttribName)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理坐标的切线属性。
+切向空间（Tangent space）<切线、副法线、法线>（<Tangent, Binormal, Normal>）定义了指定的坐标空间来代替世界空间，通常用于法线贴图。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>AttribName</b>
+									
+								</dt>
+								<dd>纹理坐标的切线属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okMesh.html">okMesh</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="setTextureType"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureType</b>(TexChannel, TexType)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的纹理类型。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexType</b>
+									
+								</dt>
+								<dd>纹理类型，可选值为[TEXTURE_2D, TEXTURE_CUBE_MAP]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureWrap"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureWrap</b>(TexChannel, TexWrap)
+					
+					</div>
+					<div class="description">
+						设置此材质的某个指定通道中的Texture Wrapping Mode。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值为[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexWrap</b>
+									
+								</dt>
+								<dd>指定Texture Wrapping Mode，可选值为[REPEAT, CLAMP_TO_EDGE, MIRRORED_REPEAT]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureWrapU"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureWrapU</b>(TexChannel, TexWrap)
+					
+					</div>
+					<div class="description">
+						设置U坐标的Texture Wrapping Mode。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexWrap</b>
+									
+								</dt>
+								<dd>指定Texture Wrapping Mode，可选值是[REPEAT, CLAMP_TO_EDGE, MIRRORED_REPEAT]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTextureWrapV"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTextureWrapV</b>(TexChannel, TexWrap)
+					
+					</div>
+					<div class="description">
+						设置V坐标的Texture Wrapping Mode。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexChannel</b>
+									
+								</dt>
+								<dd>指定材质的纹理通道，可选值是[MCUSAGE_ALBEDO1, MCUSAGE_ALBEDO2, MCUSAGE_ALBEDO3, MCUSAGE_ALBEDO4, MCUSAGE_NORMAL, MCUSAGE_OPACITY, MCUSAGE_SPECULAR_LEVEL]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexWrap</b>
+									
+								</dt>
+								<dd>指定Texture Wrapping Mode，可选值是[REPEAT, CLAMP_TO_EDGE, MIRRORED_REPEAT]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

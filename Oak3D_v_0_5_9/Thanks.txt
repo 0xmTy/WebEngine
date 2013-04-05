@@ -1,0 +1,7 @@
+Special thanks to the following persons/projects/groups/websites to help Oak3D moving on:
+---------------------------------------------------------------------------------------------------------
+https://github.com/vjeux/jDataView: A great free project to help javascript parsing binary data.
+http://www.hiwebgl.com:             The most popular WebGL technical blog in China.
+http://learningwebgl.com:           The most popular WebGL lessons.
+Momo:                               A Chinese artist who gives us many supports.
+

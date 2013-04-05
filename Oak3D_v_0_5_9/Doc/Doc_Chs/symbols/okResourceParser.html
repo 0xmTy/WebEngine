@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okResourceParser</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace okResourceParser
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				所有Oak3D内置的资源解析都由此类来处理。okResourceParser是一个系统常量Object，提供了对Oak3D资源文档的统一读取接口。开发者可使用okResourceParser提供的各种接口直接将外部资源档案的内容解析到Oak3D的对应对象中.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okResourceParser.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okResourceParser.html#constructor">okResourceParser</a></b>
+							</div>
+							<div class="description"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okResourceParser.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadModel">loadModel</a></b>(DocType, Model, DocText, MeshMask, GenWirefram, bEngine)
+								</div>
+								<div class="description">将一个模型资源档的内容载入到参数给定的目标模型对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadShaderSource">loadShaderSource</a></b>(DocType, Vs, Fs, DocText)
+								</div>
+								<div class="description">将一个Shader资源档的内容载入到参数给定的目标Shader对象中。注意：当vs/fs参数为空时，则parser不会载入对应的shader对象；所以，开发者可以决定需要载入哪一部分的内容。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadShaderSourceToMap">loadShaderSourceToMap</a></b>(DocType, SourceMap, DocText)
+								</div>
+								<div class="description">解析Shader资源档，并把所有子节点中的内容都载入到一个映射表对象中。<br>本方法比okResourceParser##loadShaderSource方法更加实用，因为本方法会解析所有文本节点而不仅仅是“Vertex”和“Fragment”这两个节点。<br>本方法可以用于解析shader和你自定义的shader的xml文档。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadSkAnimation">loadSkAnimation</a></b>(DocType, Anim, DocText)
+								</div>
+								<div class="description">将一个骨骼动画资源档的内容载入到参数给定的目标骨骼动画对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadTextureFromImage">loadTextureFromImage</a></b>(Tex, Image, TexFormat)
+								</div>
+								<div class="description">载入一个图像作为纹理贴图。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.registerModelParser">registerModelParser</a></b>(DocType, Parser)
+								</div>
+								<div class="description">注册一个自定义模型文档解析器。
+Oak3D 允许开发者开发自定义的模型解析器支持各种不同的模型档案。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.registerSkAnimationParser">registerSkAnimationParser</a></b>(DocType, Parser)
+								</div>
+								<div class="description">注册一个自定义骨骼动画文档解析器。
+Oak3D 允许开发者开发自定义的骨骼动画解析器支持各种不同的动画档案类型。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okResourceParser</b>
+				</div>
+				
+				<div class="description">
+					
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".loadModel"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadModel</b>(DocType, Model, DocText, MeshMask, GenWirefram, bEngine)
+					
+					</div>
+					<div class="description">
+						将一个模型资源档的内容载入到参数给定的目标模型对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>资源档案类型, 目前可选的值是[RESDOCTYPE_XML, RESDOCTYPE_BINARY]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okModel.html">okModel</a>}</span> <b>Model</b>
+									
+								</dt>
+								<dd>目标模型。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>字符串形式的原始资源档案内容。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>MeshMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>本参数是一个包含若干Mesh名称的数组，如果设置了本参数，那么本方法将只会载入参数中指定的Mesh名称的mesh。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>GenWirefram</b>
+									<i>Optional</i>
+								</dt>
+								<dd>是否创建用于线框绘制的索引列表。</dd>
+							
+								<dt>
+									<b>bEngine</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果载入成功则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okModel.html">okModel</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadShaderSource"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadShaderSource</b>(DocType, Vs, Fs, DocText)
+					
+					</div>
+					<div class="description">
+						将一个Shader资源档的内容载入到参数给定的目标Shader对象中。注意：当vs/fs参数为空时，则parser不会载入对应的shader对象；所以，开发者可以决定需要载入哪一部分的内容。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>资源档案类型, 目前可选的值是[RESDOCTYPE_XML]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okShader.html">okShader</a>}</span> <b>Vs</b>
+									
+								</dt>
+								<dd>目标顶点Shader对象。如果不需要载入Vertex Shader，那么可以将本参数设置为null。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okShader.html">okShader</a>}</span> <b>Fs</b>
+									
+								</dt>
+								<dd>目标像素Shader对象。如果不需要载入Fragment Shader，那么可以将本参数设置为null。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>字符串形式的原始资源档案内容。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果载入成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadShaderSourceToMap"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadShaderSourceToMap</b>(DocType, SourceMap, DocText)
+					
+					</div>
+					<div class="description">
+						解析Shader资源档，并把所有子节点中的内容都载入到一个映射表对象中。<br>本方法比okResourceParser##loadShaderSource方法更加实用，因为本方法会解析所有文本节点而不仅仅是“Vertex”和“Fragment”这两个节点。<br>本方法可以用于解析shader和你自定义的shader的xml文档。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>文档格式。目前可选的值是[RESDOCTYPE_XML]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>SourceMap</b>
+									
+								</dt>
+								<dd>一个格式为&lt;Name, ShaderCode&gt;的字典，用于储存解析结果。 for storing parsing result.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>字符串形式的原始资源档案内容。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果解析成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadSkAnimation"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadSkAnimation</b>(DocType, Anim, DocText)
+					
+					</div>
+					<div class="description">
+						将一个骨骼动画资源档的内容载入到参数给定的目标骨骼动画对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>资源档案类型, 目前可选的值是[RESDOCTYPE_XML, RESDOCTYPE_BINARY]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span> <b>Anim</b>
+									
+								</dt>
+								<dd>目标骨骼动画对象。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>字符串形式的原始资源档案内容。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果载入成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okSkAnimation.html">okSkAnimation</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadTextureFromImage"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadTextureFromImage</b>(Tex, Image, TexFormat)
+					
+					</div>
+					<div class="description">
+						载入一个图像作为纹理贴图。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okTexture.html">okTexture</a>}</span> <b>Tex</b>
+									
+								</dt>
+								<dd>将要载入的纹理对象。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Image}</span> <b>Image</b>
+									
+								</dt>
+								<dd>图像源。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>指定纹理的载入格式。可选的值是[ALPHA, RGB, RGBA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果载入成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".registerModelParser"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>registerModelParser</b>(DocType, Parser)
+					
+					</div>
+					<div class="description">
+						注册一个自定义模型文档解析器。
+Oak3D 允许开发者开发自定义的模型解析器支持各种不同的模型档案。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>档案类型. [RESDOCTYPE_CUSTOM + i (i >= 0)].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>Parser</b>
+									
+								</dt>
+								<dd>解析器函数. 解析器函数的原型为: Boolean function(okModel model, String docText, Array<String> meshMask)。
+    这个函数应负责解析docText内容，并将数据填充到model对象中。
+    'meshMask'参数用于实现部分加载，如果你的解析器不需要部分加载功能，忽略此参数即可。
+    解析器的返回值用于表面解析过程是否成功完成。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 若注册成功，返回true, 否则，返回false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okModel.html">okModel</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".registerSkAnimationParser"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>registerSkAnimationParser</b>(DocType, Parser)
+					
+					</div>
+					<div class="description">
+						注册一个自定义骨骼动画文档解析器。
+Oak3D 允许开发者开发自定义的骨骼动画解析器支持各种不同的动画档案类型。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>档案类型. [RESDOCTYPE_CUSTOM + i (i >= 0)].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>Parser</b>
+									
+								</dt>
+								<dd>解析器函数. 解析器函数的原型为: Boolean function(okSkAnimation anim, String docText)。
+    这个函数应负责解析docText内容，并将数据填充到anim对象中。
+    解析器的返回值用于表面解析过程是否成功完成。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 若注册成功，返回true, 否则，返回false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okModel.html">okModel</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<Oak3DModelDocument Version="1.0">
+    <ModelInfo />
+    <MaterialList Count="1">
+        <Material Name="01 - Default" Emissive="0.05 0.05 0.05" Ambient="0.9 0.9 0.9" Diffuse="0.592157 0.792157 0.729412" Specular="0.9 0.9 0.9" SpecularLevel="0.0" Glossiness="6" Alpha="1" TextureCount="1">
+            <!--Texture Name="sintel.mp4" Channel="Albedo1" Texcoord="Texcoord1" /-->
+        </Material>
+    </MaterialList>
+    <MeshList Count="1">
+        <Mesh Name="BOX" VertexCount="4" FaceCount="2" Material="01 - Default">
+            <BoundingBox Min="-1 -1 0" Max="1 1 0" />
+            <Skin BoneCount="0" VertexBoneCountAttribName="BoneCount" VertexBoneIndexAttribName="BoneIndex" VertexBoneWeightAttribName="BoneWeight" />
+            <AttributeList Count="3">
+                <Attribute Name="Position" Data="-1 1 0 1 1 0 1 -1 0 -1 -1 0" />
+                <Attribute Name="Normal" Data="0 0 1 0 0 1 0 0 1 0 0 1" />
+                <Attribute Name="Texcoord1" Type="Float2" Data="0 1 1 1 1 0 0 0" />
+                <Attribute Name="Texcoord2" Type="Float2" Data="0 0 1 0 1 1 0 1" />
+            </AttributeList>
+            <IndexList Count="1">
+                <Index Name="Default" Data="0 2 1 0 3 2 " />
+            </IndexList>
+        </Mesh>
+    </MeshList>
+</Oak3DModelDocument>

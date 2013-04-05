@@ -1,0 +1,5 @@
+<RotaryQuad>
+<VertexArray value="0.5 0.5 0.0 -0.5 0.5 0.0 0.5 -0.5 0.0 -0.5 -0.5 0.0"/>
+<CoordArray value="1.0 0.0 0.0 0.0 1.0 1.0 0.0 1.0"/>
+<TextureFile value="logo.jpg"/>
+</RotaryQuad>

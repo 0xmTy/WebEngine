@@ -1,0 +1,419 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Render_Cam_Conf",
+        "designer|initialView": true,
+        "height": 605,
+        "id": "id_renderConf",
+        "width": 350,
+        "autoScroll": true,
+        "layout": "column",
+        "title": "渲染配置"
+    },
+    "id": "ExtBox1-ext-gen8189",
+    "designerId": "72349164-7352-46ce-be67-9fb49f465885",
+    "cn": [
+        {
+            "type": "tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTool",
+                "tooltip": "关闭插件",
+                "type": "close"
+            },
+            "designerId": "65c064c7-347f-4f79-87e3-ea480717bbcf"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel1",
+                "baseCls": "baseCls:'.my-panel-no-border{border-style:none}'",
+                "height": 132,
+                "width": 326,
+                "title": ""
+            },
+            "designerId": "32d32567-3fab-4225-8de0-fd72a04d2ab6",
+            "cn": [
+                {
+                    "type": "fieldset",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyFieldSet",
+                        "height": 120,
+                        "width": 313,
+                        "title": "场景列表"
+                    },
+                    "designerId": "40487ced-8b8a-40f1-a810-a00ddbd67b6f"
+                }
+            ]
+        },
+        {
+            "type": "splitter",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySplitter",
+                "height": null,
+                "shrinkWrap": 1
+            },
+            "designerId": "6554e587-7ebc-484b-a80b-87c7080f9064"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel2",
+                "baseCls": "baseCls:'.my-panel-no-border{border-style:none}'",
+                "height": 155,
+                "layout": "column",
+                "title": ""
+            },
+            "designerId": "cbbff67b-ad92-4d8e-be04-ab4ddf052942",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton",
+                        "id": "id_renderConf_addCamBtn",
+                        "width": 36,
+                        "text": "+"
+                    },
+                    "designerId": "8df5142e-da6d-4af9-8f79-06da647f5a35",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var curCam = global_oakEngineManager.getMainEngineObject().m_camActivityCam;\r",
+                                    "global_extPanelManager.m_oRenderConfPlugin.addCam(curCam);"
+                                ]
+                            },
+                            "designerId": "e8afc73e-dce7-48a1-aa26-7fb733f28eb2"
+                        }
+                    ]
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField",
+                        "width": 144,
+                        "inputId": "id_renderConf_camName",
+                        "fieldLabel": "相机名",
+                        "labelWidth": 50
+                    },
+                    "designerId": "2c009d9c-3488-438b-81cb-d94666dd473b"
+                },
+                {
+                    "type": "fieldset",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyFieldSet1",
+                        "height": 121,
+                        "id": "id_camItemSet",
+                        "width": 312,
+                        "autoScroll": true,
+                        "layout": "column",
+                        "title": "相机列表"
+                    },
+                    "designerId": "12dadeb1-5757-4200-a8d7-4bf8f1746d4f"
+                }
+            ]
+        },
+        {
+            "type": "splitter",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySplitter1"
+            },
+            "designerId": "a0befc24-1dc8-4284-a000-b7d98299bf5a"
+        },
+        {
+            "type": "splitter",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySplitter2"
+            },
+            "designerId": "57280bda-a8d3-4d91-a0fa-c594ae9bf345"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel3",
+                "baseCls": "baseCls:'.my-panel-no-border{border-style:none}'",
+                "height": 188,
+                "width": 326,
+                "layout": "column",
+                "title": ""
+            },
+            "designerId": "a2b2b328-07b0-4023-8148-433078cd5d65",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel6",
+                        "baseCls": "'.my-panel-no-border{border-style:none}'",
+                        "height": 23,
+                        "width": 303,
+                        "title": ""
+                    },
+                    "designerId": "156b0914-cab9-4c59-85d0-623b36acb699",
+                    "cn": [
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel",
+                                "height": 14,
+                                "width": 317,
+                                "text": "-相机配置-"
+                            },
+                            "designerId": "e2aa3d10-63c8-4d58-b87e-13577e94e619"
+                        }
+                    ]
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTextField1",
+                        "width": 84,
+                        "fieldLabel": "视角",
+                        "labelWidth": 30
+                    },
+                    "designerId": "1f5ee0fc-27c0-4fd3-a311-10d49c8f64ae"
+                },
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel1",
+                        "height": 21,
+                        "width": 237,
+                        "text": "背景色："
+                    },
+                    "designerId": "b75f8260-05c2-4618-8c11-db44b4810053"
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel5",
+                        "baseCls": "baseCls:'.my-panel-no-border{border-style:none}'",
+                        "height": 167,
+                        "width": 312,
+                        "title": ""
+                    },
+                    "designerId": "4b6386d7-f410-4419-b22d-2d58af340e34",
+                    "cn": [
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField3",
+                                "id": "id_text_camColor_r",
+                                "inputId": null,
+                                "fieldLabel": "R",
+                                "labelWidth": 30
+                            },
+                            "designerId": "f49b682f-a188-4086-8f1a-e70911013ad1"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField4",
+                                "id": "id_text_camColor_g",
+                                "inputId": null,
+                                "fieldLabel": "G",
+                                "labelWidth": 30
+                            },
+                            "designerId": "8a2254f9-2336-4b6e-99dd-093041c3cfcd"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField5",
+                                "id": "id_text_camColor_b",
+                                "inputId": null,
+                                "fieldLabel": "B",
+                                "labelWidth": 30
+                            },
+                            "designerId": "fb12c229-81c4-439d-b636-a738335e7999"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField6",
+                                "id": "id_text_camColor_a",
+                                "inputId": null,
+                                "fieldLabel": "A",
+                                "labelWidth": 30
+                            },
+                            "designerId": "dd60e92d-a893-4933-a31a-ffccfeeb40d7"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton1",
+                                "text": "设置"
+                            },
+                            "designerId": "4056ebb4-777c-4580-b3e0-71bd6d209c5d",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "handler",
+                                        "fn": "handler",
+                                        "designer|params": [
+                                            "button",
+                                            "event"
+                                        ],
+                                        "implHandler": [
+                                            "                                        var tmpObjr = Ext.getCmp('id_text_camColor_r');\r",
+                                            "                                        var tmpObjg = Ext.getCmp('id_text_camColor_g');\r",
+                                            "                                        var tmpObjb = Ext.getCmp('id_text_camColor_b');\r",
+                                            "                                        var tmpObja = Ext.getCmp('id_text_camColor_a');\r",
+                                            "                                        var clorVec4 = new okVec4(Number(tmpObjr.getValue().toString()),\r",
+                                            "                                            Number(tmpObjg.getValue().toString()),\r",
+                                            "                                            Number(tmpObjb.getValue().toString()),\r",
+                                            "                                            Number(tmpObja.getValue().toString()));\r",
+                                            "                                        global_oakEngineManager.m_oRenderConfPlugin._setBackColor_(clorVec4);"
+                                        ]
+                                    },
+                                    "designerId": "34ec0340-e364-4497-a3ea-5a3e1d728a18"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "slider",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySlider",
+                                "width": 312,
+                                "value": 40,
+                                "fieldLabel": "Label"
+                            },
+                            "designerId": "f5a60cfd-f581-4031-b14a-35af7f3c0635"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

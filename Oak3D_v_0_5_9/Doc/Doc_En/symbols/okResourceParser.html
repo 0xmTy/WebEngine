@@ -1,0 +1,986 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okResourceParser</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/OAK.html">OAK</a></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace okResourceParser
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				All Oak3D built-in resource parsing is handled in this class.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okResourceParser.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okResourceParser.html#constructor">okResourceParser</a></b>
+							</div>
+							<div class="description"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okResourceParser.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadModel">loadModel</a></b>(DocType, Model, DocText, MeshMask, GenWirefram, bEngine)
+								</div>
+								<div class="description">Parsing model resource document and load it to the specified okModel object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadShaderSource">loadShaderSource</a></b>(DocType, Vs, Fs, DocText)
+								</div>
+								<div class="description">Parsing shader resource document and load it to the specified okSkAnimation object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadShaderSourceToMap">loadShaderSourceToMap</a></b>(DocType, SourceMap, DocText)
+								</div>
+								<div class="description">Parsing shader resource document and load all text child nodes to a map object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadSkAnimation">loadSkAnimation</a></b>(DocType, Anim, DocText)
+								</div>
+								<div class="description">Parsing skeleton animation resource document and load it to the specified okSkAnimation object.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.loadTextureFromImage">loadTextureFromImage</a></b>(Tex, Image, TexFormat)
+								</div>
+								<div class="description">Load texture from a image.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.registerModelParser">registerModelParser</a></b>(DocType, Parser)
+								</div>
+								<div class="description">Register a custom model parser.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">okResourceParser.<b><a href="../symbols/okResourceParser.html#.registerSkAnimationParser">registerSkAnimationParser</a></b>(DocType, Parser)
+								</div>
+								<div class="description">Register a custom skeleton animation parser.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okResourceParser</b>
+				</div>
+				
+				<div class="description">
+					
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".loadModel"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadModel</b>(DocType, Model, DocText, MeshMask, GenWirefram, bEngine)
+					
+					</div>
+					<div class="description">
+						Parsing model resource document and load it to the specified okModel object.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. The available enumeration is [RESDOCTYPE_XML].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okModel.html">okModel</a>}</span> <b>Model</b>
+									
+								</dt>
+								<dd>The model object to be used to contain the parsing result.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>The raw string of the model resource document.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>MeshMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>If this parameter is set, then only the meshes whose name are in this array will be loaded.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>GenWirefram</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicates if generate a specific index array for wireframe rendering.</dd>
+							
+								<dt>
+									<b>bEngine</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the parsing is successfully completed, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okModel.html">okModel</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadShaderSource"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadShaderSource</b>(DocType, Vs, Fs, DocText)
+					
+					</div>
+					<div class="description">
+						Parsing shader resource document and load it to the specified okSkAnimation object.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. The available enumeration is [RESDOCTYPE_XML].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okShader.html">okShader</a>}</span> <b>Vs</b>
+									
+								</dt>
+								<dd>The shader object to be used to contain the source of the vertex shader. 
+    If there's no need to load vertex shader, then set this parameter to null.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okShader.html">okShader</a>}</span> <b>Fs</b>
+									
+								</dt>
+								<dd>The shader object to be used to contain the source of the fragment shader.
+    If there's no need to load fragment shader, then set this parameter to null.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>The raw string of the shader resource document.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the parsing is successfully completed, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadShaderSourceToMap"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadShaderSourceToMap</b>(DocType, SourceMap, DocText)
+					
+					</div>
+					<div class="description">
+						Parsing shader resource document and load all text child nodes to a map object.
+    This method is more general than okResourceParser##loadShaderSource cause this method will parsing all text nodes instead of only parsing "Vertex" & "Fragment" nodes.
+    This method can be used to parsing shader includes or your custom shader xml document.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. The available enumeration is [RESDOCTYPE_XML].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>SourceMap</b>
+									
+								</dt>
+								<dd>A dictionary &lt;Name, ShaderCode&gt; for storing parsing result.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>The raw string of the shader resource document.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the parsing is successfully completed, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadSkAnimation"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadSkAnimation</b>(DocType, Anim, DocText)
+					
+					</div>
+					<div class="description">
+						Parsing skeleton animation resource document and load it to the specified okSkAnimation object.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. The available enumeration is [RESDOCTYPE_XML].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span> <b>Anim</b>
+									
+								</dt>
+								<dd>The skeleton animation object to be used to contain the parsing result.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>DocText</b>
+									
+								</dt>
+								<dd>The raw string of the model resource document.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the parsing is successfully completed, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okSkAnimation.html">okSkAnimation</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".loadTextureFromImage"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>loadTextureFromImage</b>(Tex, Image, TexFormat)
+					
+					</div>
+					<div class="description">
+						Load texture from a image.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okTexture.html">okTexture</a>}</span> <b>Tex</b>
+									
+								</dt>
+								<dd>The texture object to be loaded.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Image}</span> <b>Image</b>
+									
+								</dt>
+								<dd>The source image.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>Specify the loading format of the texture. The available enumeration is [ALPHA, RGB, RGBA].</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the loading is successfully completed, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okShader.html">okShader</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".registerModelParser"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>registerModelParser</b>(DocType, Parser)
+					
+					</div>
+					<div class="description">
+						Register a custom model parser.
+Oak3D allows developers write their own custom model parsers to support various model formats.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. [RESDOCTYPE_CUSTOM + i (i >= 0)].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>Parser</b>
+									
+								</dt>
+								<dd>The parser function. The prototype of the parser function should be: Boolean function(okModel model, String docText, Array<String> meshMask).
+    This function should parses the input docText and fill the model info into the model object.
+    The parameter 'meshMask' is an optional parameter to implement partly loading, if your parser doesn't need implement partly loading, just ignore it.
+    The return value of the parser function indicates whether the parsing is successfully completed.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the custom parser is successfully registered, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okModel.html">okModel</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name=".registerSkAnimationParser"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">okResourceParser.</span><b>registerSkAnimationParser</b>(DocType, Parser)
+					
+					</div>
+					<div class="description">
+						Register a custom skeleton animation parser.
+Oak3D allows developers write their own custom skeleton animation parsers to support various skeleton animation formats.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>DocType</b>
+									
+								</dt>
+								<dd>The format of the document. [RESDOCTYPE_CUSTOM + i (i >= 0)].</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>Parser</b>
+									
+								</dt>
+								<dd>The parser function. The prototype of the parser function should be: Boolean function(okSkAnimation anim, String docText).
+    This function should parses the input docText and fill the animation info into the anim object.
+    The return value of the parser function indicates whether the parsing is successfully completed.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> True if the custom parser is successfully registered, otherwise, return false.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okSkAnimation.html">okSkAnimation</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

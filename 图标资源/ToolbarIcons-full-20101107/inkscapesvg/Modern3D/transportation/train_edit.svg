@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   id="svg2383"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="train_edit.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <title
+     id="title2834">Edit Train</title>
+  <defs
+     id="defs2385">
+    <filter
+       inkscape:collect="always"
+       id="filter3314"
+       x="-0.10176868"
+       width="1.2035374"
+       y="-0.060323442"
+       height="1.1206469">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.36838144"
+         id="feGaussianBlur3316" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3223">
+      <stop
+         style="stop-color:#d4cb22;stop-opacity:1"
+         offset="0"
+         id="stop3225" />
+      <stop
+         style="stop-color:#f1ec80;stop-opacity:1"
+         offset="1"
+         id="stop3227" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="linearGradient3246"
+       gradientUnits="userSpaceOnUse"
+       x1="10.181188"
+       y1="13.601113"
+       x2="13.357177"
+       y2="13.601113" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3170">
+      <stop
+         style="stop-color:#81e625;stop-opacity:1"
+         offset="0"
+         id="stop3172" />
+      <stop
+         style="stop-color:#eafbd9;stop-opacity:1"
+         offset="1"
+         id="stop3174" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3166">
+      <stop
+         style="stop-color:#003b8a;stop-opacity:1;"
+         offset="0"
+         id="stop3168" />
+      <stop
+         style="stop-color:#388cff;stop-opacity:1;"
+         offset="1"
+         id="stop3170" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 8 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="16 : 8 : 1"
+       inkscape:persp3d-origin="8 : 5.3333333 : 1"
+       id="perspective2391" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3170"
+       id="linearGradient3176"
+       x1="13.703893"
+       y1="11.889233"
+       x2="5.3878717"
+       y2="5.7399755"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="44.395604"
+     inkscape:cx="2.1234304"
+     inkscape:cy="7.6551465"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2388">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Edit Train</dc:title>
+        <dc:date>2010-02-02</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/" />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/transportation/train_edit</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="trainline" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <path
+       style="fill:url(#linearGradient3176);fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 2.365099,12.643812 L 14.686139,12.643812 L 14.686139,4.9628711 L 6.2393564,4.9628711 L 0.92351486,10.278713 C 0.27066387,10.931564 1.4418283,12.643812 2.365099,12.643812 z"
+       id="path2398"
+       sodipodi:nodetypes="cccczz" />
+    <path
+       style="fill:#353535;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3314)"
+       d="M 7.6011834,1.2341581 L 6.7886834,1.6404081 L 5.0074334,2.5466581 L 4.2261834,2.9216581 L 9.2261836,12.827909 L 9.2261836,12.859159 L 9.2574336,12.859159 L 11.882434,15.015409 L 12.913684,15.890409 L 12.819934,14.234159 L 12.601184,11.171659 L 12.632434,11.140409 L 12.601184,11.109159 L 7.6011834,1.2341581 z"
+       id="path3250" />
+    <g
+       id="g3239"
+       transform="matrix(0.892164,-0.4517115,0.4517115,0.892164,-5.2108536,6.6225633)">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="rect3220"
+         d="M 9.8433161,11.393688 L 13.627474,11.393688 L 11.735395,15.808539 L 9.8433161,11.393688 z"
+         style="fill:url(#linearGradient3246);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="rect2441"
+         d="M 9.8392717,0.314788 L 10.731207,0.314788 L 10.731207,11.432117 L 10.285239,11.679889 L 9.8392717,11.432117 L 9.8392717,0.314788 z"
+         style="fill:#bb13b5;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="rect3213"
+         d="M 10.735559,0.314788 L 12.731207,0.314788 L 12.731207,11.432117 L 11.733383,11.724939 L 10.735559,11.432117 L 10.735559,0.314788 z"
+         style="fill:#ed4ee8;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="rect3215"
+         d="M 12.735559,0.314788 L 13.627494,0.314788 L 13.627494,11.432117 L 13.181527,11.702414 L 12.735559,11.432117 L 12.735559,0.314788 z"
+         style="fill:#f6a1f3;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path3231"
+         d="M 12.40625,14.28125 L 11.21875,14.5625 L 11.75,15.8125 L 12.40625,14.28125 z"
+         style="fill:#434343;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

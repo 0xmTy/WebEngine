@@ -1,0 +1,1502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okSkAnimPlayer</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okSkAnimPlayer
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				骨骼动画播放器类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okSkAnimPlayer.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okSkAnimPlayer.html#constructor">okSkAnimPlayer</a></b>()
+							</div>
+							<div class="description">okSkAnimPlayer提供播放骨骼动画的统一功能接口封装。开发者使用okSkAnimPlayer可以实现骨骼动画的常用播放、混播等功能，而不必直接操作骨骼动画(okSkAnimation)对象。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okSkAnimPlayer.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#activateChannel">activateChannel</a></b>(ChannelIdx, Active)
+								</div>
+								<div class="description">启用或屏蔽特定播放通道.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#attachAnim">attachAnim</a></b>(ChannelIdx, Anim, TransTime)
+								</div>
+								<div class="description">将一个骨骼动画对象加入此播放器的特定播放通道。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#clear">clear</a></b>()
+								</div>
+								<div class="description">将此player重置为默认状态。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#clone">clone</a></b>(CloneResult)
+								</div>
+								<div class="description">获取当前player的一个拷贝。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#enableLoop">enableLoop</a></b>(ChannelIdx, Enable)
+								</div>
+								<div class="description">设置特定播放通道是否循环。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getAnim">getAnim</a></b>(ChannelIdx, )
+								</div>
+								<div class="description">获取绑定在当前播放器的特定播放通道中的骨骼动画。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getBoneFinalMat43">getBoneFinalMat43</a></b>(BoneName)
+								</div>
+								<div class="description">获取骨骼在当前时间的4x3最终矩阵（BoneMat * SkinMat）。
+最终矩阵可以直接将mesh顶点从本地空间转换到动画所在的最终姿势位置。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getBoneFinalMat43Array">getBoneFinalMat43Array</a></b>()
+								</div>
+								<div class="description">获取骨骼在当前时间的4x3最终矩阵（BoneMat * SkinMat）列表。
+最终矩阵可以直接将mesh顶点从本地空间转换到动画所在的最终姿势位置。本方法将返回所有骨骼的变换矩阵列表，返回值中的矩阵顺序与蒙皮相一致。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getBoneMat43">getBoneMat43</a></b>(BoneName)
+								</div>
+								<div class="description">获取指定骨骼在当前时间的4x3变换矩阵。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getBoundingBox">getBoundingBox</a></b>()
+								</div>
+								<div class="description">获取当前播放的骨骼动画的包围盒。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getSkin">getSkin</a></b>()
+								</div>
+								<div class="description">获取此okSkAnimPlayer对象所关联的网格蒙皮对象。
+蒙皮对象中包含了应用于此mesh的骨骼动画的相关所需信息。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#getSpeed">getSpeed</a></b>(ChannelIdx)
+								</div>
+								<div class="description">获取特定播放通道的播放速度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#isActive">isActive</a></b>(ChannelIdx, )
+								</div>
+								<div class="description">检测某个指定播放通道是否被启用。
+骨骼动画播放器允许在同一时间播放2个骨骼动画。所以每个播放器都有2个动画播放通道。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#isLoop">isLoop</a></b>(ChannelIdx, )
+								</div>
+								<div class="description">获取指定播放通道是否循环。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#setSkin">setSkin</a></b>(Skin)
+								</div>
+								<div class="description">设置此okSkAnimPlayer对象播放时所关联的网格蒙皮对象。
+蒙皮对象中包含了应用于此mesh的骨骼动画的相关所需信息。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#setSpeed">setSpeed</a></b>(ChannelIdx, Speed)
+								</div>
+								<div class="description">设置特定播放通道的播放速度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#setTime">setTime</a></b>(ChannelIdx, Time)
+								</div>
+								<div class="description">设置指定通道的当前时间。
+本方法将直接把正在播放的骨骼动画调整到指定的时间点。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okSkAnimPlayer.html#update">update</a></b>(ChannelIdx, LastingTime)
+								</div>
+								<div class="description">设置指定通道自上一次更新后流逝的时间， 并计算新的当前时间。
+</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okSkAnimPlayer</b>()
+				</div>
+				
+				<div class="description">
+					okSkAnimPlayer提供播放骨骼动画的统一功能接口封装。开发者使用okSkAnimPlayer可以实现骨骼动画的常用播放、混播等功能，而不必直接操作骨骼动画(okSkAnimation)对象。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b></b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a>}</span> 一个新的okSkAnimPlayer对象。</dd>
+						
+						</dl>
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">See:</dt>
+						
+							<dd><a href="../symbols/okSkAnimation.html">okSkAnimation</a></dd>
+						
+						</dl>
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="activateChannel"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>activateChannel</b>(ChannelIdx, Active)
+					
+					</div>
+					<div class="description">
+						启用或屏蔽特定播放通道.
+骨骼动画播放器允许在同一时间播放2个骨骼动画。所以每个播放器都有2个动画播放通道。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Active</b>
+									
+								</dt>
+								<dd>是否启用。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="attachAnim"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>attachAnim</b>(ChannelIdx, Anim, TransTime)
+					
+					</div>
+					<div class="description">
+						将一个骨骼动画对象加入此播放器的特定播放通道。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span> <b>Anim</b>
+									
+								</dt>
+								<dd>骨骼动画对象。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>TransTime</b>
+									
+								</dt>
+								<dd>切换混合时间（单位: ms）。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						将此player重置为默认状态。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a>}</span>
+					<b>clone</b>(CloneResult)
+					
+					</div>
+					<div class="description">
+						获取当前player的一个拷贝。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a>}</span> <b>CloneResult</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于储存拷贝结果的容器。如果本参数被忽略，那么本方法将生成一个新的okSkAnimPlayer对象，并将拷贝结果储存于该okSkAnimPlayer对象中。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a>}</span> 拷贝结果。如果“CloneResult”参数没有被忽略，那么将会返回“CloneResult”函数中指定的okSkAnimPlayer对象的引用。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableLoop"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableLoop</b>(ChannelIdx, Enable)
+					
+					</div>
+					<div class="description">
+						设置特定播放通道是否循环。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>指定是否循环。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAnim"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span>
+					<b>getAnim</b>(ChannelIdx, )
+					
+					</div>
+					<div class="description">
+						获取绑定在当前播放器的特定播放通道中的骨骼动画。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span> 骨骼动画对象。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoneFinalMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getBoneFinalMat43</b>(BoneName)
+					
+					</div>
+					<div class="description">
+						获取骨骼在当前时间的4x3最终矩阵（BoneMat * SkinMat）。
+最终矩阵可以直接将mesh顶点从本地空间转换到动画所在的最终姿势位置。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>BoneName</b>
+									
+								</dt>
+								<dd>骨骼名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 骨骼在当前时间的4x3最终矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoneFinalMat43Array"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getBoneFinalMat43Array</b>()
+					
+					</div>
+					<div class="description">
+						获取骨骼在当前时间的4x3最终矩阵（BoneMat * SkinMat）列表。
+最终矩阵可以直接将mesh顶点从本地空间转换到动画所在的最终姿势位置。本方法将返回所有骨骼的变换矩阵列表，返回值中的矩阵顺序与蒙皮相一致。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 骨骼在当前时间的4x3最终矩阵（BoneMat * SkinMat）列表。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoneMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getBoneMat43</b>(BoneName)
+					
+					</div>
+					<div class="description">
+						获取指定骨骼在当前时间的4x3变换矩阵。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>BoneName</b>
+									
+								</dt>
+								<dd>骨骼名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 指定骨骼在当前时间的4x3变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>getBoundingBox</b>()
+					
+					</div>
+					<div class="description">
+						获取当前播放的骨骼动画的包围盒。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> 返回当前播放的骨骼动画的包围盒的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSkin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMeshSkin.html">okMeshSkin</a>}</span>
+					<b>getSkin</b>()
+					
+					</div>
+					<div class="description">
+						获取此okSkAnimPlayer对象所关联的网格蒙皮对象。
+蒙皮对象中包含了应用于此mesh的骨骼动画的相关所需信息。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMeshSkin.html">okMeshSkin</a>}</span> 此okSkAnimPlayer对象所关联的网格蒙皮对象；若当前没有关联任何Skin, 则返回null。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSpeed"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getSpeed</b>(ChannelIdx)
+					
+					</div>
+					<div class="description">
+						获取特定播放通道的播放速度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 特定播放通道的播放速度。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isActive"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isActive</b>(ChannelIdx, )
+					
+					</div>
+					<div class="description">
+						检测某个指定播放通道是否被启用。
+骨骼动画播放器允许在同一时间播放2个骨骼动画。所以每个播放器都有2个动画播放通道。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果参数中指定的播放通道被启用，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isLoop"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isLoop</b>(ChannelIdx, )
+					
+					</div>
+					<div class="description">
+						获取指定播放通道是否循环。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果循环，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSkin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSkin</b>(Skin)
+					
+					</div>
+					<div class="description">
+						设置此okSkAnimPlayer对象播放时所关联的网格蒙皮对象。
+蒙皮对象中包含了应用于此mesh的骨骼动画的相关所需信息。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMeshSkin.html">okMeshSkin</a>}</span> <b>Skin</b>
+									
+								</dt>
+								<dd>蒙皮对象。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSpeed"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setSpeed</b>(ChannelIdx, Speed)
+					
+					</div>
+					<div class="description">
+						设置特定播放通道的播放速度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[0, 1]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Speed</b>
+									
+								</dt>
+								<dd>播放速度。小于1的值表示比正常播放速度更慢；<br>大于1的值表示比正常播放速度更快。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTime"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setTime</b>(ChannelIdx, Time)
+					
+					</div>
+					<div class="description">
+						设置指定通道的当前时间。
+本方法将直接把正在播放的骨骼动画调整到指定的时间点。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[-1, 0, 1]，-1表示设置所有通道。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Time</b>
+									
+								</dt>
+								<dd>当前时间（单位: ms）。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="update"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>update</b>(ChannelIdx, LastingTime)
+					
+					</div>
+					<div class="description">
+						设置指定通道自上一次更新后流逝的时间， 并计算新的当前时间。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ChannelIdx</b>
+									
+								</dt>
+								<dd>播放通道。可选的值是[-1, 0, 1]，-1表示设置所有通道。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>LastingTime</b>
+									
+								</dt>
+								<dd>流逝时间（单位: ms）。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

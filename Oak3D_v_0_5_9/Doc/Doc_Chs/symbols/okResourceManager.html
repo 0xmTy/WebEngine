@@ -1,0 +1,1447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okResourceManager</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okResourceManager
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				Oak3D Engine的资源管理器。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okResourceManager.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&lt;private&gt; &lt;inner&gt; &nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okResourceManager.html#constructor">okResourceManager</a></b>(engineSetting, renderContext)
+							</div>
+							<div class="description">okResourceManager为Oak3D Engine的资源管理器，负责模型、纹理、动作等资源的IO与管理。<br>用户不可以直接创建okResourceManager对象，它是作为okEngine对象的内部成员提供给开发者，可直接从已经成功初始化的okEngine对象中获取。<br>一般情况下，开发者不必直接操纵资源管理器，资源加载操作会在场景物件内部完成。若需要直接使用okResourceManager加载资源，需要了解一下okResourceManager的资源管理逻辑。okResourceManager依赖关键字管理资源引用，因此对于相同关键字的资源加载请求，管理器内部会直接返回已存在的同关键字资源，而不会重新创建。场景物件默认加载资源，使用资源的文件引用地址作为关键字，因此若手动加载的资源需要与自动加载逻辑配合， 也应遵守这一规则。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okResourceManager.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#createResource">createResource</a></b>(ResType, ResKey, bCustom)
+								</div>
+								<div class="description">创建一个指定类型的资源。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#deleteResource">deleteResource</a></b>(ResIdOrKey)
+								</div>
+								<div class="description">根据给定的资源id或资源关键字，删除指定资源。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#getResource">getResource</a></b>(ResIdOrKey)
+								</div>
+								<div class="description">根据给定的资源id或资源关键字，获取该资源。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#getResourceId">getResourceId</a></b>(ResKey)
+								</div>
+								<div class="description">根据给定的资源关键字，获取资源id。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#getResourceNum">getResourceNum</a></b>()
+								</div>
+								<div class="description">获取当前资源总数。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#getResourceState">getResourceState</a></b>(ResId)
+								</div>
+								<div class="description">根据给定的一个资源id，获取资源当前的状态。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#getResourceType">getResourceType</a></b>(ResId)
+								</div>
+								<div class="description">根据给定的一个资源id，获取资源类型。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadCubeTextureByUrl">loadCubeTextureByUrl</a></b>(ResId, ResXURL, ResNXURL, ResYURL, ResNYURL, ResZURL, ResNZURL, TexFormat)
+								</div>
+								<div class="description">从一个网络地址加载立方体纹理资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadModelByText">loadModelByText</a></b>(ResId, ResSource, MeshMask, iDocType)
+								</div>
+								<div class="description">从一个字符串加载模型资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadModelByUrl">loadModelByUrl</a></b>(ResId, ResURL, MeshMask, iDocType, bSync)
+								</div>
+								<div class="description">从一个网络地址加载模型资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadSkAnimationByText">loadSkAnimationByText</a></b>(ResId, ResSource, iDocType)
+								</div>
+								<div class="description">从一个字符串加载骨骼动画资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadSkAnimationByUrl">loadSkAnimationByUrl</a></b>(ResId, ResURL, iDocType, bSync)
+								</div>
+								<div class="description">从一个网络地址加载骨骼动画资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadTextureByImage">loadTextureByImage</a></b>(ResId, Image, TexFormat)
+								</div>
+								<div class="description">从一个图片对象加载纹理资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadTextureByUrl">loadTextureByUrl</a></b>(ResId, ResURL, TexFormat)
+								</div>
+								<div class="description">从一个网络地址加载纹理资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okResourceManager.html#loadTextureByVideo">loadTextureByVideo</a></b>(ResId, Video, TexFormat)
+								</div>
+								<div class="description">从一个视频对象加载纹理资源到指定id的资源对象中。
+</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">&lt;private&gt; &lt;inner&gt; 
+						<b>okResourceManager</b>(engineSetting, renderContext)
+				</div>
+				
+				<div class="description">
+					okResourceManager为Oak3D Engine的资源管理器，负责模型、纹理、动作等资源的IO与管理。<br>用户不可以直接创建okResourceManager对象，它是作为okEngine对象的内部成员提供给开发者，可直接从已经成功初始化的okEngine对象中获取。<br>一般情况下，开发者不必直接操纵资源管理器，资源加载操作会在场景物件内部完成。若需要直接使用okResourceManager加载资源，需要了解一下okResourceManager的资源管理逻辑。okResourceManager依赖关键字管理资源引用，因此对于相同关键字的资源加载请求，管理器内部会直接返回已存在的同关键字资源，而不会重新创建。场景物件默认加载资源，使用资源的文件引用地址作为关键字，因此若手动加载的资源需要与自动加载逻辑配合， 也应遵守这一规则。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b>engineSetting</b>
+								
+							</dt>
+								<dd></dd>
+						
+							<dt>
+								 <b>renderContext</b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">See:</dt>
+						
+							<dd><a href="../symbols/okEngine.html#getResourceManager">okEngine#getResourceManager</a></dd>
+						
+						</dl>
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="createResource"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>createResource</b>(ResType, ResKey, bCustom)
+					
+					</div>
+					<div class="description">
+						创建一个指定类型的资源。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>ResType</b>
+									
+								</dt>
+								<dd>资源类型。可选的值是[RESTYPE_MODEL, RESTYPE_TEXTURE, RESTYPE_SKANIMATION]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResKey</b>
+									
+								</dt>
+								<dd>资源关键字。资源关键字是一个用来识别资源的字符串。如果相同关键字的资源已经存在，那么本方法将不会创建一个新资源，而是增加该资源的引用计数，并返回该既存资源的引用。</dd>
+							
+								<dt>
+									<b>bCustom</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 资源id。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteResource"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>deleteResource</b>(ResIdOrKey)
+					
+					</div>
+					<div class="description">
+						根据给定的资源id或资源关键字，删除指定资源。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|String}</span> <b>ResIdOrKey</b>
+									
+								</dt>
+								<dd>资源id。 | 资源关键字。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getResource"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okModel.html">okModel</a>|<a href="../symbols/okTexture.html">okTexture</a>|<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span>
+					<b>getResource</b>(ResIdOrKey)
+					
+					</div>
+					<div class="description">
+						根据给定的资源id或资源关键字，获取该资源。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|String}</span> <b>ResIdOrKey</b>
+									
+								</dt>
+								<dd>资源id。 | 资源关键字。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okModel.html">okModel</a>|<a href="../symbols/okTexture.html">okTexture</a>|<a href="../symbols/okSkAnimation.html">okSkAnimation</a>}</span> 资源。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getResourceId"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getResourceId</b>(ResKey)
+					
+					</div>
+					<div class="description">
+						根据给定的资源关键字，获取资源id。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResKey</b>
+									
+								</dt>
+								<dd>资源关键字。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 资源id。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getResourceNum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getResourceNum</b>()
+					
+					</div>
+					<div class="description">
+						获取当前资源总数。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 当前资源总数。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getResourceState"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getResourceState</b>(ResId)
+					
+					</div>
+					<div class="description">
+						根据给定的一个资源id，获取资源当前的状态。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 资源状态。可能的值是[RESSTATE_UNLOAD, RESSTATE_LOADING, RESSTATE_LOADED, RESSTATE_READY]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getResourceType"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getResourceType</b>(ResId)
+					
+					</div>
+					<div class="description">
+						根据给定的一个资源id，获取资源类型。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 资源类型。可能的值是[RESTYPE_UNKNOWN, RESTYPE_MODEL, RESTYPE_TEXTURE, RESTYPE_SKANIMATION]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadCubeTextureByUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadCubeTextureByUrl</b>(ResId, ResXURL, ResNXURL, ResYURL, ResNYURL, ResZURL, ResNZURL, TexFormat)
+					
+					</div>
+					<div class="description">
+						从一个网络地址加载立方体纹理资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResXURL</b>
+									
+								</dt>
+								<dd>用于正X轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResNXURL</b>
+									
+								</dt>
+								<dd>用于负X轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResYURL</b>
+									
+								</dt>
+								<dd>用于正Y轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResNYURL</b>
+									
+								</dt>
+								<dd>用于负Y轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResZURL</b>
+									
+								</dt>
+								<dd>用于正Z轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResNZURL</b>
+									
+								</dt>
+								<dd>用于负Z轴向的资源存放地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>指定纹理格式。可选的值是[ALPHA, RGB, RGBA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadModelByText"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadModelByText</b>(ResId, ResSource, MeshMask, iDocType)
+					
+					</div>
+					<div class="description">
+						从一个字符串加载模型资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResSource</b>
+									
+								</dt>
+								<dd>加载内容。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>MeshMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>如果本参数被设置，那么将只会载入参数中指定的mesh。</dd>
+							
+								<dt>
+									<b>iDocType</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadModelByUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadModelByUrl</b>(ResId, ResURL, MeshMask, iDocType, bSync)
+					
+					</div>
+					<div class="description">
+						从一个网络地址加载模型资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResURL</b>
+									
+								</dt>
+								<dd>存放资源的网络地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>MeshMask</b>
+									<i>Optional</i>
+								</dt>
+								<dd>如果本参数被设置，那么将只会载入参数中指定的mesh。</dd>
+							
+								<dt>
+									<b>iDocType</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>bSync</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadSkAnimationByText"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadSkAnimationByText</b>(ResId, ResSource, iDocType)
+					
+					</div>
+					<div class="description">
+						从一个字符串加载骨骼动画资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResSource</b>
+									
+								</dt>
+								<dd>加载内容。</dd>
+							
+								<dt>
+									<b>iDocType</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadSkAnimationByUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadSkAnimationByUrl</b>(ResId, ResURL, iDocType, bSync)
+					
+					</div>
+					<div class="description">
+						从一个网络地址加载骨骼动画资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResURL</b>
+									
+								</dt>
+								<dd>存放资源的网络地址。</dd>
+							
+								<dt>
+									<b>iDocType</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>bSync</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadTextureByImage"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadTextureByImage</b>(ResId, Image, TexFormat)
+					
+					</div>
+					<div class="description">
+						从一个图片对象加载纹理资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Image</b>
+									
+								</dt>
+								<dd>图片对象.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>指定纹理格式。可选的值是[ALPHA, RGB, RGBA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadTextureByUrl"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadTextureByUrl</b>(ResId, ResURL, TexFormat)
+					
+					</div>
+					<div class="description">
+						从一个网络地址加载纹理资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>ResURL</b>
+									
+								</dt>
+								<dd>存放资源的网络地址。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>指定纹理格式。可选的值是[ALPHA, RGB, RGBA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadTextureByVideo"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>loadTextureByVideo</b>(ResId, Video, TexFormat)
+					
+					</div>
+					<div class="description">
+						从一个视频对象加载纹理资源到指定id的资源对象中。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>ResId</b>
+									
+								</dt>
+								<dd>资源id。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Video</b>
+									
+								</dt>
+								<dd>视频对象.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>TexFormat</b>
+									
+								</dt>
+								<dd>指定纹理格式。可选的值是[ALPHA, RGB, RGBA]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果加载成功，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

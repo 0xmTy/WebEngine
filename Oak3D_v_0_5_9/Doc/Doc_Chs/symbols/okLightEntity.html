@@ -1,0 +1,1191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okLightEntity</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okLightEntity
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				<br />Extends
+					<a href="../symbols/okBaseEntity.html">okBaseEntity</a>.<br />
+				
+			
+				okLightEntity是okBaseEntity的继承，是所有光照的基类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okLightEntity.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okLightEntity.html#constructor">okLightEntity</a></b>(zone)
+							</div>
+							<div class="description">它仅用于继承，所以不应当被直接实例化。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okLightEntity.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#enableCastShadow">enableCastShadow</a></b>(Enable)
+								</div>
+								<div class="description">开启或关闭动态光影。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#enableLightGroup">enableLightGroup</a></b>(Enable, bEnable)
+								</div>
+								<div class="description">设置此light所属的light group。
+Light group决定了entity接收哪些光源的灯光。一个光源可以同时属于多个light group。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#enableVisible">enableVisible</a></b>(Enable)
+								</div>
+								<div class="description">设定此实体是否可见。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#getColor">getColor</a></b>()
+								</div>
+								<div class="description">获取灯光颜色
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#getIntensity">getIntensity</a></b>()
+								</div>
+								<div class="description">获取光照强度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#getShadowFade">getShadowFade</a></b>()
+								</div>
+								<div class="description">获取此灯光投出阴影的消退阀值。
+消退阀值(z-offset)是一个比较有技术性的概念，开发者可理解为通过此属性可以控制动态投影的边缘范围。有时，动态投影在阴影边缘，尤其是自阴影的边缘部位会有部分失真现象，这时可以通过调节这个阀值来去除失真。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#isAffectEntity">isAffectEntity</a></b>(Entity)
+								</div>
+								<div class="description">检测某个实体是否受此光照影响。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#isCastShadow">isCastShadow</a></b>()
+								</div>
+								<div class="description">检测是否开启了动态光影。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#isLightGroupEnabled">isLightGroupEnabled</a></b>(LightGroup)
+								</div>
+								<div class="description">检测此光源的指定light group是否被开启。
+Light group决定了entity接收哪些光源的灯光。一个光源可以同时属于多个light group。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#isVisible">isVisible</a></b>()
+								</div>
+								<div class="description">检测此实体是否可见。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#setColor">setColor</a></b>(R, G, B)
+								</div>
+								<div class="description">设置灯光颜色。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#setIntensity">setIntensity</a></b>(Intensity)
+								</div>
+								<div class="description">设置光照强度。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okLightEntity.html#setShadowFade">setShadowFade</a></b>(FadeFactor)
+								</div>
+								<div class="description">设定此灯光投出阴影的消退阀值。
+消退阀值(z-offset)是一个比较有技术性的概念，开发者可理解为通过此属性可以控制动态投影的边缘范围。有时，动态投影在阴影边缘，尤其是自阴影的边缘部位会有部分失真现象，这时可以通过调节这个阀值来去除失真。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				<dt>Methods borrowed from class <a href="../symbols/okBaseEntity.html">okBaseEntity</a>: </dt><dd><a href="../symbols/okBaseEntity.html#attachChild">attachChild</a>, <a href="../symbols/okBaseEntity.html#clear">clear</a>, <a href="../symbols/okBaseEntity.html#clearChild">clearChild</a>, <a href="../symbols/okBaseEntity.html#detachChild">detachChild</a>, <a href="../symbols/okBaseEntity.html#getBoundingBox">getBoundingBox</a>, <a href="../symbols/okBaseEntity.html#getBoundingSphereCenter">getBoundingSphereCenter</a>, <a href="../symbols/okBaseEntity.html#getBoundingSphereRadius">getBoundingSphereRadius</a>, <a href="../symbols/okBaseEntity.html#getChildArray">getChildArray</a>, <a href="../symbols/okBaseEntity.html#getDir">getDir</a>, <a href="../symbols/okBaseEntity.html#getId">getId</a>, <a href="../symbols/okBaseEntity.html#getInvMat4">getInvMat4</a>, <a href="../symbols/okBaseEntity.html#getInvMat43">getInvMat43</a>, <a href="../symbols/okBaseEntity.html#getMat4">getMat4</a>, <a href="../symbols/okBaseEntity.html#getMat43">getMat43</a>, <a href="../symbols/okBaseEntity.html#getName">getName</a>, <a href="../symbols/okBaseEntity.html#getNormalMat3">getNormalMat3</a>, <a href="../symbols/okBaseEntity.html#getNormalMat4">getNormalMat4</a>, <a href="../symbols/okBaseEntity.html#getNormalMat43">getNormalMat43</a>, <a href="../symbols/okBaseEntity.html#getPos">getPos</a>, <a href="../symbols/okBaseEntity.html#getState">getState</a>, <a href="../symbols/okBaseEntity.html#getType">getType</a>, <a href="../symbols/okBaseEntity.html#move">move</a>, <a href="../symbols/okBaseEntity.html#rotQuat">rotQuat</a>, <a href="../symbols/okBaseEntity.html#rotTarget">rotTarget</a>, <a href="../symbols/okBaseEntity.html#rotX">rotX</a>, <a href="../symbols/okBaseEntity.html#rotY">rotY</a>, <a href="../symbols/okBaseEntity.html#rotZ">rotZ</a>, <a href="../symbols/okBaseEntity.html#scale">scale</a>, <a href="../symbols/okBaseEntity.html#setDir">setDir</a>, <a href="../symbols/okBaseEntity.html#setMat">setMat</a>, <a href="../symbols/okBaseEntity.html#setName">setName</a>, <a href="../symbols/okBaseEntity.html#setPos">setPos</a></dd>
+				</dl>
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okLightEntity</b>(zone)
+				</div>
+				
+				<div class="description">
+					它仅用于继承，所以不应当被直接实例化。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								 <b>zone</b>
+								
+							</dt>
+								<dd></dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okLightEntity.html">okLightEntity</a>}</span> 一个新的okLightEntity对象。</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="enableCastShadow"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableCastShadow</b>(Enable)
+					
+					</div>
+					<div class="description">
+						开启或关闭动态光影。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否开启动态光影。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okVisibleEntity.html#enableCastShadow">okVisibleEntity#enableCastShadow</a></dd>
+							
+								<dd><a href="../symbols/okRenderer.html#enableShadow">okRenderer#enableShadow</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
+					<a name="enableLightGroup"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableLightGroup</b>(Enable, bEnable)
+					
+					</div>
+					<div class="description">
+						设置此light所属的light group。
+Light group决定了entity接收哪些光源的灯光。一个光源可以同时属于多个light group。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>指定是否为此光源开启这个light group.</dd>
+							
+								<dt>
+									<b>bEnable</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="enableVisible"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>enableVisible</b>(Enable)
+					
+					</div>
+					<div class="description">
+						设定此实体是否可见。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Enable</b>
+									
+								</dt>
+								<dd>是否可见。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getColor</b>()
+					
+					</div>
+					<div class="description">
+						获取灯光颜色
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 灯光颜色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getIntensity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getIntensity</b>()
+					
+					</div>
+					<div class="description">
+						获取光照强度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 光照强度。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getShadowFade"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getShadowFade</b>()
+					
+					</div>
+					<div class="description">
+						获取此灯光投出阴影的消退阀值。
+消退阀值(z-offset)是一个比较有技术性的概念，开发者可理解为通过此属性可以控制动态投影的边缘范围。有时，动态投影在阴影边缘，尤其是自阴影的边缘部位会有部分失真现象，这时可以通过调节这个阀值来去除失真。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 此灯光投出阴影的消退阀值。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isAffectEntity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isAffectEntity</b>(Entity)
+					
+					</div>
+					<div class="description">
+						检测某个实体是否受此光照影响。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okBaseEntity.html">okBaseEntity</a>}</span> <b>Entity</b>
+									
+								</dt>
+								<dd>实体。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果该实体受此光照影响，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isCastShadow"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isCastShadow</b>()
+					
+					</div>
+					<div class="description">
+						检测是否开启了动态光影。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果开启了动态光影，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isLightGroupEnabled"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isLightGroupEnabled</b>(LightGroup)
+					
+					</div>
+					<div class="description">
+						检测此光源的指定light group是否被开启。
+Light group决定了entity接收哪些光源的灯光。一个光源可以同时属于多个light group。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>LightGroup</b>
+									
+								</dt>
+								<dd>指定light group。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 此光源的指定light group是否被开启。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isVisible"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>isVisible</b>()
+					
+					</div>
+					<div class="description">
+						检测此实体是否可见。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> 如果此实体可见，则返回true；反之，则返回false。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setColor</b>(R, G, B)
+					
+					</div>
+					<div class="description">
+						设置灯光颜色。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>R</b>
+									
+								</dt>
+								<dd>灯光颜色的红色分量。 | 灯光颜色。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									<i>Optional</i>
+								</dt>
+								<dd>灯光颜色的绿色分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									<i>Optional</i>
+								</dt>
+								<dd>灯光颜色的蓝色分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setIntensity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setIntensity</b>(Intensity)
+					
+					</div>
+					<div class="description">
+						设置光照强度。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Intensity</b>
+									
+								</dt>
+								<dd>光照强度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setShadowFade"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setShadowFade</b>(FadeFactor)
+					
+					</div>
+					<div class="description">
+						设定此灯光投出阴影的消退阀值。
+消退阀值(z-offset)是一个比较有技术性的概念，开发者可理解为通过此属性可以控制动态投影的边缘范围。有时，动态投影在阴影边缘，尤其是自阴影的边缘部位会有部分失真现象，这时可以通过调节这个阀值来去除失真。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>FadeFactor</b>
+									
+								</dt>
+								<dd>此灯光投出阴影的消退阀值。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/okVisibleEntity.html#setShadowFade">okVisibleEntity#setShadowFade</a></dd>
+							
+							</dl>
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

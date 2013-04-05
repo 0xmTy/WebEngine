@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="flipchart.svg">
+  <title
+     id="title2838">Flipchart</title>
+  <defs
+     id="defs2818">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3613">
+      <stop
+         style="stop-color:#565656;stop-opacity:1;"
+         offset="0"
+         id="stop3615" />
+      <stop
+         style="stop-color:#bcbcbc;stop-opacity:1"
+         offset="1"
+         id="stop3617" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3603">
+      <stop
+         style="stop-color:#cce6ef;stop-opacity:1"
+         offset="0"
+         id="stop3605" />
+      <stop
+         style="stop-color:#f0f8fa;stop-opacity:1"
+         offset="1"
+         id="stop3607" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective2824" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3603"
+       id="linearGradient3609"
+       x1="28.964287"
+       y1="27.535713"
+       x2="18.892857"
+       y2="10.107141"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(12.929953,0.60609153)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3613"
+       id="linearGradient3619"
+       x1="22.473215"
+       y1="7.5"
+       x2="22.410715"
+       y2="6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4642856,12.144238,-2.5724796)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3603"
+       id="linearGradient3651"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(12.929953,0.60609153)"
+       x1="28.964287"
+       y1="27.535713"
+       x2="18.892857"
+       y2="10.107141" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3613"
+       id="linearGradient3653"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4642856,12.144238,-2.5724796)"
+       x1="22.473215"
+       y1="7.5"
+       x2="22.410715"
+       y2="6" />
+    <filter
+       inkscape:collect="always"
+       id="filter3689"
+       x="-0.058985132"
+       width="1.1179703"
+       y="-0.10581917"
+       height="1.2116383">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.0099668"
+         id="feGaussianBlur3691" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.8994949"
+     inkscape:cx="0.58432302"
+     inkscape:cy="25.172851"
+     inkscape:current-layer="g3637"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Flipchart</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/
+" />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/office/flipchart</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-02-05</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#555555;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter3689)"
+       d="M 29.0625 22.90625 L 20.59375 30.4375 L 24 31.03125 L 6.1875 34.375 L 6.5625 36.34375 L 26.875 32.53125 L 13.28125 44.3125 L 14.59375 45.8125 L 30.40625 32.15625 L 30.4375 32.15625 L 28.03125 42.21875 L 29.96875 42.6875 L 32.40625 32.5 L 38.78125 33.625 L 47.28125 26.0625 L 29.0625 22.90625 z "
+       id="path3655" />
+    <g
+       id="g3637"
+       transform="matrix(1.1459833,0,0,1.1459833,-20.524138,-5.5537303)">
+      <path
+         id="path2822"
+         d="m 30.215667,43.963235 5,-35.5000007 7.5,33.3571437"
+         style="fill:none;stroke:#383838;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         id="path2824"
+         d="M 35.215667,8.7489486 23.57281,35.820378"
+         style="fill:none;stroke:#383838;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         id="path3598"
+         d="m 32.001382,32.891806 8.285714,-1.142857"
+         style="fill:none;stroke:#3d3d3d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect3600"
+         d="M 25.501382,7.5346632 43.112094,7.0346631 44.715665,28.391806 27.319239,30.034663 25.501382,7.5346632 z"
+         style="fill:url(#linearGradient3651);fill-opacity:1;stroke:#161616;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         id="path3611"
+         d="m 32.929953,6.3178261 3.5,-0.1045922 1.571429,2.0918367 -6.285714,0.1045923 1.214285,-2.0918368 z"
+         style="fill:url(#linearGradient3653);fill-opacity:1;stroke:none" />
+      <text
+         transform="matrix(1,-0.04815696,0.12971684,0.99375323,0,0)"
+         id="text3621"
+         y="14.398483"
+         x="25.442989"
+         style="font-size:2.72207236px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="14.398483"
+           x="25.442989"
+           id="tspan3623"
+           sodipodi:role="line">Hello World!</tspan></text>
+      <text
+         transform="matrix(1,-0.08455882,0.12971684,0.9890313,0,0)"
+         xml:space="preserve"
+         style="font-size:2.45448804px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="26.487751"
+         y="19.28336"
+         id="text3625"><tspan
+           sodipodi:role="line"
+           id="tspan3627"
+           x="26.487751"
+           y="19.28336">TOP 1</tspan><tspan
+           id="tspan3629"
+           sodipodi:role="line"
+           x="26.487751"
+           y="22.351469">TOP 2</tspan><tspan
+           id="tspan3631"
+           sodipodi:role="line"
+           x="26.487751"
+           y="25.41958">TOP 3</tspan><tspan
+           id="tspan3635"
+           sodipodi:role="line"
+           x="26.487751"
+           y="28.48769">TOP 4</tspan></text>
+    </g>
+  </g>
+</svg>

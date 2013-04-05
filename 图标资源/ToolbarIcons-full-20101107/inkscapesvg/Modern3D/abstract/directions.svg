@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="directions.svg">
+  <title
+     id="title3690">Directions</title>
+  <defs
+     id="defs2818">
+    <linearGradient
+       id="linearGradient3639"
+       inkscape:collect="always">
+      <stop
+         id="stop3641"
+         offset="0"
+         style="stop-color:#fdf78b;stop-opacity:1" />
+      <stop
+         id="stop3643"
+         offset="1"
+         style="stop-color:#faee0e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3633"
+       inkscape:collect="always">
+      <stop
+         id="stop3635"
+         offset="0"
+         style="stop-color:#fcb17c;stop-opacity:1" />
+      <stop
+         id="stop3637"
+         offset="1"
+         style="stop-color:#f9700f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3621">
+      <stop
+         style="stop-color:#3c7d45;stop-opacity:1"
+         offset="0"
+         id="stop3623" />
+      <stop
+         style="stop-color:#8dc895;stop-opacity:1"
+         offset="1"
+         id="stop3625" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3607">
+      <stop
+         style="stop-color:#70402e;stop-opacity:1"
+         offset="0"
+         id="stop3609" />
+      <stop
+         style="stop-color:#c3856e;stop-opacity:1"
+         offset="1"
+         id="stop3611" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3607"
+       id="linearGradient3613"
+       x1="19.481991"
+       y1="23.40513"
+       x2="21.981335"
+       y2="23.40513"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0380716,0,0,1.0380716,-2.7175765,-0.45276601)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3633"
+       id="linearGradient3627"
+       x1="10.356602"
+       y1="22.594664"
+       x2="25.604828"
+       y2="24.918015"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3639"
+       id="linearGradient3629"
+       x1="7.073606"
+       y1="15.526134"
+       x2="30.857622"
+       y2="18.175247"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="linearGradient3631"
+       x1="9.851525"
+       y1="10.573848"
+       x2="37.070061"
+       y2="10.573848"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3705"
+       x="-0.069286287"
+       width="1.1385726"
+       y="-0.10575275"
+       height="1.2115055">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.75872093"
+         id="feGaussianBlur3707" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3633"
+       id="linearGradient3709"
+       gradientUnits="userSpaceOnUse"
+       x1="10.356602"
+       y1="22.594664"
+       x2="25.604828"
+       y2="24.918015" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3639"
+       id="linearGradient3711"
+       gradientUnits="userSpaceOnUse"
+       x1="7.073606"
+       y1="15.526134"
+       x2="30.857622"
+       y2="18.175247" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3621"
+       id="linearGradient3713"
+       gradientUnits="userSpaceOnUse"
+       x1="9.851525"
+       y1="10.573848"
+       x2="37.070061"
+       y2="10.573848" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="14"
+     inkscape:cx="7.2932876"
+     inkscape:cy="24.126264"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2812"
+       empspacing="12"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818"
+       empspacing="16"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="4"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Directions</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/ " />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/abstract/directions</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-02-06</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#0c0c0c;fill-opacity:1;stroke:none;filter:url(#filter3705)"
+       d="m 39.5625,28.5 -0.8125,0.65625 -4.59375,1 -0.34375,0.34375 -1.53125,-0.4375 -3.71875,0.21875 1.21875,2 L 32.5,32.9375 29.28125,34.0625 29.5625,36 l 0.96875,-0.0625 -11.09375,9.125 0.71875,0.65625 11.6875,-9.875 1.875,-0.125 2.25,-1.96875 2.59375,0.59375 2.15625,-1.84375 -2.1875,-0.625 3.75,-0.4375 3.4375,-2.28125 -4.15625,-0.59375 -1.46875,0.3125 0.125,-0.09375 L 39.5625,28.5 z"
+       id="path3692"
+       transform="matrix(1.0380716,0,0,1.0380716,-2.7175765,-0.452766)" />
+    <path
+       style="fill:url(#linearGradient3613);fill-opacity:1;stroke:#5e301c;stroke-width:0.51903576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 18.247762,1.5306921 C 18.99851,0.04155377 20.90782,0.13732821 21.584421,1.678988 l -3.169826,45.17465 c -0.303703,0.489499 -0.790912,0.535794 -1.186367,-0.148298 L 18.247762,1.5306921 z"
+       id="path2825"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g3683"
+       transform="matrix(1.0380716,0,0,1.0380716,-2.7175765,-0.452766)">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path3617"
+         d="m 11.010663,26.180705 -3.6365492,4.444671 3.6365492,1.616244 20.102035,-9.293403 -0.101015,-5.353809 -20.00102,8.586297 z"
+         style="fill:url(#linearGradient3709);fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         transform="matrix(1,-0.44634576,0,1,0,0)"
+         id="text3653"
+         y="35.415413"
+         x="11.655453"
+         style="font-size:3.36835361px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="35.415413"
+           x="11.655453"
+           id="tspan3655"
+           sodipodi:role="line">C Manor</tspan></text>
+      <text
+         transform="matrix(1,-0.43085211,0,1,0,0)"
+         id="text3665"
+         y="34.537964"
+         x="26.357855"
+         style="font-size:1.38356364px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="34.537964"
+           x="26.357855"
+           id="tspan3667"
+           sodipodi:role="line">300m</tspan></text>
+    </g>
+    <g
+       id="g3676"
+       transform="matrix(1.0380716,0,0,1.0380716,-2.7175765,-0.452766)">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path3619"
+         d="m 11.111678,14.462936 -5.0002552,3.636549 5.1012702,3.030457 19.394929,-1.414213 -0.101015,-6.262946 -19.394929,1.010153 z"
+         style="fill:url(#linearGradient3711);fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         transform="matrix(1,-0.02575941,0,1,0,0)"
+         id="text3661"
+         y="18.435745"
+         x="23.794178"
+         style="font-size:1.67561233px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="18.435745"
+           x="23.794178"
+           id="tspan3663"
+           sodipodi:role="line">50km</tspan></text>
+      <text
+         transform="matrix(1,-0.06242104,0,1,0,0)"
+         id="text3649"
+         y="19.580379"
+         x="11.298949"
+         style="font-size:2.90145707px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="19.580379"
+           x="11.298949"
+           id="tspan3651"
+           sodipodi:role="line">B Town</tspan></text>
+    </g>
+    <g
+       id="g3669"
+       transform="matrix(1.0380716,0,0,1.0380716,-2.7175765,-0.452766)">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path3615"
+         d="M 10.101525,1.937044 10.303556,9.0081118 31.617775,19.210652 36.82006,16.331717 31.71879,9.4121728 10.101525,1.937044 z"
+         style="fill:url(#linearGradient3713);fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         transform="matrix(1,0.38759665,0,1,0,0)"
+         id="text3645"
+         y="3.0374765"
+         x="19.948011"
+         style="font-size:3.81307077px;font-style:normal;font-weight:normal;fill:#f0f0f0;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="3.0374765"
+           x="19.948011"
+           id="tspan3647"
+           sodipodi:role="line">A City</tspan></text>
+      <text
+         transform="matrix(1,0.40205733,0,1,0,0)"
+         id="text3657"
+         y="2.4386854"
+         x="11.295103"
+         style="font-size:2.07631063px;font-style:normal;font-weight:normal;fill:#e8e8e8;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="2.4386854"
+           x="11.295103"
+           id="tspan3659"
+           sodipodi:role="line">200km</tspan></text>
+    </g>
+  </g>
+</svg>

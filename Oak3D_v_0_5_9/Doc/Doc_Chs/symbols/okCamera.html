@@ -1,0 +1,3407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okCamera</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okCamera
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				相机类。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okCamera.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okCamera.html#constructor">okCamera</a></b>(Context)
+							</div>
+							<div class="description">okCamera对象是Oak3D中对3D相机的封装。<br>使用者可通过okCamera对象控制相机的各项属性（位置、方向、视口大小、投影方式等)。</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okCamera.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#bindViewport">bindViewport</a></b>()
+								</div>
+								<div class="description">将此相机视口作为当前WebGL上下文环境的当前视口。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#clear">clear</a></b>()
+								</div>
+								<div class="description">清空此相机内容.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getBackColor">getBackColor</a></b>()
+								</div>
+								<div class="description">获取此相机的视口背景色。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getForwardDir">getForwardDir</a></b>()
+								</div>
+								<div class="description">获取此相机的前方向向量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getFov">getFov</a></b>()
+								</div>
+								<div class="description">获取此相机的视角范围。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getFrustum">getFrustum</a></b>()
+								</div>
+								<div class="description">获取此相机可视区域的平截头体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getMat4">getMat4</a></b>()
+								</div>
+								<div class="description">获取4x4矩阵形式的相机变换矩阵
+变换矩阵决定了相机在世界空间中的坐标位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getMat43">getMat43</a></b>()
+								</div>
+								<div class="description">获取4x3矩阵形式的相机变换矩阵。
+变换矩阵决定了相机在世界空间中的坐标位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getName">getName</a></b>()
+								</div>
+								<div class="description">获得相机的名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickDir">getPickDir</a></b>(x, y)
+								</div>
+								<div class="description">根据给定的Canvas位置, 计算一条从相机位置出发经过屏幕上给定点的射线。<br>开发者可利用此方法计算鼠标点击时发出的射线。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickFrustum">getPickFrustum</a></b>(x, y, Width, Height)
+								</div>
+								<div class="description">根据给定的Canvas画布的子区域，计算可视的平截头体。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPickPoint">getPickPoint</a></b>(x, y)
+								</div>
+								<div class="description">将视口中的2D坐标位置转换成世界空间中的3D坐标位置。
+这个方法通常用于场景中的拾取功能。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getPos">getPos</a></b>()
+								</div>
+								<div class="description">获得相机的位置。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getProjMat4">getProjMat4</a></b>()
+								</div>
+								<div class="description">获取此相机的投影变换矩阵。
+投影变换矩阵用于相机空间的物体投影到投影空间。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getProjMode">getProjMode</a></b>()
+								</div>
+								<div class="description">返回此相机的投影模式。
+投影模式决定了3D场景如何映射成2D图像。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getRightDir">getRightDir</a></b>()
+								</div>
+								<div class="description">获取此相机的右方向向量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getUpDir">getUpDir</a></b>()
+								</div>
+								<div class="description">获取此相机的上方向向量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewInvMat4">getViewInvMat4</a></b>()
+								</div>
+								<div class="description">获取4x4矩阵形式的相机空间视图矩阵的逆矩阵。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewInvMat43">getViewInvMat43</a></b>()
+								</div>
+								<div class="description">获取4x3矩阵形式的相机空间视图矩阵的逆矩阵。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewMat4">getViewMat4</a></b>()
+								</div>
+								<div class="description">获取4x4矩阵形式的相机空间视图矩阵。
+空间视图矩阵可以用于将物体从世界空间转换到相机空间。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewMat43">getViewMat43</a></b>()
+								</div>
+								<div class="description">获取4x3矩阵形式的相机空间视图矩阵。
+空间视图矩阵可以用于将物体从世界空间转换到相机空间。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportHeight">getViewportHeight</a></b>()
+								</div>
+								<div class="description">获取此相机视口的高度(单位: 像素)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportLeft">getViewportLeft</a></b>()
+								</div>
+								<div class="description">获取此相机视口的左边界(单位: 像素)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportTop">getViewportTop</a></b>()
+								</div>
+								<div class="description">获取此相机视口的上边界(单位: 像素)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewportWidth">getViewportWidth</a></b>()
+								</div>
+								<div class="description">获取此相机视口的宽度(单位: 像素)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewProjInvMat4">getViewProjInvMat4</a></b>()
+								</div>
+								<div class="description">获取此相机的相机空间变换与投影变换的联合矩阵的逆矩阵。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getViewProjMat4">getViewProjMat4</a></b>()
+								</div>
+								<div class="description">获取此相机的相机空间变换与投影变换的联合矩阵。
+空间变换与投影变换的联合矩阵用于将世界空间中的物体转换到投影后的空间。<br>ViewProjMat = ProjMat x ViewMat.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getVisibleFar">getVisibleFar</a></b>()
+								</div>
+								<div class="description">获取此相机的远裁剪面距离。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#getVisibleNear">getVisibleNear</a></b>()
+								</div>
+								<div class="description">获取此相机的近裁剪面距离。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#lookAt">lookAt</a></b>(x, y, z, UpVec, upY, upZ)
+								</div>
+								<div class="description">使此相机朝向某指定位置。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#move">move</a></b>(Space, x, y, z)
+								</div>
+								<div class="description">移动当前相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveForward">moveForward</a></b>(位移距离)
+								</div>
+								<div class="description">将此相机沿前方向移动指定距离(Local -Z轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveRight">moveRight</a></b>(位移距离)
+								</div>
+								<div class="description">将此相机沿右方向移动指定距离(Local X轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#moveUp">moveUp</a></b>(位移距离)
+								</div>
+								<div class="description">将此相机沿上方向移动指定距离(Local Y轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#reset">reset</a></b>(Pos, Dir)
+								</div>
+								<div class="description">重置相机的位置和朝向。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotForward">rotForward</a></b>(Angl)
+								</div>
+								<div class="description">绕此相机当前的前方向向量逆时针旋转(Local -Z轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotRight">rotRight</a></b>(Angl)
+								</div>
+								<div class="description">绕此相机当前的右方向向量逆时针旋转(Local X轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotTarget">rotTarget</a></b>(Angl, Target, RotVec)
+								</div>
+								<div class="description">将此相机绕指定目标位置和指定向量纵向旋转。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotUp">rotUp</a></b>(Angl)
+								</div>
+								<div class="description">绕此相机当前的上方向向量逆时针旋转(Local Y轴)。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotX">rotX</a></b>(Space, Angl)
+								</div>
+								<div class="description">绕世界空间或局部空间的X轴旋转此相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotY">rotY</a></b>(Space, Angl)
+								</div>
+								<div class="description">绕世界空间或局部空间的Y轴旋转此相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#rotZ">rotZ</a></b>(Space, Angl)
+								</div>
+								<div class="description">绕世界空间或局部空间的Z轴旋转此相机。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setBackColor">setBackColor</a></b>(R, G, B, A)
+								</div>
+								<div class="description">设置此相机的视口背景色。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setFov">setFov</a></b>(Fov)
+								</div>
+								<div class="description">设置此相机的视角范围。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setMat">setMat</a></b>(Mat)
+								</div>
+								<div class="description">设置相机的空间变换矩阵。
+相机的位置和朝向都是由一个矩阵决定的。所以你可以通过设置一个指定的矩阵来将相机变换到任意位置和朝向。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setName">setName</a></b>(Name)
+								</div>
+								<div class="description">设定相机的名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setPos">setPos</a></b>(x, y, z)
+								</div>
+								<div class="description">设置相机的位置。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setProjMode">setProjMode</a></b>(设置投影模式为透视投影还是正交投影（[PROJMODE_PERSPECTIVE,)
+								</div>
+								<div class="description">设置相机的投影模式。
+投影模式决定了3D场景如何映射成2D图像。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setViewport">setViewport</a></b>(Left, Top, Width, Height)
+								</div>
+								<div class="description">设置视口的位置和尺寸。
+视口决定了相机投射到相应Canvas画布上的影像尺寸。<br>X轴的方向是从左向右，Y轴的方向是上到下</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleFar">setVisibleFar</a></b>(远裁剪面距离。)
+								</div>
+								<div class="description">设置相机的可视范围中的深度轴向上的远裁剪面。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleNear">setVisibleNear</a></b>(Near)
+								</div>
+								<div class="description">设置相机的可视范围中的深度轴向上的近裁剪面。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okCamera.html#setVisibleRange">setVisibleRange</a></b>(Near, Far)
+								</div>
+								<div class="description">设置相机的可视范围(即深度轴向上的远近裁剪面)。
+</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okCamera</b>(Context)
+				</div>
+				
+				<div class="description">
+					okCamera对象是Oak3D中对3D相机的封装。<br>使用者可通过okCamera对象控制相机的各项属性（位置、方向、视口大小、投影方式等)。
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{WebGLContext}</span>  <b>Context</b>
+								
+							</dt>
+								<dd>目标Canvas画布的WebGL上下文。</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okCamera.html">okCamera</a>}</span> 一个新的okCamera对象。</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="bindViewport"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>bindViewport</b>()
+					
+					</div>
+					<div class="description">
+						将此相机视口作为当前WebGL上下文环境的当前视口。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						清空此相机内容.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getBackColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec4.html">okVec4</a>}</span>
+					<b>getBackColor</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的视口背景色。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec4.html">okVec4</a>}</span> 相机的视口背景色。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getForwardDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getForwardDir</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的前方向向量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 前方向向量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFov"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getFov</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的视角范围。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机视角范围(单位: 角度)。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFrustum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span>
+					<b>getFrustum</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机可视区域的平截头体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span> 相机可视区域的平截头体。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取4x4矩阵形式的相机变换矩阵
+变换矩阵决定了相机在世界空间中的坐标位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 相机的变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取4x3矩阵形式的相机变换矩阵。
+变换矩阵决定了相机在世界空间中的坐标位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 相机的变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>getName</b>()
+					
+					</div>
+					<div class="description">
+						获得相机的名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> 相机的名称。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPickDir</b>(x, y)
+					
+					</div>
+					<div class="description">
+						根据给定的Canvas位置, 计算一条从相机位置出发经过屏幕上给定点的射线。<br>开发者可利用此方法计算鼠标点击时发出的射线。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>2D坐标位置的X分量</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>2D坐标位置的Y分量</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 射线的方向（即选择向量）。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickFrustum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span>
+					<b>getPickFrustum</b>(x, y, Width, Height)
+					
+					</div>
+					<div class="description">
+						根据给定的Canvas画布的子区域，计算可视的平截头体。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>Canvas画布区域的X分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>Canvas画布区域的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Width</b>
+									
+								</dt>
+								<dd>Canvas画布区域的宽度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Height</b>
+									
+								</dt>
+								<dd>Canvas画布区域的高度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okFrustum.html">okFrustum</a>}</span> 可视的平截头体。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPickPoint"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPickPoint</b>(x, y)
+					
+					</div>
+					<div class="description">
+						将视口中的2D坐标位置转换成世界空间中的3D坐标位置。
+这个方法通常用于场景中的拾取功能。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>x</b>
+									
+								</dt>
+								<dd>2D坐标位置的X分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>2D坐标位置的Y分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 世界空间中的3D坐标位置。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPos</b>()
+					
+					</div>
+					<div class="description">
+						获得相机的位置。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> Pos 相机的位置坐标。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getProjMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getProjMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的投影变换矩阵。
+投影变换矩阵用于相机空间的物体投影到投影空间。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 相机的投影变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getProjMode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getProjMode</b>()
+					
+					</div>
+					<div class="description">
+						返回此相机的投影模式。
+投影模式决定了3D场景如何映射成2D图像。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 此相机的投影模式，可能的值为透视投影或正交投影（[PROJMODE_PERSPECTIVE, PROJMODE_ORTHO]）。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getRightDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getRightDir</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的右方向向量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 右方向向量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getUpDir"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getUpDir</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的上方向向量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 上方向向量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewInvMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewInvMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取4x4矩阵形式的相机空间视图矩阵的逆矩阵。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 相机空间视图矩阵的逆矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewInvMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getViewInvMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取4x3矩阵形式的相机空间视图矩阵的逆矩阵。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 相机空间视图视图的逆矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取4x4矩阵形式的相机空间视图矩阵。
+空间视图矩阵可以用于将物体从世界空间转换到相机空间。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 相机的空间视图矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewMat43"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat43.html">okMat43</a>}</span>
+					<b>getViewMat43</b>()
+					
+					</div>
+					<div class="description">
+						获取4x3矩阵形式的相机空间视图矩阵。
+空间视图矩阵可以用于将物体从世界空间转换到相机空间。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>}</span> 相机的空间视图矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportHeight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportHeight</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机视口的高度(单位: 像素)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机视口的高度(单位: 像素)。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportLeft"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportLeft</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机视口的左边界(单位: 像素)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机视口的左边界(单位: 像素)。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportTop"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportTop</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机视口的上边界(单位: 像素)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机视口的上边界(单位: 像素)。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewportWidth"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getViewportWidth</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机视口的宽度(单位: 像素)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机视口的宽度(单位: 像素)。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewProjInvMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewProjInvMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的相机空间变换与投影变换的联合矩阵的逆矩阵。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 相机空间变换与投影变换的联合矩阵的逆矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getViewProjMat4"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMat4.html">okMat4</a>}</span>
+					<b>getViewProjMat4</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的相机空间变换与投影变换的联合矩阵。
+空间变换与投影变换的联合矩阵用于将世界空间中的物体转换到投影后的空间。<br>ViewProjMat = ProjMat x ViewMat.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMat4.html">okMat4</a>}</span> 此相机的相机空间变换与投影变换的联合矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVisibleFar"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVisibleFar</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的远裁剪面距离。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机的远裁剪面距离。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVisibleNear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVisibleNear</b>()
+					
+					</div>
+					<div class="description">
+						获取此相机的近裁剪面距离。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 相机的近裁剪面距离。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="lookAt"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{null}</span>
+					<b>lookAt</b>(x, y, z, UpVec, upY, upZ)
+					
+					</div>
+					<div class="description">
+						使此相机朝向某指定位置。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>目标位置坐标向量的X分量。 | 目标位置坐标向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>目标位置坐标向量的Y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>目标位置坐标向量的Z分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>UpVec</b>
+									<i>Optional</i>
+								</dt>
+								<dd>当设置相机朝向时，定义一个固定的上方向向量。<br>如果该参数被指定，则本方法将会将相机的上方向向量尽量逼近于此参数的设定值。</dd>
+							
+								<dt>
+									<b>upY</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>upZ</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="move"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>move</b>(Space, x, y, z)
+					
+					</div>
+					<div class="description">
+						移动当前相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定运动所处的空间，可用的值为[SPACE_LOCAL, SPACE_WORLD]。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>位移向量的x分量。 | 位移向量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>位移向量的y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>位移向量的z分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveForward"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveForward</b>(位移距离)
+					
+					</div>
+					<div class="description">
+						将此相机沿前方向移动指定距离(Local -Z轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>位移距离</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveRight</b>(位移距离)
+					
+					</div>
+					<div class="description">
+						将此相机沿右方向移动指定距离(Local X轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>位移距离</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveUp"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>moveUp</b>(位移距离)
+					
+					</div>
+					<div class="description">
+						将此相机沿上方向移动指定距离(Local Y轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>位移距离</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="reset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>reset</b>(Pos, Dir)
+					
+					</div>
+					<div class="description">
+						重置相机的位置和朝向。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Pos</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否重置相机位置。默认值是true。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>Dir</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定是否重置相机朝向。默认值是true。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotForward"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotForward</b>(Angl)
+					
+					</div>
+					<div class="description">
+						绕此相机当前的前方向向量逆时针旋转(Local -Z轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotRight</b>(Angl)
+					
+					</div>
+					<div class="description">
+						绕此相机当前的右方向向量逆时针旋转(Local X轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotTarget"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotTarget</b>(Angl, Target, RotVec)
+					
+					</div>
+					<div class="description">
+						将此相机绕指定目标位置和指定向量纵向旋转。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Target</b>
+									
+								</dt>
+								<dd>目标位置。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RotVec</b>
+									
+								</dt>
+								<dd>旋转轴。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotUp"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotUp</b>(Angl)
+					
+					</div>
+					<div class="description">
+						绕此相机当前的上方向向量逆时针旋转(Local Y轴)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotX"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotX</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						绕世界空间或局部空间的X轴旋转此相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。<br>可选的值包括SPACE_LOCAL和SPACE_WORLD。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotY"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotY</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						绕世界空间或局部空间的Y轴旋转此相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。<br>可选的值包括SPACE_LOCAL和SPACE_WORLD。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="rotZ"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>rotZ</b>(Space, Angl)
+					
+					</div>
+					<div class="description">
+						绕世界空间或局部空间的Z轴旋转此相机。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Space</b>
+									
+								</dt>
+								<dd>指定旋转所处的空间。<br>可选的值包括SPACE_LOCAL和SPACE_WORLD。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Angl</b>
+									
+								</dt>
+								<dd>旋转角度。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBackColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBackColor</b>(R, G, B, A)
+					
+					</div>
+					<div class="description">
+						设置此相机的视口背景色。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec4}</span> <b>R</b>
+									
+								</dt>
+								<dd>背景色的红色分量 | 背景色的RGB值和Alpha值</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>G</b>
+									
+								</dt>
+								<dd>背景色的绿色分量</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>B</b>
+									
+								</dt>
+								<dd>背景色的蓝色分量</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>A</b>
+									
+								</dt>
+								<dd>背景色的Alpah值。Alpha值会使canvas画布产生透明效果。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setFov"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setFov</b>(Fov)
+					
+					</div>
+					<div class="description">
+						设置此相机的视角范围。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Fov</b>
+									
+								</dt>
+								<dd>相机视角范围(单位: 角度)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setMat</b>(Mat)
+					
+					</div>
+					<div class="description">
+						设置相机的空间变换矩阵。
+相机的位置和朝向都是由一个矩阵决定的。所以你可以通过设置一个指定的矩阵来将相机变换到任意位置和朝向。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a>|<a href="../symbols/okMat4.html">okMat4</a>}</span> <b>Mat</b>
+									
+								</dt>
+								<dd>相机的空间变换矩阵。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setName</b>(Name)
+					
+					</div>
+					<div class="description">
+						设定相机的名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>相机的名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setPos"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setPos</b>(x, y, z)
+					
+					</div>
+					<div class="description">
+						设置相机的位置。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number | okVec3}</span> <b>x</b>
+									
+								</dt>
+								<dd>相机位置坐标的x分量。 | 相机位置坐标。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									<i>Optional</i>
+								</dt>
+								<dd>相机位置坐标的y分量。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									<i>Optional</i>
+								</dt>
+								<dd>相机位置坐标的z分量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setProjMode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setProjMode</b>(设置投影模式为透视投影还是正交投影（[PROJMODE_PERSPECTIVE,)
+					
+					</div>
+					<div class="description">
+						设置相机的投影模式。
+投影模式决定了3D场景如何映射成2D图像。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>设置投影模式为透视投影还是正交投影（[PROJMODE_PERSPECTIVE,</b>
+									
+								</dt>
+								<dd>PROJMODE_ORTHO]）。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setViewport"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setViewport</b>(Left, Top, Width, Height)
+					
+					</div>
+					<div class="description">
+						设置视口的位置和尺寸。
+视口决定了相机投射到相应Canvas画布上的影像尺寸。<br>X轴的方向是从左向右，Y轴的方向是上到下
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Left</b>
+									
+								</dt>
+								<dd>左边界（单位：像素）</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Top</b>
+									
+								</dt>
+								<dd>上边界（单位：像素）</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Width</b>
+									
+								</dt>
+								<dd>视口宽度（单位：像素）</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Height</b>
+									
+								</dt>
+								<dd>视口高度（单位：像素）</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleFar"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleFar</b>(远裁剪面距离。)
+					
+					</div>
+					<div class="description">
+						设置相机的可视范围中的深度轴向上的远裁剪面。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>远裁剪面距离。</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleNear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleNear</b>(Near)
+					
+					</div>
+					<div class="description">
+						设置相机的可视范围中的深度轴向上的近裁剪面。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Near</b>
+									
+								</dt>
+								<dd>近裁剪面距离。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisibleRange"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVisibleRange</b>(Near, Far)
+					
+					</div>
+					<div class="description">
+						设置相机的可视范围(即深度轴向上的远近裁剪面)。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Near</b>
+									
+								</dt>
+								<dd>近裁剪面距离。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Far</b>
+									
+								</dt>
+								<dd>远裁剪面距离。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

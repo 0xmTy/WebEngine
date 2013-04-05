@@ -1,0 +1,2271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okMesh</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okMesh
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				网格。
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okMesh.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okMesh.html#constructor">okMesh</a></b>(Context)
+							</div>
+							<div class="description">在Oak3D中，网格是标准的几何体数据容器。<br>okMesh对象可以Mesh is the standard geometry data container in Oak3D.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okMesh.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#clear">clear</a></b>()
+								</div>
+								<div class="description">将当前网格重置为默认状态，清空其中的所有几何体数据。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#computeBoundingInfo">computeBoundingInfo</a></b>()
+								</div>
+								<div class="description">计算此Mesh的包围盒信息。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#createAttribute">createAttribute</a></b>(Name, Len, Data, Usage)
+								</div>
+								<div class="description">创建一个新的顶点属性列表。
+okMesh对象中的属性与WebGL中的属性略有不同。<br>在WebGL中，顶点属性是作为顶点着色器的输入存在的。而在Oak3D中，网格属性是指顶点数组对象（Vertex Array Buffer），其中可以包含一个或多个顶点着色器属性的源数据。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#createIndex">createIndex</a></b>(Name, Len, Data, Usage, Topology)
+								</div>
+								<div class="description">创建一个新的索引列表。
+一个okMesh对象可以拥有多个不同名称的顶点索引数组。在Oak3D Engine层，默认的顶点索引数组的名称是“Default”，默认的线框索引数组的名称是“Wireframe”。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#deleteAttribute">deleteAttribute</a></b>(Name)
+								</div>
+								<div class="description">删除指定的顶点属性。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#deleteIndex">deleteIndex</a></b>(Name)
+								</div>
+								<div class="description">删除指定的索引列表。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#draw">draw</a></b>(IdxName, Topology, Offset, Count)
+								</div>
+								<div class="description">执行绘制操作。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getAttributeArray">getAttributeArray</a></b>(AttribName)
+								</div>
+								<div class="description">返回指定顶点属性流的数据数组。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getAttributeArrayBuffer">getAttributeArrayBuffer</a></b>(AttribName)
+								</div>
+								<div class="description">返回指定顶点属性流的ArrayBuffer。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getAttributeArrayBufferMap">getAttributeArrayBufferMap</a></b>()
+								</div>
+								<div class="description">获取当前mesh的&lt;AttribName, AttributeArrayBuffer&gt;字典。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getAttributeArrayMap">getAttributeArrayMap</a></b>()
+								</div>
+								<div class="description">获取当前mesh的&lt;AttribName, AttributeArray&gt;字典。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getAttributeNum">getAttributeNum</a></b>()
+								</div>
+								<div class="description">返回此Mesh顶点属性流的数量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getBoundingBox">getBoundingBox</a></b>()
+								</div>
+								<div class="description">获取Mesh的轴对齐包围盒。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getBoundingSphereCenter">getBoundingSphereCenter</a></b>()
+								</div>
+								<div class="description">获取此Mesh包围球的中心点。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getBoundingSphereRadius">getBoundingSphereRadius</a></b>()
+								</div>
+								<div class="description">获取此Mesh包围球的半径。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexArray">getIndexArray</a></b>(IdxName)
+								</div>
+								<div class="description">返回指定索引列表的数据数组。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexArrayBuffer">getIndexArrayBuffer</a></b>(IdxName)
+								</div>
+								<div class="description">返回指定索引列表的ArrayBuffer。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexArrayBufferMap">getIndexArrayBufferMap</a></b>()
+								</div>
+								<div class="description">获取当前mesh的&lt;IndexName, IndexArrayBuffer&gt;字典
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexArrayMap">getIndexArrayMap</a></b>()
+								</div>
+								<div class="description">获取当前mesh的&lt;IndexName, IndexArray&gt;字典。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexNum">getIndexNum</a></b>()
+								</div>
+								<div class="description">返回此Mesh索引列表的数量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getIndexTopology">getIndexTopology</a></b>(Name)
+								</div>
+								<div class="description">获取指定索引列表的拓扑结构。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getMaterial">getMaterial</a></b>()
+								</div>
+								<div class="description">获取当前mesh内置的材质。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getSkin">getSkin</a></b>()
+								</div>
+								<div class="description">获取此Mesh的蒙皮信息。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#getVertexNum">getVertexNum</a></b>()
+								</div>
+								<div class="description">获取当前网格的顶点数量。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#loadAttribute">loadAttribute</a></b>(Name, BeginIdx, Len, NewData)
+								</div>
+								<div class="description">更新指定的顶点属性。
+okMesh对象中的属性与WebGL中的属性略有不同。<br>在WebGL中，顶点属性是作为顶点着色器的输入存在的。而在Oak3D中，网格属性是指顶点数组对象（Vertex Array Buffer），其中可以包含一个或多个顶点着色器属性的源数据。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#loadIndex">loadIndex</a></b>(Name, BeginIdx, Len, NewData)
+								</div>
+								<div class="description">更新指定的索引列表。
+一个okMesh对象可以拥有多个不同名称的顶点索引数组。在Oak3D Engine层，默认的顶点索引数组的名称是“Default”，默认的线框索引数组的名称是“Wireframe”。</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#setBoundingBox">setBoundingBox</a></b>(Min, Max)
+								</div>
+								<div class="description">设置Mesh的轴对齐包围盒.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#setIndexTopology">setIndexTopology</a></b>(Name, Topology)
+								</div>
+								<div class="description">设置索引列表的拓扑结构。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#setName">setName</a></b>(Name)
+								</div>
+								<div class="description">设定此Mesh的名称。
+</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okMesh.html#setVertexNum">setVertexNum</a></b>(VertNum)
+								</div>
+								<div class="description">设置当前网格的顶点数量。
+本方法通常是在加载资源的函数中被调用，而不是由开发者直接使用的。</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okMesh</b>(Context)
+				</div>
+				
+				<div class="description">
+					在Oak3D中，网格是标准的几何体数据容器。<br>okMesh对象可以Mesh is the standard geometry data container in Oak3D. 
+okMesh object can be created on the fly or created within a okModel object.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{WebGLContext}</span>  <b>Context</b>
+								
+							</dt>
+								<dd>WebGL设备渲染环境</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okMesh.html">okMesh</a>}</span> 一个新的okMesh对象。</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clear"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>clear</b>()
+					
+					</div>
+					<div class="description">
+						将当前网格重置为默认状态，清空其中的所有几何体数据。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="computeBoundingInfo"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>computeBoundingInfo</b>()
+					
+					</div>
+					<div class="description">
+						计算此Mesh的包围盒信息。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>顶点位置信息必须储存在一个顶点属性中，而这个顶点属性必须只用于储存顶点位置信息。<br>顶点位置信息的格式必须是&lt;x, y, z&gt;。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="createAttribute"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>createAttribute</b>(Name, Len, Data, Usage)
+					
+					</div>
+					<div class="description">
+						创建一个新的顶点属性列表。
+okMesh对象中的属性与WebGL中的属性略有不同。<br>在WebGL中，顶点属性是作为顶点着色器的输入存在的。而在Oak3D中，网格属性是指顶点数组对象（Vertex Array Buffer），其中可以包含一个或多个顶点着色器属性的源数据。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>顶点属性名称</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>此属性流的长度(单位: 基本数据元素的个数)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array|TypedArray}</span> <b>Data</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于初始化buffer的数据内容。如果这个参数被忽略，那么新的属性数组将会被初始化为一个空的数组缓存。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Usage</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定顶点属性的用途。可选的值是[STATIC_DRAW, DYNAMIC_DRAW, STREAM_DRAW]；默认值是STATIC_DRAW。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="createIndex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>createIndex</b>(Name, Len, Data, Usage, Topology)
+					
+					</div>
+					<div class="description">
+						创建一个新的索引列表。
+一个okMesh对象可以拥有多个不同名称的顶点索引数组。在Oak3D Engine层，默认的顶点索引数组的名称是“Default”，默认的线框索引数组的名称是“Wireframe”。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>索引列表名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>此索引流的长度(单位: 基本数据元素个数)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array|TypedArray}</span> <b>Data</b>
+									<i>Optional</i>
+								</dt>
+								<dd>用于初始化buffer的数据内容。如果这个参数被忽略，那么新的属性数组将会被初始化为一个空的数组缓存。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Usage</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定顶点属性的用途。可选值是[STATIC_DRAW, DYNAMIC_DRAW, STREAM_DRAW]；默认值是STATIC_DRAW。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Topology</b>
+									<i>Optional</i>
+								</dt>
+								<dd>索引列表的拓扑结构。默认值是TRIANGLES；可选值是[POINTS, LINES, LINE_STRIP, LINE_LOOP, TRIANGLES, TRIANGLE_STRIP, TRIANGLE_FAN]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteAttribute"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>deleteAttribute</b>(Name)
+					
+					</div>
+					<div class="description">
+						删除指定的顶点属性。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>顶点属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteIndex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>deleteIndex</b>(Name)
+					
+					</div>
+					<div class="description">
+						删除指定的索引列表。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>索引列表名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="draw"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>draw</b>(IdxName, Topology, Offset, Count)
+					
+					</div>
+					<div class="description">
+						执行绘制操作。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>IdxName</b>
+									
+								</dt>
+								<dd>绘制使用的索引列表名称。默认的索引列表名称是“Default”。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Topology</b>
+									<i>Optional</i>
+								</dt>
+								<dd>绘制的基本几何元素类型，可选值是[POINTS, LINES, LINE_STRIP, LINE_LOOP, TRIANGLES, TRIANGLE_STRIP, TRIANGLE_FAN]。<br>如果本参数被忽略，那么本方法将使用索引列表内置的几何元素类型。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Offset</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定从索引列表的第几个元素开始绘制。默认值是0。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Count</b>
+									<i>Optional</i>
+								</dt>
+								<dd>指定绘制多少个索引列表元素。默认值是整个索引列表的长度。<br>注意, 此数量应与DrawMode中指定的元素类型匹配, 如DrawMode为OAK.TRIANGLES(即三角形列表), 则绘制索引个数应为3的倍数。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAttributeArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getAttributeArray</b>(AttribName)
+					
+					</div>
+					<div class="description">
+						返回指定顶点属性流的数据数组。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>AttribName</b>
+									
+								</dt>
+								<dd>顶点属性名称</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 数组形式的顶点属性流。注意：这个作为返回值的数组实际上是内部数组的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAttributeArrayBuffer"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okArrayBuffer.html">okArrayBuffer</a>}</span>
+					<b>getAttributeArrayBuffer</b>(AttribName)
+					
+					</div>
+					<div class="description">
+						返回指定顶点属性流的ArrayBuffer。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>AttribName</b>
+									
+								</dt>
+								<dd>顶点属性名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okArrayBuffer.html">okArrayBuffer</a>}</span> 指定顶点属性流的ArrayBuffer的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAttributeArrayBufferMap"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getAttributeArrayBufferMap</b>()
+					
+					</div>
+					<div class="description">
+						获取当前mesh的&lt;AttribName, AttributeArrayBuffer&gt;字典。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> &lt;AttribName, AttributeArrayBuffer&gt;字典的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAttributeArrayMap"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getAttributeArrayMap</b>()
+					
+					</div>
+					<div class="description">
+						获取当前mesh的&lt;AttribName, AttributeArray&gt;字典。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> &lt;AttribName, AttributeArray&gt;字典的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getAttributeNum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getAttributeNum</b>()
+					
+					</div>
+					<div class="description">
+						返回此Mesh顶点属性流的数量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 顶点属性流的数量。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>getBoundingBox</b>()
+					
+					</div>
+					<div class="description">
+						获取Mesh的轴对齐包围盒。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> 返回轴对齐包围盒的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingSphereCenter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getBoundingSphereCenter</b>()
+					
+					</div>
+					<div class="description">
+						获取此Mesh包围球的中心点。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> 此Mesh包围球的中心点。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getBoundingSphereRadius"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getBoundingSphereRadius</b>()
+					
+					</div>
+					<div class="description">
+						获取此Mesh包围球的半径。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 此Mesh包围球的半径。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexArray"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getIndexArray</b>(IdxName)
+					
+					</div>
+					<div class="description">
+						返回指定索引列表的数据数组。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>IdxName</b>
+									
+								</dt>
+								<dd>索引列表名称</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> 指定索引列表的数据数组的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexArrayBuffer"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okArrayBuffer.html">okArrayBuffer</a>}</span>
+					<b>getIndexArrayBuffer</b>(IdxName)
+					
+					</div>
+					<div class="description">
+						返回指定索引列表的ArrayBuffer。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>IdxName</b>
+									
+								</dt>
+								<dd>索引列表名称</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okArrayBuffer.html">okArrayBuffer</a>}</span> 指定索引列表的ArrayBuffer的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexArrayBufferMap"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getIndexArrayBufferMap</b>()
+					
+					</div>
+					<div class="description">
+						获取当前mesh的&lt;IndexName, IndexArrayBuffer&gt;字典
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> &lt;IndexName, IndexArrayBuffer&gt;字典的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexArrayMap"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getIndexArrayMap</b>()
+					
+					</div>
+					<div class="description">
+						获取当前mesh的&lt;IndexName, IndexArray&gt;字典。
+
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> &lt;IndexName, IndexArray&gt;字典的引用。注意：这个作为返回值的对象实际上是内部对象的引用，因此不能在外部修改；如需修改必须为其创建一个独立的副本。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexNum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getIndexNum</b>()
+					
+					</div>
+					<div class="description">
+						返回此Mesh索引列表的数量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 索引列表的数量。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getIndexTopology"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>getIndexTopology</b>(Name)
+					
+					</div>
+					<div class="description">
+						获取指定索引列表的拓扑结构。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>索引列表名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> 索引列表的拓扑结构，可能的值是[POINTS, LINES, LINE_STRIP, LINE_LOOP, TRIANGLES, TRIANGLE_STRIP, TRIANGLE_FAN]。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMaterial"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span>
+					<b>getMaterial</b>()
+					
+					</div>
+					<div class="description">
+						获取当前mesh内置的材质。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMaterial.html">okMaterial</a>}</span> 当前mesh内置材质的引用。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getSkin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okMeshSkin.html">okMeshSkin</a>}</span>
+					<b>getSkin</b>()
+					
+					</div>
+					<div class="description">
+						获取此Mesh的蒙皮信息。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okMeshSkin.html">okMeshSkin</a>}</span> 此Mesh的蒙皮信息。</dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="getVertexNum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVertexNum</b>()
+					
+					</div>
+					<div class="description">
+						获取当前网格的顶点数量。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> 顶点数量。</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadAttribute"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>loadAttribute</b>(Name, BeginIdx, Len, NewData)
+					
+					</div>
+					<div class="description">
+						更新指定的顶点属性。
+okMesh对象中的属性与WebGL中的属性略有不同。<br>在WebGL中，顶点属性是作为顶点着色器的输入存在的。而在Oak3D中，网格属性是指顶点数组对象（Vertex Array Buffer），其中可以包含一个或多个顶点着色器属性的源数据。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>顶点属性名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>BeginIdx</b>
+									
+								</dt>
+								<dd>更新起始位置(单位: 基本数据元素个数)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>更新的数据长度(单位: 基本数据元素个数)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array|TypedArray}</span> <b>NewData</b>
+									
+								</dt>
+								<dd>更新数据</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadIndex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>loadIndex</b>(Name, BeginIdx, Len, NewData)
+					
+					</div>
+					<div class="description">
+						更新指定的索引列表。
+一个okMesh对象可以拥有多个不同名称的顶点索引数组。在Oak3D Engine层，默认的顶点索引数组的名称是“Default”，默认的线框索引数组的名称是“Wireframe”。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>索引列表名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>BeginIdx</b>
+									
+								</dt>
+								<dd>更新起始位置(单位: 基本数据元素个数)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>Len</b>
+									
+								</dt>
+								<dd>更新的数据长度(单位: 基本数据元素个数)。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array|TypedArray}</span> <b>NewData</b>
+									
+								</dt>
+								<dd>更新数据。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBoundingBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setBoundingBox</b>(Min, Max)
+					
+					</div>
+					<div class="description">
+						设置Mesh的轴对齐包围盒.
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>|<a href="../symbols/okAABBox.html">okAABBox</a>}</span> <b>Min</b>
+									
+								</dt>
+								<dd>包围盒最小点。 | 轴对齐包围盒。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>Max</b>
+									<i>Optional</i>
+								</dt>
+								<dd>包围盒最大点。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setIndexTopology"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setIndexTopology</b>(Name, Topology)
+					
+					</div>
+					<div class="description">
+						设置索引列表的拓扑结构。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>索引列表名称。</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Topology</b>
+									
+								</dt>
+								<dd>索引列表的拓扑结构，可选的值是[POINTS, LINES, LINE_STRIP, LINE_LOOP, TRIANGLES, TRIANGLE_STRIP, TRIANGLE_FAN]。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setName</b>(Name)
+					
+					</div>
+					<div class="description">
+						设定此Mesh的名称。
+
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>Name</b>
+									
+								</dt>
+								<dd>Mesh名称。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Requires:</dt>
+							
+								<dd>本方法仅适用于那些不是由okModel对象建立的Mesh。</dd>
+							
+							</dl>
+						
+						
+
+					<hr />
+				
+					<a name="setVertexNum"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setVertexNum</b>(VertNum)
+					
+					</div>
+					<div class="description">
+						设置当前网格的顶点数量。
+本方法通常是在加载资源的函数中被调用，而不是由开发者直接使用的。
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>VertNum</b>
+									
+								</dt>
+								<dd>顶点数量。</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

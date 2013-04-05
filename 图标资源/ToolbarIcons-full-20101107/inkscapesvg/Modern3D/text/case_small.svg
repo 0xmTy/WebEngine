@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="case_cap.2010_04_23_19_09_56.0.svg">
+  <title
+     id="title3703">Small Letters</title>
+  <defs
+     id="defs2818">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective29" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4019">
+      <stop
+         style="stop-color:#a5aaff;stop-opacity:1"
+         offset="0"
+         id="stop4021" />
+      <stop
+         style="stop-color:#000339;stop-opacity:1"
+         offset="1"
+         id="stop4023" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient4025"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="39.758759"
+       y2="42.559048"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter4033">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.66891255"
+         id="feGaussianBlur4035" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient2860"
+       gradientUnits="userSpaceOnUse"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="39.758759"
+       y2="42.559048"
+       gradientTransform="matrix(0.37491398,0,0,0.37491398,30.788099,15.199943)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient2864"
+       gradientUnits="userSpaceOnUse"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="39.758759"
+       y2="42.559048"
+       gradientTransform="matrix(0.86384535,0,0,0.86384535,0.25560082,3.3108126)" />
+    <filter
+       inkscape:collect="always"
+       id="filter3644">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.66604579"
+         id="feGaussianBlur3646" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient3660"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72643813,0,0,0.72643813,0.23102288,6.6075798)"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="139.48837"
+       y2="43.24931" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient3662"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.37491398,0,0,0.37491398,30.788099,15.199943)"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="39.758759"
+       y2="42.559048" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4019"
+       id="linearGradient3666"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.37491398,0,0,0.37491398,30.788099,15.199943)"
+       x1="1.877283"
+       y1="2.0821948"
+       x2="78.330482"
+       y2="43.249306" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="13.515825"
+     inkscape:cy="22.521194"
+     inkscape:current-layer="g3648"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2812"
+       empspacing="12"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818"
+       empspacing="16"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="4"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Small Letters</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/MIT/ " />
+        <dc:identifier>http://toolbaricons.sourceforge.net/icons/Modern3D/text/case_small</dc:identifier>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:date>2010-04-23</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Florian Haag</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g3648"
+       transform="matrix(0.67495564,0,0,0.67495564,-0.71562494,7.5894065)">
+      <text
+         transform="matrix(0.72643814,0,0,0.72643814,0.2310229,6.60758)"
+         xml:space="preserve"
+         style="font-size:56.54610825px;font-style:normal;font-weight:normal;opacity:0.88916255;fill:#202020;fill-opacity:1;stroke:none;filter:url(#filter3644);font-family:Bitstream Vera Sans"
+         x="5.3188715"
+         y="44.945534"
+         id="text4027"><tspan
+           sodipodi:role="line"
+           id="tspan4029"
+           x="5.3188715"
+           y="44.945534"
+           style="fill:#202020;fill-opacity:1">abc</tspan></text>
+      <text
+         id="text4015"
+         y="37.524097"
+         x="1.6549246"
+         style="font-size:41.07725143px;font-style:normal;font-weight:normal;fill:url(#linearGradient3660);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="fill:url(#linearGradient3660);fill-opacity:1"
+           y="37.524097"
+           x="1.6549246"
+           id="tspan4017"
+           sodipodi:role="line">abc</tspan></text>
+    </g>
+  </g>
+</svg>

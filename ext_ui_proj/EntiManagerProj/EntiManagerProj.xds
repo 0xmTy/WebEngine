@@ -1,0 +1,48 @@
+{
+    "name": "EntiManagerProj",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "a2aef3af-6c90-438e-a1f5-ea3935c31709": {
+            "paths": [
+                "metadata/view/EntiMgrPanel",
+                "app/view/override/EntiMgrPanel.js",
+                "app/view/EntiMgrPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "EntiMgrPanel"
+        },
+        "4d912010-f989-48cf-bd61-6934c9b9ef97": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "a2aef3af-6c90-438e-a1f5-ea3935c31709"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "4d912010-f989-48cf-bd61-6934c9b9ef97"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

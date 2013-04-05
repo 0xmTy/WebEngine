@@ -1,0 +1,1442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>Oak3D Document - okAABBox</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.classList a
+{
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+.summaryTable 
+{ 
+	width: 100%; 
+}
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: rgb(70, 135, 191);
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #070;
+	font-style: italic;
+}
+
+
+		        
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D6D7;
+}
+
+#page {
+    height: 100%;
+    width: 900px;
+    padding: 20px 20px 0;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #777;
+    background: white;
+}
+
+.left {
+    height: 97%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.right {
+    height: 97%;
+    padding-right: 20px;
+    width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+#index
+{
+    display: inline-block;
+    margin-top: 24px;
+    width: 160px;
+    background-color: rgb(70, 135, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index .class-index {
+    font-size: 16px;
+}
+
+#index .class-index a {
+    color: white;
+    text-decoration: none;
+}
+
+#index .class-index a:visit {
+    color: white;
+}
+
+#content
+{
+    display: inline-block;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+             <div id="page">
+
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+                <div class="left">
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center" class="class-index"><a href="../index.html">Class Index</a></div>
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/OAK.html">OAK</a></li>
+	
+	<li><a href="../symbols/okAABBox.html">okAABBox</a></li>
+	
+	<li><a href="../symbols/okArrayBuffer.html">okArrayBuffer</a></li>
+	
+	<li><a href="../symbols/okBaseEntity.html">okBaseEntity</a></li>
+	
+	<li><a href="../symbols/okCamera.html">okCamera</a></li>
+	
+	<li><a href="../symbols/okConfigEntity.html">okConfigEntity</a></li>
+	
+	<li><a href="../symbols/okCustomMeshEntity.html">okCustomMeshEntity</a></li>
+	
+	<li><a href="../symbols/okDctLightEntity.html">okDctLightEntity</a></li>
+	
+	<li><a href="../symbols/okDynamicEntity.html">okDynamicEntity</a></li>
+	
+	<li><a href="../symbols/okEngine.html">okEngine</a></li>
+	
+	<li><a href="../symbols/okEngineInfo.html">okEngineInfo</a></li>
+	
+	<li><a href="../symbols/okEngineSetting.html">okEngineSetting</a></li>
+	
+	<li><a href="../symbols/okExtension.html">okExtension</a></li>
+	
+	<li><a href="../symbols/okFont.html">okFont</a></li>
+	
+	<li><a href="../symbols/okFontManager.html">okFontManager</a></li>
+	
+	<li><a href="../symbols/okFrameBuffer.html">okFrameBuffer</a></li>
+	
+	<li><a href="../symbols/okFrustum.html">okFrustum</a></li>
+	
+	<li><a href="../symbols/okLightEntity.html">okLightEntity</a></li>
+	
+	<li><a href="../symbols/okMat3.html">okMat3</a></li>
+	
+	<li><a href="../symbols/okMat4.html">okMat4</a></li>
+	
+	<li><a href="../symbols/okMat43.html">okMat43</a></li>
+	
+	<li><a href="../symbols/okMaterial.html">okMaterial</a></li>
+	
+	<li><a href="../symbols/okMesh.html">okMesh</a></li>
+	
+	<li><a href="../symbols/okMeshSkin.html">okMeshSkin</a></li>
+	
+	<li><a href="../symbols/okModel.html">okModel</a></li>
+	
+	<li><a href="../symbols/okOBBox.html">okOBBox</a></li>
+	
+	<li><a href="../symbols/okParticleEntity.html">okParticleEntity</a></li>
+	
+	<li><a href="../symbols/okPlane.html">okPlane</a></li>
+	
+	<li><a href="../symbols/okPointLightEntity.html">okPointLightEntity</a></li>
+	
+	<li><a href="../symbols/okProgram.html">okProgram</a></li>
+	
+	<li><a href="../symbols/okQuat.html">okQuat</a></li>
+	
+	<li><a href="../symbols/okRenderBuffer.html">okRenderBuffer</a></li>
+	
+	<li><a href="../symbols/okRenderer.html">okRenderer</a></li>
+	
+	<li><a href="../symbols/okResourceManager.html">okResourceManager</a></li>
+	
+	<li><a href="../symbols/okResourceParser.html">okResourceParser</a></li>
+	
+	<li><a href="../symbols/okScene.html">okScene</a></li>
+	
+	<li><a href="../symbols/okSceneManager.html">okSceneManager</a></li>
+	
+	<li><a href="../symbols/okShader.html">okShader</a></li>
+	
+	<li><a href="../symbols/okSkAnimation.html">okSkAnimation</a></li>
+	
+	<li><a href="../symbols/okSkAnimPlayer.html">okSkAnimPlayer</a></li>
+	
+	<li><a href="../symbols/okSpotLightEntity.html">okSpotLightEntity</a></li>
+	
+	<li><a href="../symbols/okStaticEntity.html">okStaticEntity</a></li>
+	
+	<li><a href="../symbols/okTexture.html">okTexture</a></li>
+	
+	<li><a href="../symbols/okVec2.html">okVec2</a></li>
+	
+	<li><a href="../symbols/okVec3.html">okVec3</a></li>
+	
+	<li><a href="../symbols/okVec4.html">okVec4</a></li>
+	
+	<li><a href="../symbols/okVideoEntity.html">okVideoEntity</a></li>
+	
+	<li><a href="../symbols/okVisibleEntity.html">okVisibleEntity</a></li>
+	
+</ul>
+
+			<!-- end publish.classesIndex -->
+		</div>	
+		</div>
+                <div class="right">
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class okAABBox
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				Axis-Aligned Bounding Box(AABB) class.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class okAABBox.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/okAABBox.html#constructor">okAABBox</a></b>(MinPos, MaxPos)
+							</div>
+							<div class="description">The axis-aligned minimum bounding box for a given model is its minimum bounding box subject 
+to the constraint that the edges of the box are parallel to the (Cartesian) coordinate axes.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class okAABBox.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okAABBox.html#vMax">vMax</a></b>
+								</div>
+								<div class="description">The maximal point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/okAABBox.html#vMin">vMin</a></b>
+								</div>
+								<div class="description">The minimal point of the AABB.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class okAABBox.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#clone">clone</a></b>(CloneResult)
+								</div>
+								<div class="description">Clone the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#collideAABBox">collideAABBox</a></b>(The)
+								</div>
+								<div class="description">Check if a AABB is intersected with another AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#collideLine">collideLine</a></b>(LinePos0, LinePos1, Ret)
+								</div>
+								<div class="description">Check if a line is intersected with the AABB and calculate the intersecting point.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#collideRay">collideRay</a></b>(RayOrigin, RayDir, Ret)
+								</div>
+								<div class="description">Check if a ray is intersected with the AABB and calculate the intersecting point.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#collideVertex">collideVertex</a></b>(VPos)
+								</div>
+								<div class="description">Evaluate the relationship between a vertex position and the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#getExtent">getExtent</a></b>(Axis)
+								</div>
+								<div class="description">Get the extent of AABB on the given axis.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#getMax">getMax</a></b>()
+								</div>
+								<div class="description">Get the maximal point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#getMin">getMin</a></b>()
+								</div>
+								<div class="description">Get the minimal point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#getPoint">getPoint</a></b>(PointIdx)
+								</div>
+								<div class="description">Get a specified vertex point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#getVolume">getVolume</a></b>()
+								</div>
+								<div class="description">Get the volume size of AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#intersect">intersect</a></b>(Box)
+								</div>
+								<div class="description">Get the intersection of two AABB as a new AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#set">set</a></b>(MinPos, MaxPos)
+								</div>
+								<div class="description">Define the AABB with the min and max point.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#setMax">setMax</a></b>(x, y, z)
+								</div>
+								<div class="description">Set the maximal point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#setMin">setMin</a></b>(x, y, z)
+								</div>
+								<div class="description">Set the minimal point of the AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#transformMat">transformMat</a></b>(Mat)
+								</div>
+								<div class="description">Transform a AABB with a matrix, expand it to a new AABB and save the result to the current AABB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/okAABBox.html#union">union</a></b>(Box, SelfAffect)
+								</div>
+								<div class="description">Get the union of two AABB as a new AABB.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>okAABBox</b>(MinPos, MaxPos)
+				</div>
+				
+				<div class="description">
+					The axis-aligned minimum bounding box for a given model is its minimum bounding box subject 
+to the constraint that the edges of the box are parallel to the (Cartesian) coordinate axes.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span>  <b>MinPos</b>
+								<i>Optional</i>
+							</dt>
+								<dd>The minimal point of the AABB. The default value is &lt;0, 0, 0&gt;.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span>  <b>MaxPos</b>
+								<i>Optional</i>
+							</dt>
+								<dd>The maximal point of the AABB. The default value is &lt;0, 0, 0&gt;.</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Returns:</dt>
+						
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> A new okAABBox object</dd>
+						
+						</dl>
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="vMax"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>vMax</b>
+					
+					</div>
+					<div class="description">
+						The maximal point of the AABB.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="vMin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>vMin</b>
+					
+					</div>
+					<div class="description">
+						The minimal point of the AABB.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>clone</b>(CloneResult)
+					
+					</div>
+					<div class="description">
+						Clone the AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> <b>CloneResult</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The container of the clone result, if this parameter is ignored then the method will create a new one and clone to it.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> The clone result.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="collideAABBox"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>collideAABBox</b>(The)
+					
+					</div>
+					<div class="description">
+						Check if a AABB is intersected with another AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> <b>The</b>
+									
+								</dt>
+								<dd>AABB to be checked with the current AABB.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> OAK.COLLIDE_TRUE means the two AABBs has intersection.
+    OAK.COLLIDE_FALSE means the two AABBs don't have intersection.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="collideLine"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>collideLine</b>(LinePos0, LinePos1, Ret)
+					
+					</div>
+					<div class="description">
+						Check if a line is intersected with the AABB and calculate the intersecting point.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>LinePos0</b>
+									
+								</dt>
+								<dd>A position to define the line.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>LinePos1</b>
+									
+								</dt>
+								<dd>A position to define the line.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>Ret</b>
+									
+								</dt>
+								<dd>This is a container to return the intersecting point defined using the linear interpolation parameter of the line.
+    InterPos = LinePos0 + Ret.fT * (LinePos1 - LinePos0).</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> OAK.COLLIDE_TRUE means the line has intersection with the AABB.
+    OAK.COLLIDE_FALSE means the line doens't have intersection with the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="collideRay"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>collideRay</b>(RayOrigin, RayDir, Ret)
+					
+					</div>
+					<div class="description">
+						Check if a ray is intersected with the AABB and calculate the intersecting point.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RayOrigin</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>RayDir</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>Ret</b>
+									
+								</dt>
+								<dd>This is a container to return the nearest intersecting point defined using the linear interpolation parameter of the ray.
+    InterPos = RayOrigin + Ret.fT * RayDir.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> OAK.COLLIDE_TRUE means the ray has intersection with the AABB.
+    OAK.COLLIDE_FALSE means the ray doesn't have intersection with the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="collideVertex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Enum}</span>
+					<b>collideVertex</b>(VPos)
+					
+					</div>
+					<div class="description">
+						Evaluate the relationship between a vertex position and the AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>VPos</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Enum}</span> OAK.COLLIDE_TRUE means the vertex is in the AABB.
+    OAK.COLLIDE_FALSE means the vertex is out of the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getExtent"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getExtent</b>(Axis)
+					
+					</div>
+					<div class="description">
+						Get the extent of AABB on the given axis.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Enum}</span> <b>Axis</b>
+									
+								</dt>
+								<dd>The available enumeration is [AXIS_X, AXIS_Y, AXIS_Z];</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The extent on the given axis.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMax"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getMax</b>()
+					
+					</div>
+					<div class="description">
+						Get the maximal point of the AABB.
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The maximal bounding point.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getMin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getMin</b>()
+					
+					</div>
+					<div class="description">
+						Get the minimal point of the AABB.
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The minimal bounding point.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPoint"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okVec3.html">okVec3</a>}</span>
+					<b>getPoint</b>(PointIdx)
+					
+					</div>
+					<div class="description">
+						Get a specified vertex point of the AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>PointIdx</b>
+									
+								</dt>
+								<dd>The index of the point. 0:&lt;min.x, min.y, min.z&gt;, 1:&lt;max.x, min.y, min.z&gt;, 
+    2: &lt;max.x, max.y, min.z&gt;, 3:&lt;min.x, max.y, min.z&gt;,
+    4: &lt;min.x, min.y, max.z&gt;, 5:&lt;max.x, min.y, max.z&gt;,
+    6: &lt;max.x, max.y, max.z&gt;, 7:&lt;min.x, max.y, max.z&gt;.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> The specified point of the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVolume"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getVolume</b>()
+					
+					</div>
+					<div class="description">
+						Get the volume size of AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b></b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> The volume size of the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="intersect"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>intersect</b>(Box)
+					
+					</div>
+					<div class="description">
+						Get the intersection of two AABB as a new AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> <b>Box</b>
+									
+								</dt>
+								<dd>The AABB to be intersected.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> The intersecting result.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="set"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>set</b>(MinPos, MaxPos)
+					
+					</div>
+					<div class="description">
+						Define the AABB with the min and max point.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>MinPos</b>
+									
+								</dt>
+								<dd>The minimal point of the AABB.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>MaxPos</b>
+									
+								</dt>
+								<dd>The maximal point of the AABB.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMax"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setMax</b>(x, y, z)
+					
+					</div>
+					<div class="description">
+						Set the maximal point of the AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component x of the maximal point. | The maximal point of the AABB.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The component y of the maximal point.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									
+								</dt>
+								<dd>The component z of the maximal point.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>setMin</b>(x, y, z)
+					
+					</div>
+					<div class="description">
+						Set the minimal point of the AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number|<a href="../symbols/okVec3.html">okVec3</a>}</span> <b>x</b>
+									
+								</dt>
+								<dd>The component x of the minimal point. | The minimal point of the AABB.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The component y of the minimal point.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>z</b>
+									
+								</dt>
+								<dd>The component z of the minimal point.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="transformMat"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Null}</span>
+					<b>transformMat</b>(Mat)
+					
+					</div>
+					<div class="description">
+						Transform a AABB with a matrix, expand it to a new AABB and save the result to the current AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okMat43.html">okMat43</a> | okMat4}</span> <b>Mat</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="union"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span>
+					<b>union</b>(Box, SelfAffect)
+					
+					</div>
+					<div class="description">
+						Get the union of two AABB as a new AABB.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> <b>Box</b>
+									
+								</dt>
+								<dd>The AABB to be united.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>SelfAffect</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Indicate whether the operation affects the current AABB. The default value is false;</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/okAABBox.html">okAABBox</a>}</span> The union result. If SelfAffect is true, then return a reference to the current AABB.</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+		</div>
+		
+		</div>
+	</body>
+</html>

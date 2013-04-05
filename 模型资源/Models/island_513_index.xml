@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Oak3DModelDocument Version="1.0" >
+    <terrainInfo ww="513" wh="513" cw="65" ch="65" />
+    <WorldMap i="0" j="0" url="island_513_0.xml" min="0 0 0" max="512 512 254" />
+</Oak3DModelDocument>

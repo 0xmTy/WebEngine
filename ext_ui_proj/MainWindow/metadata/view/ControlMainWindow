@@ -1,0 +1,526 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|snapToGrid": 10,
+        "designer|userClassName": "ControlMainWindow",
+        "designer|initialView": true,
+        "frame": true,
+        "height": 652,
+        "id": "ExtControlMainWindow",
+        "width": 1200,
+        "layout": "absolute",
+        "hideCollapseTool": false,
+        "iconCls": null,
+        "title": "WebEngine",
+        "titleCollapse": false
+    },
+    "id": "ExtBox1-ext-gen4648",
+    "designerId": "48616155-61c7-4be8-acdb-53359251ad84",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar",
+                "frame": true,
+                "height": 25
+            },
+            "designerId": "9445a64b-e57e-44d3-bd9a-d0fcfb62f448",
+            "cn": [
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator5"
+                    },
+                    "designerId": "00276d6d-dedd-4ce7-b38f-6c8ed5abfed7"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton6",
+                        "text": "环境编辑器"
+                    },
+                    "designerId": "2266304d-c058-4bc3-a2e0-b5f6c3d8c22f",
+                    "cn": [
+                        {
+                            "type": "menu",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyMenu"
+                            },
+                            "designerId": "e2915ee8-e03a-4df0-902c-e2745bb3df7a",
+                            "cn": [
+                                {
+                                    "type": "menuitem",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyMenuItem",
+                                        "text": "地形工具"
+                                    },
+                                    "designerId": "29f7040b-4378-49f8-9571-f1b91437de3f",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "handler",
+                                                "fn": "handler",
+                                                "designer|params": [
+                                                    "item",
+                                                    "event"
+                                                ],
+                                                "implHandler": [
+                                                    "if (null == global_extPanelManager.v_extEnvirEditor) {\r",
+                                                    "    global_extPanelManager.m_oEnvirEditorObj = new EnvirEditorObj();\r",
+                                                    "    global_extPanelManager.m_oEnvirEditorObj.init();\r",
+                                                    "} else {\r",
+                                                    "    global_extPanelManager.m_oEnvirEditorObj.setMenuShow();\r",
+                                                    "}"
+                                                ]
+                                            },
+                                            "designerId": "fdf1d032-dade-4ae9-9514-5de95a53ef2e"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "menuitem",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyMenuItem1",
+                                        "text": "光照工具"
+                                    },
+                                    "designerId": "6041edde-625e-4bae-9220-5170c2aa2a5d"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator2"
+                    },
+                    "designerId": "503e4f73-eefa-4aa3-a3d4-8cbbd8b64fe9"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton4",
+                        "text": "模型管理器"
+                    },
+                    "designerId": "21d9cc8c-c4b7-4dc7-925b-e0402f68364d",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "global_extPanelManager.m_oEntiMgrPlugin.setMenuShow();"
+                                ]
+                            },
+                            "designerId": "476d7f3c-f3bf-4162-929c-1f9467b069ee"
+                        }
+                    ]
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator3"
+                    },
+                    "designerId": "08bf9979-8f8c-4348-a852-457866cac067"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton5",
+                        "text": "粒子编辑器"
+                    },
+                    "designerId": "f5fdbbf3-199a-4dcc-8fb5-0824b469643e"
+                },
+                {
+                    "type": "tbfill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyFill1"
+                    },
+                    "designerId": "b16a0688-b9a1-4fde-b741-d0ae6b43f66b"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator4"
+                    },
+                    "designerId": "f2b36a89-1ff8-4220-b85e-6da52e200832"
+                }
+            ]
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom",
+                "designer|userClassName": "MyToolbar1",
+                "frame": true,
+                "height": 25,
+                "id": ""
+            },
+            "designerId": "02ad0689-1e93-4556-88eb-4f6d79964650",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "icon": "media/ico/window.png",
+                        "text": "新建"
+                    },
+                    "designerId": "8e32aaa9-797a-48b8-8a9c-d6251598b739",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "\r",
+                                    "//Ext.MessageBox.alert('提示',\"I'm ready to show u a new world! :-)\");\r",
+                                    "event_createNewWorld();"
+                                ]
+                            },
+                            "designerId": "7afb1f0c-0b4c-4d2b-ae79-9a462546368b"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton1",
+                        "text": "打开"
+                    },
+                    "designerId": "7108496d-32a5-48e0-8dae-7dc88eb8cdca"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton2",
+                        "text": "保存"
+                    },
+                    "designerId": "2143110f-a845-400c-8a58-1e64442986ee"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator"
+                    },
+                    "designerId": "fc144e56-3bcf-4454-913d-0495eb2e8d1e"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton7",
+                        "text": "Move"
+                    },
+                    "designerId": "c765f7c2-3788-4d29-b8e5-5ffa3fb2fca8",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;\r",
+                                    "usrOpr.m_oCurOperaMod.clearAll();\r",
+                                    "usrOpr.m_oCurOperaMod = usrOpr.m_oMoveCamObj;"
+                                ]
+                            },
+                            "designerId": "25a21eda-5888-4f90-a4f3-65afacc6830c"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton8",
+                        "text": "Select"
+                    },
+                    "designerId": "2de52a58-ef7b-4543-84d9-5110f99bb2b9",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;\r",
+                                    "usrOpr.m_oCurOperaMod.clearAll();\r",
+                                    "usrOpr.m_oCurOperaMod = usrOpr.m_oSglEntiOperaObj;"
+                                ]
+                            },
+                            "designerId": "6edd78c6-ce3f-4375-b488-51e1d825ebae"
+                        }
+                    ]
+                },
+                {
+                    "type": "tbfill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyFill"
+                    },
+                    "designerId": "7af75a7d-ed74-4163-a306-bbe874a2b7ef"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator6"
+                    },
+                    "designerId": "b7e80633-8320-4e5c-8152-bd45894a29e2"
+                },
+                {
+                    "type": "textareafield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTextArea",
+                        "width": 150,
+                        "inputId": "id_eye_world",
+                        "name": "eye_world",
+                        "fieldLabel": "eye",
+                        "labelWidth": 20,
+                        "emptyText": "-",
+                        "growAppend": " -"
+                    },
+                    "designerId": "0f48668a-88bd-4e1a-94b1-1b4d11a15b45"
+                },
+                {
+                    "type": "textareafield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTextArea1",
+                        "width": 150,
+                        "inputId": "id_to_world",
+                        "name": "to_world",
+                        "fieldLabel": "to",
+                        "labelWidth": 20,
+                        "emptyText": "-"
+                    },
+                    "designerId": "8b88bc66-93a2-4ca9-b911-014e8e8442b3"
+                },
+                {
+                    "type": "textareafield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTextArea2",
+                        "width": 150,
+                        "inputId": "id_up_world",
+                        "name": "up_world",
+                        "fieldLabel": "up",
+                        "labelWidth": 20,
+                        "emptyText": "-"
+                    },
+                    "designerId": "040db83d-4b97-4037-b01b-37d4e76cdec7"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator1"
+                    },
+                    "designerId": "ff2b50d3-8e61-4e48-8e46-d7dc6041b2ab"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton6",
+                        "text": "Scene&Cam"
+                    },
+                    "designerId": "65c4bd46-fcc3-4f73-b551-5aef3d8289ee"
+                }
+            ]
+        }
+    ]
+}
