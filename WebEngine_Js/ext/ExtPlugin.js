@@ -11,7 +11,11 @@ function ExtEntiLocalIOObj() {
     }
     this.handleModelListener = function () {
         var strCurEntiName = Ext.get('id_entiName').getValue().toString();
-        var strPreEntiName = Ext.get('id_preEntiName').getValue().toString();
+        /*
+        为导入实体绑定父亲实体的功能已废弃  by _mTy 2013.4.6
+        */
+        //var strPreEntiName = Ext.get('id_preEntiName').getValue().toString();
+        var strPreEntiName = "";
         if("" == strCurEntiName || undefined == strCurEntiName || null == strCurEntiName){
             alert("未命名的实体！");
             return ;

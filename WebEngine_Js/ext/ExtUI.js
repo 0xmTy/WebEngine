@@ -759,6 +759,7 @@ Ext.define('Mty.view.EntiMgrPanel', {
                             fieldLabel:'组件名',
                             labelWidth:50
                         },
+                        /*
                         {
                             xtype:'textareafield',
                             width:120,
@@ -766,6 +767,7 @@ Ext.define('Mty.view.EntiMgrPanel', {
                             fieldLabel:'父对象',
                             labelWidth:50
                         },
+                        */
                         {
                             xtype:'tbspacer'
                         },

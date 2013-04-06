@@ -140,7 +140,6 @@ function event_mainCanvasOnKeyUp(event) {
     if (true == global_oakEngineManager.getMainEngineObject().mainLoopActivity) {
         mainCanvasKeyBoardUpFunc(event);
     }
-
 }
 
 function event_mainCanvasOnMouseDown(event) {

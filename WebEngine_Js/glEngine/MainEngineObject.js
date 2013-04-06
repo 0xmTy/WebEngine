@@ -10,10 +10,10 @@ function MainEngineObject() {
     this.mainLoopActivity = false;
 
     this.m_oInitWorldConf = {
-        m_strBaseUrl:"模型资源",
-        m_strModelUrl:"模型资源/Models",
-        m_strTextureUrl:"模型资源/Textures",
-        m_strSkAnimationUrl:"模型资源/Animations",
+        m_strBaseUrl:"3dResource",
+        m_strModelUrl:"3dResource/Models",
+        m_strTextureUrl:"3dResource/Textures",
+        m_strSkAnimationUrl:"3dResource/Animations",
         m_strProjName:"proj_0",
 
         m_vBBox:new Array(new okVec3(-1000, -1000, -1000), new okVec3(1000, 100, 1000)),
@@ -370,9 +370,10 @@ function MoveCamObj() {
 }
 
 function EntiOperaObj() {
-    var m_vSletEntiMap = null; //拓展为容器,支持复选操作 by _mTy 2013.3.21
+    //拓展为容器,支持复选操作 by _mTy 2013.3.21
+    var m_vSletEntiMap = null;
     var m_iOprCodec = null;
-
+    var m_iSletTipCount = null; //拾取到的实体组的计数，主要针对有组合实体的情况下，为不同的组合实体绘制颜色不同的包围盒
     this.init = function () {
         this.m_vSletEntiMap = new HashMap();
         this.m_iOprCodec = -1;
@@ -389,66 +390,24 @@ function EntiOperaObj() {
     this.getSletedEntiNames = function(){
         return this.m_vSletEntiMap.keySet();
     }
-    this.__initBoundingBox = function () {
-        /* done by _mTy 2013.3.25
-        //create a custom mesh entity for drawing bounding box
-        var scene = global_oakEngineManager.getMainEngineObject().m_scenActivityScene;
-        this.m_oBoundingbox = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, "BoundingBox");
-        this.m_oBoundingbox.setName("BoundingBox");
-        this.m_oBoundingbox.createAttribute("Position", 8 * 3, null, OAK.DYNAMIC_DRAW);
-        this.m_oBoundingbox.createIndex("Wireframe", 12 * 2, null, OAK.DYNAMIC_DRAW, OAK.LINES);
-        this.m_oBoundingbox.getMaterial().setEmissive(1.0, 1.0, 0.0);
-        this.m_oBoundingbox.getMaterial().setDiffuse(0, 0, 0);
-        this.m_oBoundingbox.getMaterial().enableDynamicLighting(false);
 
-        this.m_oBoundingbox.enableVisible(false);
-        */
-        /* done
-        if (null == global_renderFuncArr) {
-            alert('函数指针数组: global_renderFuncArr is null !');
-            return;
-        }
-        global_renderFuncArr.push(new Array(this, this.updataBBox));
-        */
+    /*
+    @功能描述: 以参数实体为根，遍历对象子树
+    @In root: 搜索的根起点
+    @return: 返回遍历结果
+    */
+    this.__dfsEntiTree = function(root){
+        var resArr = new Array();
+        return resArr;
     }
 
-    this.drawBoundingBox = function () {
-        /* done by _mTy 2013.3.25
-        if (null == this.m_oBoundingbox) {
-            this.__initBoundingBox();
-        }
-        if (null == this.m_oCurSletEnti) {
-            return;
-        }
-        var curBBox = this.m_oCurSletEnti.getBoundingBox();
-        var vMin = curBBox.getMin();
-        var vMax = curBBox.getMax();
+    /*
+    @功能描述: 以集合中任一元素，查询并查集合
+    @In ele_e: 集合内元素
+    @return: 返回集合
+    */
+    this.getDiyEntiSet = function(ele_e){
 
-        var aPosArray = [vMin.x, vMin.y, vMin.z,
-            vMax.x, vMin.y, vMin.z,
-            vMax.x, vMax.y, vMin.z,
-            vMin.x, vMax.y, vMin.z,
-            vMin.x, vMin.y, vMax.z,
-            vMax.x, vMin.y, vMax.z,
-            vMax.x, vMax.y, vMax.z,
-            vMin.x, vMax.y, vMax.z];
-
-        var aIndexArray = [0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2, 6, 3, 7];
-
-        this.m_oBoundingbox.loadAttribute("Position", 0, aPosArray.length, aPosArray);
-        this.m_oBoundingbox.loadIndex("Wireframe", 0, aIndexArray.length, aIndexArray);
-        this.m_oBoundingbox.setActiveIndex("Wireframe", OAK.LINES, 0, aIndexArray.length);
-        //this.m_oBoundingbox.enableVisible(false);
-        */
-    }
-
-    this.setBoundingBoxVisible = function (e) {
-        /* done 2013.3.25
-        if (null == this.m_oBoundingbox) {
-            return;
-        }
-        this.m_oBoundingbox.enableVisible(e);
-        */
     }
 
     this.clearAll = function () {
@@ -501,7 +460,7 @@ function EntiOperaObj() {
                 if (undefined == oResFind || null == oResFind) {
                     if(0 == this.m_vSletEntiMap.size()){
                         //显示菜单
-                        global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
+                        global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x + 1, usrOpr.m_vCurMousePos.y + 1);
                     }
                     //添加新实体
                     this.m_vSletEntiMap.put(tmpSletEnti.getName(),tmpSletEnti);
@@ -526,7 +485,7 @@ function EntiOperaObj() {
                 //绘制新包围盒
                 oDrawBoxObj.addEntiBox(tmpSletEnti.getName());
                 //重新显示菜单
-                global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
+                global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x + 1, usrOpr.m_vCurMousePos.y + 1);
                 /*
                 if (undefined == oResFind || null == oResFind) {
                 } else {
