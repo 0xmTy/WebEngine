@@ -21,37 +21,19 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="MainEngineObject.js" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="MainEngineObject.js" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/MainEngineObject.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="16" column="21" selection-start="530" selection-end="543" vertical-scroll-proportion="0.38235295">
+                  <state line="535" column="13" selection-start="20910" selection-end="20910" vertical-scroll-proportion="0.0">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="ExtMainPanelObject.js" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtMainPanelObject.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="88" column="43" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EnginePlugin.js" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="EnginePlugin.js" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EnginePlugin.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="64" column="42" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EngineCore.js" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineCore.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="19" column="37" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+                  <state line="239" column="5" selection-start="9039" selection-end="9039" vertical-scroll-proportion="0.5963581">
                     <folding />
                   </state>
                 </provider>
@@ -64,13 +46,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25711662">
+    <splitter split-orientation="horizontal" split-proportion="0.6822773">
       <split-first>
         <leaf>
-          <file leaf-file-name="adapter.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="adapter.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/adapter.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="70" selection-start="3567" selection-end="3631" vertical-scroll-proportion="0.45980707">
+                <state line="121" column="5" selection-start="3943" selection-end="3943" vertical-scroll-proportion="0.71428573">
                   <folding />
                 </state>
               </provider>
@@ -88,7 +70,7 @@
           <file leaf-file-name="EngineCore.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineCore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="19" selection-start="420" selection-end="430" vertical-scroll-proportion="0.0">
+                <state line="6" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -97,7 +79,7 @@
           <file leaf-file-name="EngineAPI.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineAPI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="-14.44">
+                <state line="258" column="1" selection-start="11983" selection-end="11985" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -119,7 +101,7 @@
           <file leaf-file-name="ExtCore.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtCore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.0">
+                <state line="16" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -128,29 +110,30 @@
           <file leaf-file-name="ExtPlugin.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtPlugin.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="35" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-10.28">
+                <state line="55" column="35" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ExtUI.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ExtUI.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtUI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="294" column="30" selection-start="10271" selection-end="10271" vertical-scroll-proportion="-7.6">
+                <state line="249" column="33" selection-start="8915" selection-end="8915" vertical-scroll-proportion="0.8042328">
                   <folding>
-                    <element signature="e#12057#25328#0" expanded="false" />
-                    <element signature="e#25368#27846#0" expanded="false" />
-                    <marker date="1365161578195" expanded="true" signature="25498:25526" placeholder="..." />
+                    <element signature="e#11304#13079#0" expanded="false" />
+                    <element signature="e#13122#26393#0" expanded="false" />
+                    <element signature="e#26433#28911#0" expanded="false" />
+                    <marker date="1365171064327" expanded="false" signature="26563:26591" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ExtMainPanelObject.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ExtMainPanelObject.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtMainPanelObject.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="128" column="0" selection-start="3564" selection-end="3576" vertical-scroll-proportion="3.2423398">
+                <state line="93" column="22" selection-start="2585" selection-end="2608" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -186,12 +169,12 @@
         <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/EngineCore.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/ext/ExtAPI.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/ext/ExtPlugin.js" />
-        <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/EnginePlugin.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/adapter.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/ext/ExtMainPanelObject.js" />
-        <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/MainEngineObject.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/EngineAPI.js" />
         <option value="$PROJECT_DIR$/WebEngine_Js/ext/ExtUI.js" />
+        <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/EnginePlugin.js" />
+        <option value="$PROJECT_DIR$/WebEngine_Js/glEngine/MainEngineObject.js" />
       </list>
     </option>
   </component>
@@ -260,6 +243,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebEngine_Js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -267,12 +268,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="last_opened_file_path" value="D:/modelView" />
-    <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
@@ -305,9 +306,6 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
-      <method />
-    </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
       <option name="myOutputFile" />
       <option name="myOpenOutputFile" value="false" />
@@ -322,6 +320,9 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
@@ -400,15 +401,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18912882" sideWeight="0.5080386" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18912882" sideWeight="0.18488745" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29581994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18912882" sideWeight="0.24276528" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18912882" sideWeight="0.45016077" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29581994" sideWeight="0.4973939" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19285183" sideWeight="0.7073955" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29581994" sideWeight="0.4973939" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -472,7 +473,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="213" />
+      <option name="time" value="219" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -486,13 +487,6 @@
     <entry file="file://$PROJECT_DIR$/ext-4.1.1a/ext-all-dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10671" column="34" selection-start="379445" selection-end="379445" vertical-scroll-proportion="0.5392954" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EnginePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="42" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -523,20 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="420" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/MainEngineObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="530" selection-end="543" vertical-scroll-proportion="0.38235295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
@@ -544,48 +524,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineAPI.js">
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtCore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="-14.44">
+        <state line="16" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/adapter.js">
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineCore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="70" selection-start="3567" selection-end="3631" vertical-scroll-proportion="0.45980707">
+        <state line="6" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtPlugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="35" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-10.28">
+        <state line="55" column="35" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtCore.js">
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtMainPanelObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.0">
+        <state line="93" column="22" selection-start="2585" selection-end="2608" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="30" selection-start="10271" selection-end="10271" vertical-scroll-proportion="-7.6">
+        <state line="249" column="33" selection-start="8915" selection-end="8915" vertical-scroll-proportion="0.8042328">
           <folding>
-            <element signature="e#12057#25328#0" expanded="false" />
-            <element signature="e#25368#27846#0" expanded="false" />
-            <marker date="1365161578195" expanded="true" signature="25498:25526" placeholder="..." />
+            <element signature="e#11304#13079#0" expanded="false" />
+            <element signature="e#13122#26393#0" expanded="false" />
+            <element signature="e#26433#28911#0" expanded="false" />
+            <marker date="1365171064327" expanded="false" signature="26563:26591" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebEngine_Js/ext/ExtMainPanelObject.js">
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EngineAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="3564" selection-end="3576" vertical-scroll-proportion="3.2423398">
+        <state line="258" column="1" selection-start="11983" selection-end="11985" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/MainEngineObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="535" column="13" selection-start="20910" selection-end="20910" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/glEngine/EnginePlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="5" selection-start="9039" selection-end="9039" vertical-scroll-proportion="0.5963581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebEngine_Js/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="5" selection-start="3943" selection-end="3943" vertical-scroll-proportion="0.71428573">
           <folding />
         </state>
       </provider>

@@ -216,7 +216,7 @@ function BoundBoxDrawObj(){
         var aIndexArray = [0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2, 6, 3, 7];
         var curBBox =  this.m_oBoundingBoxMap.get(strEntiName);
         if(undefined == curBBox || null == curBBox){
-            alert("尝试绘制包围盒时错误，找不到实体");
+            //alert("尝试绘制包围盒时错误，找不到实体");
             return ;
         }
         curBBox.loadAttribute("Position", 0, aPosArray.length, aPosArray);

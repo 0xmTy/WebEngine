@@ -195,29 +195,50 @@
 Ext.define('Mty.view.BaseOprMenu', {
     extend:'Ext.panel.Panel',
 
-    //draggable:true,
-    height:300,
-    width:51,
-    title:'',
-    //style:'margin-top:10px;margin-buttom:10px;',
+    height: 54,
+    width: 400,
+    title: '#',
 
-    initComponent:function () {
+    initComponent: function() {
         var me = this;
 
         Ext.applyIf(me, {
-            dockedItems:[
+            dockedItems: [
                 {
+                    xtype: 'toolbar',
+                    dock: 'top',
+                    items: [
+                        {
+                            xtype: 'button',
+                            //icon: 'media/ico/mov_space.jpg',
+                            text: 'Move',
+                            handler:function (button, event) {
+                                var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;
+                                usrOpr.m_oCurOperaMod.clearAll();
+                                usrOpr.m_oCurOperaMod = usrOpr.m_oMoveCamObj;
+                            }
+                        },
+                        {
+
+                        },
+                        {
+                            xtype: 'button',
+                            //icon: 'media/ico/tip_enti.jpg',
+                            text: 'Tip',
+                            handler:function (button, event) {
+                                var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;
+                                usrOpr.m_oCurOperaMod.clearAll();
+                                usrOpr.m_oCurOperaMod = usrOpr.m_oEntiOperaObj;
+                            }
+                        }
+                    ]
                 }
             ],
-            tools:[
+            tools: [
                 {
-                    xtype:'tool',
-                    id:'btCloseWin_baseOprMenu',
-                    tooltip:'关闭',
-                    handler:function () {
-                        global_extPanelManager.getMainWindowObj().m_oBaseOprMenu.setMenuHide();
-                    },
-                    type:'close'
+                    xtype: 'tool',
+                    type: 'close',
+                    handler:function(){global_extPanelManager.getMainWindowObj().m_oBaseOprMenu.setMenuHide();}
                 }
             ]
         });

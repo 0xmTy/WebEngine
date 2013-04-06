@@ -375,6 +375,7 @@ function EntiOperaObj() {
 
     this.init = function () {
         this.m_vSletEntiMap = new HashMap();
+        this.m_iOprCodec = -1;
     }
 
     this.getSletedEnti = function(strName){
@@ -451,7 +452,7 @@ function EntiOperaObj() {
     }
 
     this.clearAll = function () {
-        this.m_iOprCodec = null;
+        this.m_iOprCodec = -1;
         this.m_vSletEntiMap.clear();
         global_oakEngineManager.m_oUnCoreDrawMgrPlugin.m_oReferInfoDraw.m_oBoundingBoxDraw.clearAll();
         global_extPanelManager.getMainWindowObj().sletEntiOperaMenuHide();
@@ -461,6 +462,24 @@ function EntiOperaObj() {
         //return ;
         var mainEngineObj = global_oakEngineManager.getMainEngineObject();
         var usrObj = mainEngineObj.m_usrOpera;
+        switch (usrObj.m_oEntiOperaObj.m_iOprCodec) {
+            case 0:
+            {
+                return ;
+            }
+            case 1:
+            {
+                return ;
+            }
+            case 2:
+            {
+                return ;
+            }
+            default :
+            {
+
+            }
+        }
 
         var cam = global_oakEngineManager.getMainEngineObject().m_camActivityCam;
         var vCamPos = cam.getPos();
@@ -474,7 +493,11 @@ function EntiOperaObj() {
             var oDrawBoxObj = global_oakEngineManager.m_oUnCoreDrawMgrPlugin.m_oReferInfoDraw.m_oBoundingBoxDraw;
             var strTmpEntiName = tmpSletEnti.getName();
             var oResFind = this.m_vSletEntiMap.get(strTmpEntiName);
-            if (true/* 按压ctrl 需调整IO框架*/) {
+            /* ctrl键控制复选 */
+            var ctrlKeyState = global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oKeybordHash[17];
+            //ctrlKeyState = true;
+            /* 暂时不调整事件响应框架 */
+            if (true == ctrlKeyState) {
                 if (undefined == oResFind || null == oResFind) {
                     if(0 == this.m_vSletEntiMap.size()){
                         //显示菜单
@@ -492,50 +515,24 @@ function EntiOperaObj() {
                     }
                 }
             } else {
+                //清空复选实体容器
+                this.m_vSletEntiMap.clear();
+                //清空包围盒
+                oDrawBoxObj.clearAll();
+                //隐藏菜单
+                global_extPanelManager.getMainWindowObj().sletEntiOperaMenuHide();
+                //装入当前对象
+                this.m_vSletEntiMap.put(tmpSletEnti.getName(),tmpSletEnti);
+                //绘制新包围盒
+                oDrawBoxObj.addEntiBox(tmpSletEnti.getName());
+                //重新显示菜单
+                global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
+                /*
                 if (undefined == oResFind || null == oResFind) {
-                    //清空复选实体容器
-                    this.m_vSletEntiMap.clear();
-                    //装入当前对象
-                    this.m_vSletEntiMap.put(tmpSletEnti.getName(),tmpSletEnti);
                 } else {
                     //nothing to do
                 }
-            }
-
-            /*
-             if (null == this.m_oCurSletEnti || (tmpSletEnti.getName() != this.m_oCurSletEnti.getName())) {
-             if(null != this.m_oCurSletEnti){
-             //清除原物体高亮
-             for (var sMeshName in this.m_oCurSletEnti.getMaterialMap()) {
-             var mtrl = this.m_oCurSletEnti.getMaterial(sMeshName);
-             mtrl.setEmissive(0, 0, 0.0);
-             }
-             }
-             this.m_oCurSletEnti = tmpSletEnti;
-             global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
-             this.m_iOprCodec = null; //清空小菜单操作码
-             this.drawBoundingBox();
-             this.setBoundingBoxVisible(true);
-
-             //设置拾取物体高亮
-             for (var sMeshName in this.m_oCurSletEnti.getMaterialMap()) {
-             var mtrl = this.m_oCurSletEnti.getMaterial(sMeshName);
-             mtrl.setEmissive(0.5, 0.5, 0.0);
-             }
-             } else {
-             //点选的是同一物
-             }
-             */
-        }
-
-        switch (usrObj.m_oEntiOperaObj.m_iOprCodec) {
-            case null:
-            {
-
-            }
-            default :
-            {
-
+                */
             }
         }
     }
