@@ -374,8 +374,11 @@ function EntiOperaObj() {
     var m_vSletEntiMap = null;
     var m_iOprCodec = null;
     var m_iSletTipCount = null; //拾取到的实体组的计数，主要针对有组合实体的情况下，为不同的组合实体绘制颜色不同的包围盒
+    var m_vCompAtomContainer = null; //收录所有关于复合组件
+
     this.init = function () {
         this.m_vSletEntiMap = new HashMap();
+        this.m_vCompAtomContainer = new HashMap();
         this.m_iOprCodec = -1;
     }
 
@@ -410,6 +413,75 @@ function EntiOperaObj() {
 
     }
 
+    this.__constructAtom_single = function(enti){
+        var atom = new EntiCompAtom();
+        atom.init(new Array(enti),enti.getName());
+        return atom;
+    }
+
+    this.__constructAtom_multi = function(entiList,strCompName){
+        var atom = new EntiCompAtom();
+        atom.init(entiList,strCompName);
+        return atom;
+    }
+
+    /*
+    @功能描述: 为AtomContainer容器增加成员
+    @参数1: 要增加的原子
+     */
+    this.__addNewAtomIndex = function(_atom){
+        this.m_vCompAtomContainer.put(_atom.getName(),_atom);
+    }
+
+    /*
+    @功能描述:为AtomContainer容器擦除成员
+    @参数1:map_key
+    @返回值：若不存在该成员返回false，擦出成功返回true
+     */
+    this.__delAtomIndex = function(key_strAtomName){
+        this.m_vCompAtomContainer.remove(key_strAtomName);
+    }
+
+    /*
+    @功能描述: 对this.m_vCompAtomContainer查询引擎命中的实体属于哪一个已存在的复合原子
+    若不属于任何一个则进行构造
+     */
+    this.witchCompAtom = function(enti){
+        var valuesArr = this.m_vCompAtomContainer.values();
+        if(null != valuesArr){
+            for(var i = 0; i < valuesArr.length; ++i){
+                if(true == valuesArr[i].isBelongto(enti)){
+                    return valuesArr[i];
+                }
+            }
+        }
+        var atom = this.__constructAtom_single(enti);
+        this.__addNewAtomIndex(atom);
+        return atom;
+    }
+
+    this.mergeCurSletAtom = function(strAtomName){
+        var oDrawBoxObj = global_oakEngineManager.m_oUnCoreDrawMgrPlugin.m_oReferInfoDraw.m_oBoundingBoxDraw;
+
+        var sletAtomArr = this.m_vSletEntiMap.values();
+        if(null != sletAtomArr && undefined != sletAtomArr){
+            //擦除待合并的原子
+            for(var i = 0; i < sletAtomArr.length; ++i){
+                this.__delAtomIndex(sletAtomArr[i].getName());
+                this.m_vSletEntiMap.remove(sletAtomArr[i].getName());
+
+                oDrawBoxObj.delEntiBox(sletAtomArr[i].getName());
+            }
+
+            var newAtom = new EntiCompAtom();
+            newAtom.atoms_init(sletAtomArr,strAtomName);
+            this.m_vSletEntiMap.put(newAtom.getName(),newAtom);
+            this.__addNewAtomIndex(newAtom);
+
+            oDrawBoxObj.addEntiBox(newAtom.getName());
+        }
+    }
+
     this.clearAll = function () {
         this.m_iOprCodec = -1;
         this.m_vSletEntiMap.clear();
@@ -417,10 +489,12 @@ function EntiOperaObj() {
         global_extPanelManager.getMainWindowObj().sletEntiOperaMenuHide();
 
     }
+
     this.mouseDown = function () {
-        //return ;
         var mainEngineObj = global_oakEngineManager.getMainEngineObject();
         var usrObj = mainEngineObj.m_usrOpera;
+
+        /*   暂时决定不在mouse down事件中响应操作码 by _mTy  2013.4.14
         switch (usrObj.m_oEntiOperaObj.m_iOprCodec) {
             case 0:
             {
@@ -439,15 +513,19 @@ function EntiOperaObj() {
 
             }
         }
-
+        */
         var cam = global_oakEngineManager.getMainEngineObject().m_camActivityCam;
         var vCamPos = cam.getPos();
         var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;
         var vPickDir = cam.getPickDir(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
         var scene = global_oakEngineManager.getMainEngineObject().m_scenActivityScene;
-        var tmpSletEnti = scene.pick(vCamPos, vPickDir, OAK.ETYPE_DYNAMIC, function (e) {
+        var tmpSletEngineEnti = scene.pick(vCamPos, vPickDir, OAK.ETYPE_DYNAMIC, function (e) {
             return e.getName() != "BaseStandGroundMesh";
         });
+        if(null == tmpSletEngineEnti || undefined == tmpSletEngineEnti){
+            return ;
+        }
+        var tmpSletEnti = this.witchCompAtom(tmpSletEngineEnti);
         if (null != tmpSletEnti) {
             var oDrawBoxObj = global_oakEngineManager.m_oUnCoreDrawMgrPlugin.m_oReferInfoDraw.m_oBoundingBoxDraw;
             var strTmpEntiName = tmpSletEnti.getName();
@@ -486,15 +564,10 @@ function EntiOperaObj() {
                 oDrawBoxObj.addEntiBox(tmpSletEnti.getName());
                 //重新显示菜单
                 global_extPanelManager.getMainWindowObj().sletEntiOperaMenuShow(usrOpr.m_vCurMousePos.x + 1, usrOpr.m_vCurMousePos.y + 1);
-                /*
-                if (undefined == oResFind || null == oResFind) {
-                } else {
-                    //nothing to do
-                }
-                */
             }
         }
     }
+
     this.mouseUp = function () {
         var mainEngineObj = global_oakEngineManager.getMainEngineObject();
         var usrObj = mainEngineObj.m_usrOpera;
@@ -526,14 +599,20 @@ function EntiOperaObj() {
                             Math.tan((hfFov * Math.PI) / 180);
                         /* 平截头体上划过的真实距离,按照鼠标划过的线段在Canvas上的长度与在平截头体近截面上的长度等比例 */
                         var cnt2 = cnt1 * (hfNearPlanWidth) * 2;
-
                         var movDir = new okVec3(((tmpVec2.x > 0) ? (cnt2) : (-1 * cnt2)), 0, 0);
-                        var enti2eyeLen = okVec3Sub(cam.getPos(), usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos()).len();
-                        /* 始终假设x轴平行于近裁剪平面，得三角形等比例关系进行计算 */
-                        movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
 
-                        var oldPos = usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos();
-                        usrObj.m_oEntiOperaObj.m_oCurSletEnti.setPos(okVec3Add(oldPos, movDir));
+                        var curSletEntiArr = this.m_vSletEntiMap.values();
+                        if(null != curSletEntiArr && undefined != curSletEntiArr){
+                            for(var i = 0; i < curSletEntiArr.length; ++i){
+                                var curAtom = curSletEntiArr[i];
+
+                                var enti2eyeLen = okVec3Sub(cam.getPos(), curAtom.getPos()).len();
+                                /* 始终假设x轴平行于近裁剪平面，得三角形等比例关系进行计算 */
+                                movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
+                                var oldPos = curAtom.getPos();
+                                curAtom.setPos(okVec3Add(oldPos, movDir));
+                            }
+                        }
                     }
                     if (true == usrObj.m_oKeybordHash[89]) {
                         // y..
@@ -547,14 +626,20 @@ function EntiOperaObj() {
                             Math.tan((hfFov * Math.PI) / 180);
                         /* 平截头体上划过的真实距离,按照鼠标划过的线段在Canvas上的长度与在平截头体近截面上的长度等比例 */
                         var cnt2 = cnt1 * (hfNearPlanHeight) * 2;
-
                         var movDir = new okVec3(0, ((tmpVec2.y < 0) ? (cnt2) : (-1 * cnt2)), 0);
-                        var enti2eyeLen = okVec3Sub(cam.getPos(), usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos()).len();
-                        /* 始终假设y轴平行于近裁剪平面，得三角形等比例关系进行计算 */
-                        movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
 
-                        var oldPos = usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos();
-                        usrObj.m_oEntiOperaObj.m_oCurSletEnti.setPos(okVec3Add(oldPos, movDir));
+                        var curSletEntiArr = this.m_vSletEntiMap.values();
+                        if(null != curSletEntiArr && undefined != curSletEntiArr){
+                            for(var i = 0; i < curSletEntiArr.length; ++i){
+                                var curAtom = curSletEntiArr[i];
+
+                                var enti2eyeLen = okVec3Sub(cam.getPos(), curAtom.getPos()).len();
+                                /* 始终假设y轴平行于近裁剪平面，得三角形等比例关系进行计算 */
+                                movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
+                                var oldPos = curAtom.getPos();
+                                curAtom.setPos(okVec3Add(oldPos, movDir));
+                            }
+                        }
                     }
                     if (true == usrObj.m_oKeybordHash[90]) {
                         // z...
@@ -571,14 +656,20 @@ function EntiOperaObj() {
 
                         /* 平截头体上划过的真实距离,按照鼠标划过的线段在Canvas上的长度与在平截头体近截面上的长度等比例 */
                         var cnt2 = cnt1 * (hfNearPlanWidth + hfNearPlanHeight) * 2;
-
                         var movDir = new okVec3(0, 0, ((tmpVec2.x + tmpVec2.y < 0) ? (cnt2) : (-1 * cnt2)));
-                        var enti2eyeLen = okVec3Sub(cam.getPos(), usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos()).len();
-                        /* 始终假设z轴平行于近裁剪平面，得三角形等比例关系进行计算 */
-                        movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
 
-                        var oldPos = usrObj.m_oEntiOperaObj.m_oCurSletEnti.getPos();
-                        usrObj.m_oEntiOperaObj.m_oCurSletEnti.setPos(okVec3Add(oldPos, movDir));
+                        var curSletEntiArr = this.m_vSletEntiMap.values();
+                        if(null != curSletEntiArr && undefined != curSletEntiArr){
+                            for(var i = 0; i < curSletEntiArr.length; ++i){
+                                var curAtom = curSletEntiArr[i];
+
+                                var enti2eyeLen = okVec3Sub(cam.getPos(), curAtom.getPos()).len();
+                                /* 始终假设z轴平行于近裁剪平面，得三角形等比例关系进行计算 */
+                                movDir = okVec3MulVal(movDir, (enti2eyeLen / 1));
+                                var oldPos = curAtom.getPos();
+                                curAtom.setPos(okVec3Add(oldPos, movDir));
+                            }
+                        }
                     }
                     if (false == havPress) {
                         /* 跟随鼠标位置移动  废弃 by _mTy  2013.1.19 */
@@ -594,11 +685,6 @@ function EntiOperaObj() {
                          this.m_oCurSletEnti.setPos(okVec3Add(eyePos, enti2eye_new));
                          */
                     }
-                    if (null != this.m_oBoundingbox) {
-                        this.setBoundingBoxVisible(false);
-                        this.drawBoundingBox();
-                        this.setBoundingBoxVisible(true);
-                    }
                 }
                 break;
             }
@@ -607,7 +693,12 @@ function EntiOperaObj() {
                 if (true == usrObj.m_bTipMainCanvas) {
                     var tmpVec = okVec3Sub(usrObj.m_vCurMousePos, usrObj.m_vLastMoveMainCanvas);
                     var cnt = 1.0 + ((tmpVec.x + tmpVec.y > 0.0) ? (0.1) : (-0.1));
-                    this.m_oCurSletEnti.scale(OAK.SPACE_LOCAL, cnt, cnt, cnt);
+                    var curSletAtomArr = this.m_vSletEntiMap.values();
+                    if(null != curSletAtomArr){
+                        for(var i = 0; i < curSletAtomArr.length; ++i){
+                            curSletAtomArr[i].atomScale(OAK.SPACE_LOCAL,cnt,cnt,cnt);
+                        }
+                    }
                 }
                 break;
             }

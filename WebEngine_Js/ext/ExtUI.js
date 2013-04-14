@@ -252,7 +252,7 @@ Ext.define('Mty.view.sletMenu', {
 
     draggable:true,
     height:25,
-    width:174,
+    width:330,
     title:'',
 
     initComponent:function () {
@@ -268,6 +268,22 @@ Ext.define('Mty.view.sletMenu', {
                     items:[
                         {
                             xtype:'tbseparator'
+                        },
+                        {
+                            xtype:'button',
+                            handler:function(button,event){
+                                var strNewAtomName = Ext.get('id_mergeAtomName').getValue().toString();
+                                global_oakEngineManager.getMainEngineObject().m_usrOpera.m_oCurOperaMod.mergeCurSletAtom(strNewAtomName);
+                                //Ext.get('id_mergeAtomName').setValue("");
+                            },
+                            text:'+'
+                        },
+                        {
+                            xtype:'textfield',
+                            width:120,
+                            inputId:'id_mergeAtomName',
+                            fieldLabel:'合并为',
+                            labelWidth:50
                         },
                         {
                             xtype:'button',
