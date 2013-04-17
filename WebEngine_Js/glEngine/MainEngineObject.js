@@ -519,7 +519,7 @@ function EntiOperaObj() {
         var usrOpr = global_oakEngineManager.getMainEngineObject().m_usrOpera;
         var vPickDir = cam.getPickDir(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
         var scene = global_oakEngineManager.getMainEngineObject().m_scenActivityScene;
-        var tmpSletEngineEnti = scene.pick(vCamPos, vPickDir, OAK.ETYPE_DYNAMIC, function (e) {
+        var tmpSletEngineEnti = scene.pick(vCamPos, vPickDir, OAK.ETYPE_DYNAMIC | OAK.ETYPE_CUSTOM_MESH, function (e) {
             return e.getName() != "BaseStandGroundMesh";
         });
         if(null == tmpSletEngineEnti || undefined == tmpSletEngineEnti){

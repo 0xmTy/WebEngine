@@ -26,33 +26,6 @@
                         {
                             xtype:'tbseparator'
                         },
-                        /*
-                         {
-                         xtype:'button',
-                         text:'环境编辑器',
-                         menu:{
-                         xtype:'menu',
-                         items:[
-                         {
-                         xtype:'menuitem',
-                         handler:function (item, event) {
-                         if (null == global_extPanelManager.m_oEnvirEditorObj) {
-                         global_extPanelManager.m_oEnvirEditorObj = new EnvirEditorObj();
-                         global_extPanelManager.m_oEnvirEditorObj.init();
-                         } else {
-                         global_extPanelManager.m_oEnvirEditorObj.setMenuShow();
-                         }
-                         },
-                         text:'地形工具'
-                         },
-                         {
-                         xtype:'menuitem',
-                         text:'光照工具'
-                         }
-                         ]
-                         }
-                         },
-                         */
                         {
                             xtype:'tbseparator'
                         },
@@ -66,12 +39,15 @@
                         {
                             xtype:'tbseparator'
                         },
-                        /*
-                         {
-                         xtype:'button',
-                         text:'粒子编辑器'
-                         },
-                         */
+                        {
+                            xtype:'button',
+                            handler:function (button, event) {
+                                //var BuildBaseModelMenu = Ext.create();
+                                // BuildBaseModelMenu.setVisible(true);
+                                global_extPanelManager.m_oBaseModelPlugin.setMenuShow();
+                            },
+                            text:'基本组件'
+                        },
                         {
                             xtype:'tbfill'
                         },
@@ -183,6 +159,152 @@
                             text:'渲染配置'
                         }
                     ]
+                }
+            ]
+        });
+
+        me.callParent(arguments);
+    }
+
+});
+
+Ext.define('Mty.view.BaseModel', {
+    extend: 'Ext.panel.Panel',
+
+    height: 400,
+    width: 498,
+    layout: {
+        type: 'absolute'
+    },
+    title: '基本组件',
+
+    initComponent: function() {
+        var me = this;
+
+        Ext.applyIf(me, {
+            items: [
+                {
+                    xtype: 'textareafield',
+                    x: 10,
+                    y: 50,
+                    height: 20,
+                    width: 300,
+                    fieldLabel: '组件名',
+                    labelWidth: 40,
+                    id:'id_baseModelName'
+                },
+                {
+                    xtype: 'cycle',
+                    text: '',
+                    showText: true,
+                    titile:'基本组件',
+                    x: 10,
+                    y: 10,
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menucheckitem',
+                                text: '立方体',
+                                handler:function(){
+                                    global_extPanelManager.m_oBaseModelPlugin.setModelType('立方体');
+                                }
+                            },
+                            {
+                                xtype: 'menucheckitem',
+                                text: '圆柱',
+                                handler:function(){
+                                    global_extPanelManager.m_oBaseModelPlugin.setModelType('圆柱');
+                                }
+                            },
+                            {
+                                xtype: 'menucheckitem',
+                                text: '球体',
+                                handler:function(){
+                                    global_extPanelManager.m_oBaseModelPlugin.setModelType('球体');
+                                }
+                            },
+                            {
+                                xtype: 'menucheckitem',
+                                text: '圆锥',
+                                handler:function(){
+                                    global_extPanelManager.m_oBaseModelPlugin.setModelType('圆锥');
+                                }
+
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'label',
+                    x: 10,
+                    y: 210,
+                    height: 30,
+                    width: 70,
+                    text: 'Ambient:'
+                },
+                {
+                    xtype: 'label',
+                    x: 10,
+                    y: 90,
+                    height: 20,
+                    width: 60,
+                    text: 'Diffuse:'
+                },
+                {
+                    xtype: 'colormenu',
+                    x: 10,
+                    y: 120,
+                    floating: false,
+                    height: 70,
+                    listeners:
+                    {
+                        select: function(picker, color)
+                        {
+                            //var amclr = Ext.getCmp(meid+'x');
+                            //amclr.setValue('#'+color);
+                            alert(color);
+                            global_extPanelManager.m_oBaseModelPlugin.setDiffuse(color.toString());
+                        }
+                    }
+                },
+                {
+                    xtype: 'colormenu',
+                    x: 10,
+                    y: 240,
+                    floating: false,
+                    height: 70,
+                    listeners:
+                    {
+                        select: function(picker, color)
+                        {
+                            //var amclr = Ext.getCmp(meid+'x');
+                            //amclr.setValue('#'+color);
+                            alert(color);
+                            global_extPanelManager.m_oBaseModelPlugin.setAmbient(color.toString());
+                        }
+                    }
+                },
+                {
+                    xtype: 'button',
+                    x: 210,
+                    y: 340,
+                    height: 20,
+                    width: 80,
+                    text: '构建',
+                    handler:function(){
+                        global_extPanelManager.m_oBaseModelPlugin.commit();
+                    }
+                }
+            ],
+            tools: [
+                {
+                    xtype: 'tool',
+                    type: 'close',
+                    handler:function(){
+                        global_extPanelManager.m_oBaseModelPlugin.setMenuHide();
+                    }
                 }
             ]
         });
@@ -807,5 +929,65 @@ Ext.define('Mty.view.EntiMgrPanel', {
 
         me.callParent(arguments);
     }
-
 });
+
+
+/**
+ * Colorpicker.js代码
+ * @class Ext.app.ColorPicker
+ * @extends Ext.container.Container
+ * 定义颜色选取类
+ * Link: http://blog.csdn.net/nuoyan666/article/details/6654583
+ */
+
+Ext.define ('Ext.app.ColorPicker',
+    {
+        extend: 'Ext.container.Container',
+        alias: 'widget.smmcolorpicker',
+        layout: 'hbox',
+        initComponent:function()
+        {
+            var mefieldLabel = this.fieldLabel;
+            var mename = this.name;
+            var meheight = this.height;
+            var meid = this.id;
+            this.items =
+                [
+                    {
+                        xtype: 'textfield',
+                        height: meheight,
+                        id:meid+'x',
+                        fieldLabel:mefieldLabel,
+                        name: mename,
+                        flex: 1,
+                        listeners:
+                        {
+                            change:function(me, newValue, oldValue)
+                            {
+                                me.bodyEl.down('input').setStyle('background-image', 'none');
+                                me.bodyEl.down('input').setStyle('background-color', newValue);
+                            }
+                        }
+                    },
+                    {
+                        xtype:'button',
+                        width:18,
+                        height: meheight,
+                        menu:
+                        {
+                            xtype:'colormenu',
+                            listeners:
+                            {
+                                select: function(picker, color)
+                                {
+                                    var amclr = Ext.getCmp(meid+'x');
+                                    amclr.setValue('#'+color);
+                                }
+                            }
+                        }
+                    }
+                ];
+
+            Ext.app.ColorPicker.superclass.initComponent.call(this);
+        }
+    });

@@ -6,6 +6,7 @@ function ExtPanelManager() {
     // 插件化
     this.m_oEntiLocalIOPlugin = null;
     this.m_oRenderConfPlugin = null;
+    this.m_oBaseModelPlugin = null;
 
     this.initPlugin = function () {
         this.m_oAboutPanelObj = new ExtAboutPanelObj();
@@ -16,6 +17,9 @@ function ExtPanelManager() {
 
         this.m_oRenderConfPlugin = new ExtRenderConfObj();
         this.m_oRenderConfPlugin.init();
+
+        this.m_oBaseModelPlugin = new ExtBaseModelBuildMenu();
+        this.m_oBaseModelPlugin.init();
     }
 
     this.setMainWindowObj = function (obj) {

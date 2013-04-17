@@ -186,3 +186,85 @@ function ExtRenderConfObj() {
         global_oakEngineManager.m_oRenderConfPlugin._setBackColor_(clorVec4);
     }
 }
+
+function ExtBaseModelBuildMenu(){
+    this.m_uiPanel = null;
+    this.m_strEntiName = null;
+    this.m_strDiffuseColor = null;
+    this.m_strAmbientColor = null;
+    this.m_strModelType = null;
+
+    this.init = function(){
+        this.m_uiPanel = Ext.create('Mty.view.BaseModel',{
+            renderTo:'id_controlMainWindow-body',
+            x:10,y:10,
+            id:'id_baseBuildMenu'});
+        this.setMenuHide();
+    }
+    this.setMenuHide = function(){
+        this.m_uiPanel.setVisible(false);
+    }
+    this.setMenuShow = function(){
+        this.m_uiPanel.setVisible(true);
+    }
+
+    this.setDiffuse = function(strColor){
+        this.m_strDiffuseColor = strColor;
+    }
+
+    this.setAmbient = function(strColor){
+        this.m_strAmbientColor = strColor;
+    }
+
+    this.setEntiName = function(strEntiName){
+        this.m_strEntiName = strEntiName;
+    }
+
+    this.commit = function(){
+        if(false == global_oakEngineManager.getMainEngineObject().mainLoopActivity){
+            //尚未启动渲染任务
+            return ;
+        }
+        this.m_strEntiName = Ext.getCmp('id_baseModelName').getValue().toString();
+        if("" == this.m_strEntiName || null == this.m_strEntiName || undefined == this.m_strEntiName)
+            this.m_strEntiName = 'Base_Model' + Date.toString();
+        if(null == this.m_strDiffuseColor || undefined == this.m_strDiffuseColor)
+            this.m_strDiffuseColor = 0x444444;
+        if(null == this.m_strAmbientColor || undefined == this.m_strAmbientColor)
+            this.m_strAmbientColor = 0x444444;
+
+        //alert(this.m_strEntiName + ' ' + this.m_strAmbientColor + ' ' + this.m_strDiffuseColor);
+        var vecDiff = new okVec3(Number('0x0000' + this.m_strDiffuseColor.charAt(0) + this.m_strDiffuseColor.charAt(1)),
+                                    Number('0x0000' + this.m_strDiffuseColor.charAt(2) + this.m_strDiffuseColor.charAt(3)),
+                                        Number('0x0000' + this.m_strDiffuseColor.charAt(4) + this.m_strDiffuseColor.charAt(5)));
+
+        var vecAmbi = new okVec3(Number('0x0000' + this.m_strAmbientColor.charAt(0) + this.m_strAmbientColor.charAt(1)),
+                                    Number('0x0000' + this.m_strAmbientColor.charAt(2) + this.m_strAmbientColor.charAt(3)),
+                                        Number('0x0000' + this.m_strAmbientColor.charAt(4) + this.m_strAmbientColor.charAt(5)));
+
+        vecDiff = okVec3DivVal(vecDiff,255.00);
+        vecAmbi = okVec3DivVal(vecAmbi,255.00);
+        //alert(vecDiff.x + ' ' + vecDiff.y + ' ' + vecDiff.z);
+        var scene = global_oakEngineManager.getMainEngineObject().m_scenActivityScene;
+        if('立方体' == this.m_strModelType){
+            var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, this.m_strEntiName);
+            girdMesh.setPos(0,0,0);
+            girdMesh = okGenBoxMesh(girdMesh.getMesh(), new okVec3(-1, -1, -1), new okVec3(1, 1, 1), false);
+            girdMesh.getMaterial().setAmbient(vecAmbi.x, vecAmbi.y, vecAmbi.z);
+            girdMesh.getMaterial().setDiffuse(vecDiff.x, vecDiff.y, vecDiff.z);
+        }
+        if('圆柱' == this.m_strModelType){
+
+        }
+        if('球体' == this.m_strModelType){
+
+        }
+        if('圆锥' == this.m_strModelType){
+
+        }
+    }
+
+    this.setModelType = function(strType){
+        this.m_strModelType = strType;
+    }
+}

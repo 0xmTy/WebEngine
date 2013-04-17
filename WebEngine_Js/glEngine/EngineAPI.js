@@ -314,8 +314,15 @@ function testDraw(conf) {
     dctLight.setColor(1.0, 1.0, 1.0);
     global_renderFuncArr.push(new Array(this, updataLightDir));
     global_renderFuncArr.push(new Array(this, refereshExtCamInfo));
-    /*****************************************************************************************/
 
+    /*
+    var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, 'ball');
+    girdMesh.setPos(0,0,0);
+    girdMesh = okGenBoxMesh(girdMesh.getMesh(), new okVec3(-1, -1, -1), new okVec3(1, 1, 1), false);
+    girdMesh.getMaterial().setAmbient(1, 0, 0);
+    girdMesh.getMaterial().setDiffuse(1, 0, 0);
+    */
+    /*****************************************************************************************/
 }
 
 function rotateApple() {
