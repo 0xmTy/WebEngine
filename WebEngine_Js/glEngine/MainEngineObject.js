@@ -520,7 +520,8 @@ function EntiOperaObj() {
         var vPickDir = cam.getPickDir(usrOpr.m_vCurMousePos.x, usrOpr.m_vCurMousePos.y);
         var scene = global_oakEngineManager.getMainEngineObject().m_scenActivityScene;
         var tmpSletEngineEnti = scene.pick(vCamPos, vPickDir, OAK.ETYPE_DYNAMIC | OAK.ETYPE_CUSTOM_MESH, function (e) {
-            return e.getName() != "BaseStandGroundMesh";
+            return e.getName() != "BaseStandGroundMesh" &&
+                    (0 != e.getName().indexOf("BoundingBox_",0));
         });
         if(null == tmpSletEngineEnti || undefined == tmpSletEngineEnti){
             return ;

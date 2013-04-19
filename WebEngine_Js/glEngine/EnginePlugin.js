@@ -1,6 +1,6 @@
 ﻿function CoreEntiMgrObj() {
     this.m_oEntiTreeOpr = null; //对象树操作的算法类
-    this.m_oLocalModelIO = null; //本地模型对象解析类
+    this.m_oLocalModelIO = null; //模型对象解析类
     this.init = function () {
         this.m_oEntiTreeOpr = new EntiTreeOprObj();
         this.m_oEntiTreeOpr.init();

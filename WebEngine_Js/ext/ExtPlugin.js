@@ -13,9 +13,10 @@ function ExtEntiLocalIOObj() {
         var strCurEntiName = Ext.get('id_entiName').getValue().toString();
         /*
         为导入实体绑定父亲实体的功能已废弃  by _mTy 2013.4.6
+        恢复该功能 by _mTy 2013.4.17
         */
-        //var strPreEntiName = Ext.get('id_preEntiName').getValue().toString();
-        var strPreEntiName = "";
+        var strPreEntiName = Ext.get('id_preEntiName').getValue().toString();
+        //var strPreEntiName = "";
         if("" == strCurEntiName || undefined == strCurEntiName || null == strCurEntiName){
             alert("未命名的实体！");
             return ;
@@ -249,18 +250,30 @@ function ExtBaseModelBuildMenu(){
         if('立方体' == this.m_strModelType){
             var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, this.m_strEntiName);
             girdMesh.setPos(0,0,0);
-            girdMesh = okGenBoxMesh(girdMesh.getMesh(), new okVec3(-1, -1, -1), new okVec3(1, 1, 1), false);
+            girdMesh = okGenBoxMesh(girdMesh.getMesh(), new okVec3(-50, -50, -50), new okVec3(50, 50, 50), false);
             girdMesh.getMaterial().setAmbient(vecAmbi.x, vecAmbi.y, vecAmbi.z);
             girdMesh.getMaterial().setDiffuse(vecDiff.x, vecDiff.y, vecDiff.z);
         }
         if('圆柱' == this.m_strModelType){
-
+            var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, this.m_strEntiName);
+            girdMesh.setPos(0,0,0);
+            girdMesh = okGenColumnMesh(girdMesh, 50, 25, 200, false);
+            girdMesh.getMaterial().setAmbient(vecAmbi.x, vecAmbi.y, vecAmbi.z);
+            girdMesh.getMaterial().setDiffuse(vecDiff.x, vecDiff.y, vecDiff.z);
         }
         if('球体' == this.m_strModelType){
-
+            var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, this.m_strEntiName);
+            girdMesh.setPos(0,0,0);
+            girdMesh = okGenSphereMesh(girdMesh, 50, 200, 200, false);
+            girdMesh.getMaterial().setAmbient(vecAmbi.x, vecAmbi.y, vecAmbi.z);
+            girdMesh.getMaterial().setDiffuse(vecDiff.x, vecDiff.y, vecDiff.z);
         }
         if('圆锥' == this.m_strModelType){
-
+            var girdMesh = scene.createEntity(OAK.ETYPE_CUSTOM_MESH, this.m_strEntiName);
+            girdMesh.setPos(0,0,0);
+            girdMesh = okGenTaperMesh(girdMesh, 50, 100, 200, false);
+            girdMesh.getMaterial().setAmbient(vecAmbi.x, vecAmbi.y, vecAmbi.z);
+            girdMesh.getMaterial().setDiffuse(vecDiff.x, vecDiff.y, vecDiff.z);
         }
     }
 
